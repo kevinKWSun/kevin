@@ -9,11 +9,11 @@ return array(
 	//数据库链接
 	'DB_TYPE'   => 'mysqli', // 数据库类型
 	'DB_HOST'   => 'localhost', // 服务器地址
-	'DB_NAME'   => 'slim', // 数据库名
-	'DB_USER'   => 'root', // 用户名
+	'DB_NAME'   => 'root', // 数据库名
+	'DB_USER'   => '123', // 用户名
 	'DB_PWD'    => '123546', // 密码
-	'DB_PORT'   => 3306, // 端口
-	'DB_PREFIX' => 'sun_',
+	'DB_PORT'   => 36, // 端口
+	'DB_PREFIX' => 's_',
 	'URL_MODEL' => 2,
 	//点语法默认解析 - 加快模板的解析以数组为例
 	'TEMP_VAR_IDENTIFY' =>'array',
