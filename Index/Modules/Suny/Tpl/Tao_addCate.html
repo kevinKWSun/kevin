@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>上海SUNNY科技</title>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<js href="__PUBLIC__/Suny/Js/jquery-1.7.2.min.js" />
+<js href="__PUBLIC__/Suny/Js/tcate.js" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+</head>
+<body>
+<form action="{:U(GROUP_NAME . '/Tao/addCate')}" method="post" id="tcate">
+	<table class="table">
+		<thead>
+			<tr>
+				<td colspan="2">添加商品分类</td>
+			</tr>
+		</thead>
+		<tr>
+			<td align="right">商品分类名称：</td>
+			<td><input type="text" name="name" /> <span>(15个汉字以内)</span></td>
+		</tr>
+		<tr><td colspan="2" align="center"><input type="submit" class="submit" value="保存添加" /></td></tr>
+	</table>
+</form>
+</body>
+</html>

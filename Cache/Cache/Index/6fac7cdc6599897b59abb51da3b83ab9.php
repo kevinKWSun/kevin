@@ -1,0 +1,3 @@
+<?php if (!defined('THINK_PATH')) exit();?><div class="l"><p>饮食摄入：<span class="y"><span style="font-size:14px;">		 0
+		</span>大卡</span></p><p>活动消耗：<span class="x"><span style="font-size:14px;">		0
+		</span>大卡</span></p></div><div class="r"><a href="javascript:void(0);" onclick="insert();" class="b">保存到日记</a><a href="javascript:void(0);" onclick="if(confirm('您确定清空饮食运动记录吗？')){empty();return false;}">清空</a></div></div>

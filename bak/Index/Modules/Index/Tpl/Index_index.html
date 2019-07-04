@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{$Think.config.WEB_NAMES}</title>
+<meta name="keywords" content="{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$Think.config.WEB_DESCRIPTION}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" type="text/css" rel="stylesheet" />
+<script language='javascript' src="__PUBLIC__/Slim/Js/index.js"></script>
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div id="first">
+		<!--/first_f-->
+		<div id="first_1">
+			<div class="xm_tit01">
+				<ul class="scrollUl02">
+					<li><a>减肥工具</a></li>
+				</ul>
+			</div>
+			<div class="bor003">
+				<div id="0Con">
+					<div id="fL_cont1_text2">
+						<ul>
+							<li><a href="{:U('/list-food')}">食物热量查询</a></li>	
+							<li><a href="{:U('/list-s')}">一分钟了解自己</a></li>
+							<li><a href="{:U('/list-bwh')}">三围标准计算</a></li>
+							<li><a href="{:U('/list-sw')}">标准体重计算</a></li>
+							<li><a href="{:U('/list-hw')}">健康体重范围</a></li>
+							<li><a href="{:U('/list-hr')}">燃脂运动计算</a></li>
+							<li><a href="{:U('/list-bmr')}">基础代谢计算(BMR)</a></li>
+							<li><a href="{:U('/list-kll')}">运动卡路里计算器</a></li>
+							<li><a href="{:U('/list-bmi')}">身体质量指数(BMI)</a></li> 
+							<li><a href="{:U('/list-' . '23')}" title="健康瘦身餐">瘦身餐</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="first_f" class="mt1">
+			{$Think.config.g300250}
+		</div>
+	</div>
+	<!--/first-->
+	<div id="first_right">
+		<div id="right_soso">
+			<form action="{:U('/searcher')}" method="get">
+				<input type="text" name="title" placeholder="请输入关键字..." />
+				<button type="submit">搜 索</button>
+			</form>
+		</div>
+		<div id="right_g" class="mt1">
+			<div class="xm_tit01">
+				<ul class="scrollUl02">
+					<li><a href="{:U('/list-' . '23')}">瘦身餐</a></li>
+				</ul>
+			</div>
+			<div class="bor003">
+				<div id="3Con">
+					<div id="ss_yl">
+						<div>
+							<h3>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>23))}</h3>
+							<p>{:W('HotDescription',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>23))}...</p>
+						</div>
+						{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>23, 'imgwidth'=>74, 'imgheight'=>74))}
+					</div>
+					<div id="ss_mr">
+						<ul>
+							{:W('New',array('limitstart' => '0,9', 'cid'=>23))}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/right-->
+	<div id="center">
+		<div class="jiaodian">
+			今日焦点 Today's Focus
+		</div>
+		<div id="focus">
+			<h1>{:W('Hot',array('limitstart' => '0,1', 'flag'=>1))}</h1>
+			<ul>
+				{:W('New',array('limitstart' => '0,6'))}
+			</ul>
+ 		</div>
+		<div id="focus">
+			<h1>{:W('Hot',array('limitstart' => '1,1', 'flag'=>1))}</h1>
+			<ul>
+				{:W('New',array('limitstart' => '6,6'))}
+			</ul>
+ 		</div>
+		<div id="focus_list"><a href="{:U('/list-' . '4')}">瘦身问答 Slimming Answers</a><span><a href="{:U('/list-' . '4')}">MORE >></a></span></div>
+		<div id="focus_list_s" class="mt1">
+			<div id="img">{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>4, 'imgwidth'=>100, 'imgheight'=>100))}</div>
+			<div id="text">
+				<h2>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>4))}</h2>
+				<ul>
+					{:W('New',array('limitstart' => '0,3', 'cid'=>4))}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--/center-->
+</div>
+<!-- /main end -->
+<div class="main_m"> 
+	<div class="main_m_0"></div>
+	<div class="main_m_10">
+		<div class="main_m_1"><a>瘦身前沿</a> Thin Edge</div>
+		<div class="main_m_2">
+			<!--<a href="/zxmr.html">美体瘦身</a>　|-->
+		</div>
+	</div>
+	<div class="main_m_text">
+		<div class="mail03L">
+			<div class="m03L_c1"> 
+				<a href="{:U('/list-class')}"><img src="/img/5441845960.jpg" alt="瘦身课堂" height="364" width="242"></a>
+				<h1><a href="{:U('/list-class')}">瘦身课堂</a></h1>
+			</div>
+			<div class="m01L_c3">
+				<h3><b><a href="{:U('/list-' . '3')}">瘦身课程</a> Slimming Course</b><span></span></h3>
+				<div class="m03L_c3text">
+					{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>3, 'imgwidth'=>104, 'imgheight'=>104))}
+					<div>
+						<h4>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>3))}</h4>
+						<p>{:W('HotDescription',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>3))}...</p>
+					</div>
+				</div>
+			</div>
+			<div class="m03L_c2">
+				<ul>
+					{:W('New',array('limitstart' => '0,4', 'cid'=>3))}
+				</ul>
+			</div>
+		</div>
+		<div class="main03C">
+			<h2><a href="{:U('/list-' . '12')}">瘦身club</a> Slimming Club</h2>
+			<div class="m03L_imglist">
+				<ul>
+					<li>
+						{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>12, 'imgwidth'=>111, 'imgheight'=>167))}
+						<div class="p">{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>12))}</div>
+					</li>
+				
+					<li>
+						{:W('HotImage',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>12, 'imgwidth'=>111, 'imgheight'=>167))}
+						<div class="p">{:W('Hot',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>12))}</div>
+					</li>
+					
+					<li>
+						{:W('HotImage',array('limitstart' => '2,1', 'flag'=>2, 'cid'=>12, 'imgwidth'=>111, 'imgheight'=>167))}
+						<div class="p">{:W('Hot',array('limitstart' => '2,1', 'flag'=>2, 'cid'=>12))}</div>
+					</li>		
+				</ul>
+			</div>
+			<div class="m03L_bt">
+				<h4 class="mt1"><a href="{:U('/list-nssc')}">瘦身原理</a></h4>
+				<p>NSSC减肥法是诗诗提出的一种科学、健康、持续有效的减肥方法。目前，由于能量摄入超过能量消耗而引起肥胖的人占肥胖人群的95%以上，而能量过剩通常是由于生活习惯不佳造成的。所以通过改善自己不良的生活习惯来促使能量消耗大于摄...... <a href="{:U('/list-nssc')}">查看更多 >></a></p>
+				<!--<div class="m03L_Rc1">
+					<ul class="mt1">
+						<li><a href="">显瘦搭配显瘦搭配</a></li>
+						<li><a href="">显瘦搭配T恤 显瘦搭配</a></li>
+						<li><a href="">显瘦搭配</a></li>
+						<li><a href="">显瘦搭配</a></li>
+						<li><a href="">显瘦搭配 显瘦搭配</a></li>
+						<li><a href="">显瘦搭配</a></li>
+					</ul>
+				</div>-->
+	  			<h2 class="mt1"><a href="{:U('/list-' . '10')}">常见问题</a> Questions</h2>
+				<div class="m03L_Rc1">
+					<ul class="mt1">
+						{:W('New',array('limitstart' => '0,6', 'cid'=>10))}
+					</ul>
+				</div>
+				<div class="m03L_imglist">
+					<ul>
+						<li class="m_ryleft">
+							{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>10, 'imgwidth'=>155, 'imgheight'=>103))}
+							<div class="p">{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>10))}</div>
+						</li>
+					
+						<li class="m_ryleft">
+							{:W('HotImage',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>10, 'imgwidth'=>155, 'imgheight'=>103))}
+							<div class="p">{:W('Hot',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>10))}</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="main03R">
+			<h2><a>热门关注</a> Popular Concern</h2>
+			<div class="tarea2i_2">
+				<div class="tbtn">
+					<li id="dp1"  onmouseover="setTab5('dp',1,4)">局部塑身</li>
+					<li id="dp2" class="curr" onmouseover="setTab5('dp',2,4)">产后</li>
+					<li id="dp3" class="curr" onmouseover="setTab5('dp',3,4)">丰胸</li>
+					<li id="dp4" class="curr" onmouseover="setTab5('dp',4,4)">瘦身资讯</li>
+				</div>
+				<div class="tbcon_2" id="dpCon1"> 
+					<div class="m03R_b1R_c1">
+						<h2>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>28))}</h2>
+						{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>28, 'imgwidth'=>110, 'imgheight'=>110))}
+						<div>
+							<p>{:W('HotDescription',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>28))}...</p>
+						</div>
+					</div>
+					<div class="m03R_b1R_c1">
+						<h2>{:W('Hot',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>28))}</h2>
+						{:W('HotImage',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>28, 'imgwidth'=>110, 'imgheight'=>110))}
+						<div>
+							<p>{:W('HotDescription',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>28))}...</p>
+						</div>
+					</div>
+				</div>
+				<div class="tbcon_2" id="dpCon2" style="display:none;"> 
+					<div class="m03R_b1R_c1">
+						<h2>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>25))}</h2>
+						{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>25, 'imgwidth'=>110, 'imgheight'=>110))}
+						<div>
+							<p>{:W('HotDescription',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>25))}...</p>
+						</div>
+					</div>
+					<div class="m03R_b1R_c1">
+						<h2>{:W('Hot',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>25))}</h2>
+						{:W('HotImage',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>25, 'imgwidth'=>110, 'imgheight'=>110))}
+						<div>
+							<p>{:W('HotDescription',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>25))}...</p>
+						</div>
+					</div>
+				</div>
+				<div class="tbcon_2" id="dpCon3" style="display:none;"> 
+					<div class="m03R_b1R_c1">
+						<h2>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>24))}</h2>
+						{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>24, 'imgwidth'=>110, 'imgheight'=>110))}
+						<div>
+							<p>{:W('HotDescription',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>24))}...</p>
+						</div>
+					</div>
+					<div class="m03R_b1R_c1">
+						<h2>{:W('Hot',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>24))}</h2>
+						{:W('HotImage',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>24, 'imgwidth'=>110, 'imgheight'=>110))}
+						<div>
+							<p>{:W('HotDescription',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>24))}...</p>
+						</div>
+					</div>
+				</div>
+				<div class="tbcon_2" id="dpCon4" style="display:none;"> 
+					<div class="m03R_b1R_c1">
+						<h2>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>5))}</h2>
+						{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>5, 'imgwidth'=>110, 'imgheight'=>110))}
+						<div>
+							<p>{:W('HotDescription',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>5))}...</p>
+						</div>
+					</div>
+					<div class="m03R_b1R_c1">
+						<h2>{:W('Hot',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>5))}</h2>
+						{:W('HotImage',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>5, 'imgwidth'=>110, 'imgheight'=>110))}
+						<div>
+							<p>{:W('HotDescription',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>5))}...</p>
+						</div>
+					</div>
+				</div>
+				<div class="g280">{$Think.config.g336280}</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- / main_m_text end -->
+</div>
+<!-- /main_m end -->
+<div class="main_m"> 
+	<div id="pics">
+		<div id="pics_left"></div>
+		<div id="pics_right">
+			<h1>
+				<a href="{:U('/list-' . '9')}" class="more">更多>></a>
+			</h1>
+			<div id="pic_list1"> 
+				<div id="pic_list1_div">
+					{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>9, 'imgwidth'=>136, 'imgheight'=>204))}
+					<p>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>9))}</p>
+				</div>
+				<div id="pic_list1_div">
+					{:W('HotImage',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>9, 'imgwidth'=>136, 'imgheight'=>204))}
+					<p>{:W('Hot',array('limitstart' => '1,1', 'flag'=>2, 'cid'=>9))}</p>
+				</div>
+				<div id="pic_list1_div">
+					{:W('HotImage',array('limitstart' => '2,1', 'flag'=>2, 'cid'=>9, 'imgwidth'=>136, 'imgheight'=>204))}
+					<p>{:W('Hot',array('limitstart' => '2,1', 'flag'=>2, 'cid'=>9))}</p>
+				</div>
+				<div id="pic_list1_div">
+					{:W('HotImage',array('limitstart' => '3,1', 'flag'=>2, 'cid'=>9, 'imgwidth'=>136, 'imgheight'=>204))}
+					<p>{:W('Hot',array('limitstart' => '3,1', 'flag'=>2, 'cid'=>9))}</p>
+				</div>
+				<div id="pic_list1_div">
+					{:W('HotImage',array('limitstart' => '4,1', 'flag'=>2, 'cid'=>9, 'imgwidth'=>136, 'imgheight'=>204))}
+					<p>{:W('Hot',array('limitstart' => '4,1', 'flag'=>2, 'cid'=>9))}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /main_m end -->
+
+<div class="main_m"> 
+	<div class="sh">
+		<h1><a href="{:U('/list-' . '26')}">显瘦搭配</a> Celebrity Weight Loss</h1>
+		<div class="sh_cont"> 
+			{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>26, 'imgwidth'=>192, 'imgheight'=>289))}
+			<div>
+				<h3>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>26))}</h3>
+				<p>{:W('HotDescription',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>26))}...</p>
+				<ul>
+					{:W('New',array('limitstart' => '0,7', 'cid'=>26))}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="spa"> 
+		<h1><a href="{:U('/list-' . '27')}">儿童生长</a> Child Growth</h1>
+		<div class="sh_cont"> 
+			{:W('HotImage',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>27, 'imgwidth'=>192, 'imgheight'=>289))}
+			<div>
+				<h3>{:W('Hot',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>27))}</h3>
+				<p>{:W('HotDescription',array('limitstart' => '0,1', 'flag'=>2, 'cid'=>27))}...</p>
+				<ul>
+					{:W('New',array('limitstart' => '0,7', 'cid'=>27))}
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

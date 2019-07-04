@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>上海SUNNY科技</title>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<script type="text/javascript" src="__PUBLIC__/Suny/Js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+	<table class="table">
+		<thead>
+			<tr>
+				<td colspan="3">添加商品</td>
+			</tr>
+		</thead>
+		<tr>
+			<td width='20'><input type='checkbox' name='num_iid[]' class='chooseAll' /></td>
+			<td width='60'>关键词：</td>
+			<td>
+				<select id="name">
+					<volist name='cates' id='v'>
+					<option value='{$v.id}'>{$v.name}</option>
+					</volist>
+				</select>
+				<span>
+				(商品的统称<女装>)　　<input type="submit" class="submit" id='cx' value="查询" />　　
+				<input type="submit" class="submit" id='submit' value="添加商品" />
+				</span>
+			</td>
+		</tr>
+	</table>
+	<form id='form' onsubmit='return false;'>
+	<input name='cid' type='hidden' id='cid' />
+	<table class="table" id='taos'>
+	</table>
+	</form>
+	<script>
+		$(function(){
+			$('#cx').click(function(s){
+				alert('正在加载中...');
+				var name = $('#name').val();
+				$('#cid').val(name);
+				$('#taos').load('/Suny/Tao/taos?name='+name);
+			});
+			$('.chooseAll').click(function(){
+				var inputs = $('#taos').find('input');
+				$(this).attr('checked')?inputs.attr('checked','checked'):
+				inputs.removeAttr('checked');
+			});
+			$("#submit").click(function(){ 
+				if($("#taos input[type='checkbox']:checked").size()==0){
+					alert("请选择要添加的文件");
+					return false;
+				}else{
+					$.post('/Suny/Tao/addTao',$('#form').serialize(),function(b){
+						if(b.status){
+							alert('添加成功');
+							location.href='/Suny/Tao/';
+						}else{
+							alert('添加失败');
+						}
+					},'json');
+				}
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<?php	return array ( 'WATER_IMAGE' => './Date/water.png', 'WATER_POS' => '9', 'WATER_ALPHA' => '50', 'WATER_COMPRESSION' => '80', 'WATER_TEXT' => '诗诗瘦身网', 'WATER_ANGLE' => '0', 'WATER_FONTSIZE' => '16', 'WATER_FONTCOLOR' => '#1a214d', 'WATER_FONTFILE' => './Date/yjf.ttf', 'WATER_CHARSET' => 'UTF-8', );?>

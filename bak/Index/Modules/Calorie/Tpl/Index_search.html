@@ -1,0 +1,11 @@
+<div class="foodBox">
+	<a><img src="__PUBLIC__/Img/Images/{$result.img_path}" alt="{$result.name}" /></a>
+	<dl>
+		<dt><a>{$result.name}</a></dt>
+		<dd>
+			<span>{$result.calories}大卡(每<if condition="$result['unit'] eq 'G'">{$pa}{$result.unit}<else/>{$result.unit}</if>)</span>
+			<a href="javascript:void(0);" onclick='add({$result.id},<php> echo $_GET["idc"]; </php>);'>
+			</a>
+		</dd>
+	</dl>
+</div>

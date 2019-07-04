@@ -1,0 +1,40 @@
+<div id="sport_record" class="sport-record">
+	<div id="sport_record_panel" class="record-panel sport-current">
+		<h2 class="record-title meal<php>echo $_GET['idc'];</php>">
+			活动<span>(<b class="suny_data_<php>echo $_GET['idc'];</php>">{$liste.total_price}大卡</b>)</span>
+		</h2>
+		<div class="record-body" style="height:230px;">
+			<p>消耗值计算需结合您的体重、身高、年龄、性别等，为避免较大误差，请您到个人中心完善资料库</p>
+			
+			<volist name="listz" id="vo" empty="$empty" key="k">
+			<dl>
+				<dd>
+					<span class="zl" title="{$vo.name}">{$vo.name}</span>
+					<div class="varietiesbox">
+						<div class="log" onclick="showDiv(this)" title="<if condition="$vo['unit'] eq 'G'">{$vo.num}/100克<else/>{$vo.num}{$vo.unit}</if> 修改">
+							<span><if condition="$vo['unit'] eq 'G'">{$vo.num}/100克<else/>{$vo.num}{$vo.unit}</if></span> 
+							<a href="javascript:void(0);"></a>
+						</div>
+						<div class="arrowDown"  style="display:none ; ">
+							<span class="fl_<php>echo $_GET['idc'];</php>_{$vo.id}">
+								<b>数量：</b><input type="text" name="quatily[{$k}]" value="{$vo.num}" id="<php>echo $_GET['idc'];</php>book_num{$k}" />
+								<a class="j" href="javascript:void(0);" onClick="addnum_<php>echo $_GET['idc'];</php>('{$k}')"></a>
+								<a class="c" href="javascript:void(0);" onClick="subnum_<php>echo $_GET['idc'];</php>('{$k}')"></a>
+							</span>
+							<div>
+								<input type="button" onclick="updates({$vo.id},{$vo.num},{$vo.price},<php>echo $_GET['idc'];</php>);" value="确定"></a>
+								<input type="button" onclick='resets()' value="取消"></a>
+							</div>
+						</div>
+					</div>
+					<div class="jz" title="<php> echo $vo['price']*$vo['num']; </php> 大卡"><php> echo $vo['price']*$vo['num']; </php>大卡</div>
+					<div class="delete" title="删除"><a href="javascript:void(0);" onclick="dels({$vo.id},<php>echo $_GET['idc'];</php>);"></a></div>
+				</dd>
+			</dl>
+			</volist>
+		</div>
+	</div>
+	<div style="border-top:1px solid #CCC;padding-top:10px;margin:0 5px;">
+			* 总消耗 = 活动消耗 + <a href="javascript:void(0);" onclick="showqDiv();"><span class="green1">基础代谢率<font color="red">( <span>0</span>大卡 )</font></span></a>
+	</div>
+</div>

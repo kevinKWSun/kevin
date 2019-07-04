@@ -1,0 +1,99 @@
+<div class="header_top">
+
+	<div id="top">
+
+		<div id="tj">
+
+			<li><a href="{:U('/list-' . '27')}" target="_blank">儿童生长</a></li>
+
+			<li><a href="{:U('/list-' . '24')}" target="_blank">丰胸</a></li>
+
+			<li><a href="{:U('/list-' . '25')}" target="_blank">产后</a></li>
+
+			<li><a href="{:U('/list-' . '26')}" target="_blank">显瘦搭配</a></li>
+
+			<li><a href="{:U('/list-' . '28')}" target="_blank">局部塑身</a></li>
+
+			<li><a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=72654b7776387de9a4f9975de6db174b3d7f58b888cf7c3be6767d38ce8425a3"><img src="http://pub.idqqimg.com/wpa/images/group.png" alt="诗诗瘦身交流群" title="诗诗瘦身交流群" border="0"></a></li>
+
+			<li><a href="/28.html" class="nav_c" target="_blank">联系我们</a></li>
+
+		</div>
+
+		<div id="gy">
+
+			<php>
+
+				if(isset($_SESSION['ss_username'])){
+
+					echo '您好 <a href="/oneself.html" target="_blank">',$_SESSION["ss_username"],'</a>，欢迎关注诗诗瘦身网!　<a href="/logout.html" target="_blank">[ 退出 ]</a>';
+
+				}else{
+
+					echo "您好，欢迎关注诗诗瘦身网!<span>　[<a href='/login.html' target='_blank'>登录</a>]　[<a href='/reg.html' target='_blank'>注册</a>]</span>";
+
+				}
+
+			</php>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!--/header_top-->
+
+<div id="header">
+
+	<div id="menus">
+
+		<div id="nav_ind">
+
+			<div id="nav_list"> 
+
+				<img src="/img/logocal.png" />
+
+			</div>
+
+			<div id="nav_list"> 
+
+				<a class="nav_b" title="减肥工具">减肥</a>　|　
+
+				<a href="{:U('/list-kll')}" title="卡路里计算器" style="letter-spacing:4px;" target="_blank">卡路里</a>　|　
+
+				<a href="{:U('/list-bmi')}" title="身体质量指数(BMI)" target="_blank">身体质量</a>　|　
+
+				<a href="{:U('/list-bmr')}" title="(BMR)基础代谢计算器" target="_blank">基础代谢</a>　|　
+
+				<a href="{:U('/list-hw')}" title="健康体重范围计算器" target="_blank">健康体重</a>　|　
+
+				<a href="{:U('/list-s')}" title="一分钟了解自己" target="_blank">了解自己</a>　|　
+
+				<a href="{:U('/list-food')}" title="食物热量查询" target="_blank">食物热量</a><br>
+
+				<a class="nav_b" title="减肥工具">工具</a>　|　
+
+				<a href="{:U('/list-sw')}" title="标准体重计算器" target="_blank">标准体重</a>　|　
+
+				<a href="{:U('/list-hr')}" title="燃脂运动计算器" target="_blank">燃脂运动</a>　|　
+
+				<a href="{:U('/list-bwh')}" title="三围标准计算公式" target="_blank">三围标准</a>　|　
+
+				<a href="{:U('/list-kll')}" title="运动消耗" target="_blank">运动消耗</a>　|　
+
+				<a href="{:U('/list-' . '23')}" title="健康瘦身餐" style="letter-spacing:4px;">瘦身餐</a>　|　
+				
+				<a href="javascript:void(0);" onclick="javascript:useFriend();">推荐好友</a>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<script>
+
+function useFriend(){fusion.dialog.inviteFriend({appid:1101080861});}function invite(){fusion2.dialog.sendStory({title :"健康瘦身,绿色减肥,免费瘦身?卡路里瘦身应用！",img:"http://api.open.qq.com/tfs/show_img.php?appid=1101080861&uuid=100.png%7C1048576%7C1389677979",summary :"健康瘦身,绿色减肥,免费瘦身?尽在卡路里瘦身...",msg:"中国最温馨的免费瘦身网站哦！随时随地与瘦身相伴！现在就开始你在诗诗的快乐瘦身之旅吧，期待一个更完美的自己！"});}function clickIE4(){if (event.button==2){return false;}}function clickNS4(e){if (document.layers||document.getElementById&&!document.all){if (e.which==2||e.which==3){return false;}}}function OnDeny(){if(event.ctrlKey || event.keyCode==78 && event.ctrlKey || event.altKey || event.altKey && event.keyCode==115){return false;}}if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;document.onkeydown=OnDeny();}else if (document.all&&!document.getElementById){document.onmousedown=clickIE4;document.onkeydown=OnDeny();}document.oncontextmenu=new Function("return false");</script>

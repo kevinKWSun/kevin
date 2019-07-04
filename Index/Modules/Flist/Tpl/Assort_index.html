@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{$name},{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$name},{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$name},{$Think.config.WEB_DESCRIPTION}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="__PUBLIC__/Js/iepng.js" type="text/javascript"></script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom"><a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> <a href="{:U('/list-food')}">食物热量查询</a> >> {$name}</div> 
+	<div class="banner_img">
+		<form action="{:U('/flists')}" method="get">
+			<input name="name" type="text" class="input" placeholder="请输入食物名称" />
+			<input type="submit" value="查询食物" class="inputs" />
+		</form>
+	</div>
+	<div id="list_left">
+		<h1 class="guidetitle">{$name}列表</h1>
+		<div class="g728">{$Think.config.g72890}</div>
+		<volist name='news' id='v' empty="$emptys">
+			<dl>
+				<dt><a href="{:U('/view-' . $v['id'])}"><img src="__PUBLIC__/Img/Images/{$v.img_path}" alt="{$v.name}" style="padding-top:40px;" /></a></dt>
+				<dd>
+					<strong class="clear"><a href="{:U('/view-' . $v['id'])}">{$v.name}</a></strong>
+					<div class="info">
+						单位：<if condition="$v['unit'] eq G">每100克<else/>每{$v.unit}</if><br />　　热量：{$v.calories}大卡<br />　　分类：{$v.b_name}　　
+						所属：{$v.a_name}　　<a href="{:U('/view-' . $v['id'])}">查看详情>></a>　　
+					</div>
+				</dd>
+			</dl>
+		</volist>
+		<div class="foodMenu">{$page}</div>
+	</div>
+	<div id="list_right">
+		<div class="right_1l">
+			<include file='./Index/Modules/Index/Tpl/Common/right.html' />
+		</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

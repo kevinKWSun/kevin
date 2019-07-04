@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>上海SUNNY科技</title>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/login.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<script type="text/javascript" src="__PUBLIC__/Suny/Js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+	var verfiyUrl = '{:U('Suny/Login/verify','','')}';
+	var loginUrl = '{:U('Suny/Login/login','','')}';
+</script>
+<script type="text/javascript" src="__PUBLIC__/Suny/Js/login.js"></script>
+</head>
+<body>
+	<div id="top"></div>
+	<div class="login">	
+		<div class="title">上海SUNNY科技 | 登录后台</div>
+		<table border="1" width="100%">
+			<tr>
+				<th>管理员帐号:</th>
+				<td>
+					<input type="username" name="username" class="len250"/>
+				</td>
+			</tr>
+			<tr>
+				<th>密码:</th>
+				<td>
+					<input type="password" class="len250" name="password"/>
+				</td>
+			</tr>
+			<tr>
+				<th>验证码:</th>
+				<td>
+					<input type="code" class="len250" name="code"/> <img onclick="javascript:void(change_code(this));" src="{:U('Suny/Login/verify')}" id="code" style="cursor:pointer;" /> <a href="javascript:void(change_code(this));">看不清</a>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="padding-left:160px;"> <input type="submit" class="submit" value="登录"/></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

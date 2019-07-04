@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>BMI身体质量指数,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="BMI身体质量指数,身体质量指数,bmi" />
+<meta name="description" content="BMI身体质量指数,BMI [Body Mass Index] 即BMI指数，也叫身体质量指数，是衡量是否肥胖和标准体重的重要指标。适用范围：18至65岁的人士。儿童、发育中的青少年、孕妇、乳母、老人及身型健硕的运动员除外。世界卫生组织认为BMI指数保持在 22 左右是比较理想的..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="__PUBLIC__/Js/iepng.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+	$( '.submit' ).click( function () {
+		var height = $( 'input[name=height]' ).val();
+		var weight = $( 'input[name=weight]' ).val();
+		if(height==''){
+			alert('请填写身高!');
+			return;
+		}
+		if(weight==''){
+			alert('请填写体重!');
+			return;
+		}
+		$('#bmi').load('{:U("/list-bmis")}?height='+height+'&weight='+weight,function() {
+		});
+		return false;
+	});
+});
+</script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom"><a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> BMI身体质量指数</div> 
+	<div id="list_left">
+		<p class="guidetitle"><span>BMI身体质量指数</span></p>
+		<p class="guidecont">
+BMI [Body Mass Index] 即BMI指数，也叫身体质量指数，是衡量是否肥胖和标准体重的重要指标。适用范围：18至65岁的人士。儿童、发育中的青少年、孕妇、乳母、老人及身型健硕的运动员除外。世界卫生组织认为BMI指数保持在<font color="#6633FF"><strong> 22 </strong></font>左右是比较理想的。<font color="red"><strong>特别要强调的是</strong>：</font>不是每个人都适用BMI 的，如果你属于有以下的情况，那么BMI指数对你不适用：1. 未满18岁。2. 是运动员。3. 正在做重量训练。4. 怀孕或哺乳中。5. 身体虚弱或久坐不动的老人。 
+		</p>
+		<div class="divs">
+			<p class="fonts">请输入您的身高和体重：</p>
+			<p>
+			  身高：<input class="form-text" onkeyup="value=value.replace(/[^\d.]/g,'') " name="height" size="6" type="text" value="" /> CM（厘米）<span class="gap"></span>
+			  体重：<input class="form-text" onkeyup="value=value.replace(/[^\d.]/g,'') " name="weight" size="6" type="text" value="" /> KG（1KG=2斤）<span class="gap"></span>
+			  <input type="submit" value="计算" class="js submit" /><span class="gap"></span><span id="bmi" class="stress"></span>
+			</p>
+		</div>
+		<table cellpadding="0" cellspacing="0"  class="table">
+			<tr class="thead">
+			  <th colspan="4">成年人身体质量指数</th>
+			</tr>
+			<tr>
+			  <td width="25%"><b>轻体重BMI</b></td>
+			  <td width="25%"><b>健康体重BMI</b></td>
+			  <td width="25%"><b>超重BMI</b></td> 
+			  <td width="25%"><b>肥胖BMI</b></td>
+			</tr>
+			<tr>
+			  <td>BMI<18.5</td>
+			  <td>18.5≤BMI<24</td>
+			  <td>24≤BMI<28</td>
+			  <td>28≤BMI</td>
+			</tr>
+		</table>
+		<p class="stress">资料来源：</p>
+		<p class="liheight">&#8226; 《中国居民膳食指南》（2007）P72——中国营养学会</p>
+		<p class="liheight">&#8226; 《中国成年人超重和肥胖症预防控制指南》（2003年）卫生部疾病控制司</p>
+		<table cellpadding="0" cellspacing="0"  class="table">
+			<tr class="thead">
+			  <th colspan="4">7~17岁儿童青少年超重肥胖判断标准（BMI切点，kg/m2）</th>
+			</tr>
+			<tr>
+			  <td width="15%" class="center"><b>性别</b></td>
+			  <td width="15%"><b>年龄</b></td>
+			  <td width="35%"><b>超重</b></td>
+			  <td width="35%"><b>肥胖</b></td>
+			</tr>
+			<tr>
+			  <td rowspan="11" class="center"><b>女</b></td>
+			  <td>7</td>
+			  <td>18.9&gt;BMI&gt;=17.2</td>
+			  <td>BMI&gt;=18.9</td>
+			</tr>
+			<tr>
+			  <td>8</td>
+			  <td>19.9&gt;BMI&gt;=18.1</td>
+			  <td>BMI&gt;=19.9</td>
+			</tr>
+			<tr>
+			  <td>9</td>
+			  <td>21.0&gt;BMI&gt;=19.0</td>
+			  <td>BMI&gt;=21.0</td>
+			</tr>
+			<tr>
+			  <td>10</td>
+			  <td>22.1&gt;BMI&gt;=20.0</td>
+			  <td>BMI&gt;=22.1</td>
+			</tr>
+			<tr>
+			  <td>11</td>
+			  <td>23.3&gt;BMI&gt;=21.1</td>
+			  <td>BMI&gt;=23.3</td>
+			</tr>
+			<tr>
+			  <td>12</td>
+			  <td>24.5&gt;BMI&gt;=21.9</td>
+			  <td>BMI&gt;=24.5</td>
+			</tr>
+			<tr>
+			  <td>13</td>
+			  <td>25.6&gt;BMI&gt;=22.6</td>
+			  <td>BMI&gt;=25.6</td>
+			</tr>
+			<tr>
+			  <td>14</td>
+			  <td>26.3&gt;BMI&gt;=23.0</td>
+			  <td>BMI&gt;=26.3</td>
+			</tr>
+			<tr>
+			  <td>15</td>
+			  <td>26.9&gt;BMI&gt;=23.4</td>
+			  <td>BMI&gt;=26.9</td>
+			</tr>
+			<tr>
+			  <td>16</td>
+			  <td>27.4&gt;BMI&gt;=23.7</td>
+			  <td>BMI&gt;=27.4</td>
+			</tr>
+			<tr>
+			  <td>17</td>
+			  <td>27.7&gt;BMI&gt;=23.8</td>
+			  <td>BMI&gt;=27.7</td>
+			</tr>
+			<tr>
+			  <td rowspan="11" class="center"><b>男</b></td>
+			  <td>7</td>
+			  <td>19.2&gt;BMI&gt;=17.4</td>
+			  <td>BMI&gt;=19.2</td>
+			</tr>
+			<tr>
+			  <td>8</td>
+			  <td>20.3&gt;BMI&gt;=18.1</td>
+			  <td>BMI&gt;=20.3</td>
+			</tr>
+			<tr>
+			  <td>9</td>
+			  <td>21.4&gt;BMI&gt;=18.9</td>
+			  <td>BMI&gt;=21.4</td>
+			</tr>
+			<tr>
+			  <td>10</td>
+			  <td>22.5&gt;BMI&gt;=19.6</td>
+			  <td>BMI&gt;=22.5</td>
+			</tr>
+			<tr>
+			  <td>11</td>
+			  <td>23.6&gt;BMI&gt;=20.3</td>
+			  <td>BMI&gt;=23.6</td>
+			</tr>
+			<tr>
+			  <td>12</td>
+			  <td>24.7&gt;BMI&gt;=21.0</td>
+			  <td>BMI&gt;=24.7</td>
+			</tr>
+			<tr>
+			  <td>13</td>
+			  <td>25.7&gt;BMI&gt;=21.9</td>
+			  <td>BMI&gt;=25.7</td>
+			</tr>
+			<tr>
+			  <td>14</td>
+			  <td>26.4&gt;BMI&gt;=22.6</td>
+			  <td>BMI&gt;=26.4</td>
+			</tr>
+			<tr>
+			  <td>15</td>
+			  <td>26.9&gt;BMI&gt;=23.1</td>
+			  <td>BMI&gt;=26.9</td>
+			</tr>
+			<tr>
+			  <td>16</td>
+			  <td>27.4&gt;BMI&gt;=23.5</td>
+			  <td>BMI&gt;=27.4</td>
+			</tr>
+			<tr>
+			  <td>17</td>
+			  <td>27.8&gt;BMI&gt;=23.8</td>
+			  <td>BMI&gt;=27.8</td>
+			</tr>
+		</table>
+		<p class="stress">资料来源：</p>
+		<p class="liheight">&#8226; 《中国居民膳食指南》（2007）P71——中国营养学会</p> 
+		<p class="liheight">&#8226; WGOC（中国肥胖工作组）</p>
+		
+		<div class="g728">{$Think.config.g72890}</div>
+	</div>
+	<div id="list_right">
+		<div class="right_1l">
+			<include file='./Index/Modules/Index/Tpl/Common/right.html' />
+		</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

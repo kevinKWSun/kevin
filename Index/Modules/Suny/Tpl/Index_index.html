@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$Think.config.WEB_DESCRIPTION}..." />
+<script type="text/javascript" src="__PUBLIC__/Suny/Js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Suny/Js/index.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/index.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<base target="iframe"/>
+</head>
+<body>
+	<div id="top">
+		<div class="menu">
+			<a href="{:U(GROUP_NAME . '/Index/info')}">首页</a>
+			<a href="{:U(GROUP_NAME . '/Index/webinfo')}">系统设置</a>
+			<a href="{:U(GROUP_NAME . '/Index/water')}">水印设置</a>
+			<a href="{:U(GROUP_NAME . '/Index/advert')}">广告管理</a>
+			<a href="{:U(GROUP_NAME . '/Cache/index')}">缓存管理</a>
+		</div>
+		<div class="exit">
+			<a href="{:U('Suny/Index/logout')}" target="_self">退出</a>
+			<a href="http://www.aisuny.com" target="_blank">获得帮助</a>
+			<a href="http://www.aisuny.com" target="_blank">上海SUNNY科技</a>
+		</div>
+	</div>
+	<div id="left">
+		<dl>
+			<dt>新闻管理</dt>
+			<dd><a href="{:U('Suny/News/index')}">新闻列表</a></dd>
+			<dd><a href="{:U('Suny/News/addNews')}">添加新闻</a></dd>
+			<dd><a href="{:U('Suny/News/trach')}">回收站</a></dd>
+		</dl>
+		<dl>
+			<dt>属性管理</dt>
+			<dd><a href="{:U('Suny/Attrbute/index')}">属性列表</a></dd>
+			<dd><a href="{:U('Suny/Attrbute/addAttr')}">添加属性</a></dd>
+		</dl>
+		<dl>
+			<dt>分类管理</dt>
+			<dd><a href="{:U(GROUP_NAME . '/Category/index')}">分类列表</a></dd>
+			<dd><a href="{:U(GROUP_NAME . '/Category/addCate')}">添加分类</a></dd>
+		</dl>
+		<dl>
+			<dt>淘宝商品</dt>
+			<dd><a href="{:U(GROUP_NAME . '/Tao/index')}">商品列表</a></dd>
+			<dd><a href="{:U(GROUP_NAME . '/Tao/addCate')}">添加分类</a></dd>
+			<dd><a href="{:U(GROUP_NAME . '/Tao/addTao')}">添加商品</a></dd>
+		</dl>
+	</div>
+	<div id="right">
+		<iframe name="iframe" src="{:U(GROUP_NAME . '/Index/info')}"></iframe>
+	</div>
+</body>
+</html>

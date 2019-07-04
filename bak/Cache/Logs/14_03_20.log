@@ -1,0 +1,697 @@
+[ 2014-03-20T22:34:20+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.029831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030070s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:34:24+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:34:29+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:34:34+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:34:39+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:34:45+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010022s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:34:49+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:34:54+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:34:59+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002593s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:04+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:09+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:14+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:19+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:24+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:29+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:34+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:39+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:44+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002524s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:49+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:54+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:35:59+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:04+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:09+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:14+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:19+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:24+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:29+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:34+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:40+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:45+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:50+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:36:55+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:00+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001938s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:05+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:10+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:15+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:20+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:25+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:30+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:35+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:40+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:45+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:50+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:37:55+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:00+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:05+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:10+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:15+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:20+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:25+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:30+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010550s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:35+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:40+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:45+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:50+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:38:55+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:00+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:05+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:10+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:15+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:20+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:25+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:30+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:35+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:40+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:45+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:50+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:39:55+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:00+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:05+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:10+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:15+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:20+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:25+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:30+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:35+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:40+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002366s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:45+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:50+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:40:55+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:00+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:05+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:10+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:15+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:20+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:25+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:30+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:35+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001415s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:40+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001958s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:45+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:50+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:41:55+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:42:00+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:42:05+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:42:10+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:42:15+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:42:20+08:00 ] 127.0.0.1 /index.php?g=core&m=message&a=tips
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+ERR: 无法加载模块:message
+
+[ 2014-03-20T22:42:24+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `sun_news` [ RunTime:0.031971s ]
+SQL: SHOW COLUMNS FROM `sun_news_attr` [ RunTime:0.021741s ]
+SQL: SHOW COLUMNS FROM `sun_attr` [ RunTime:0.019937s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.041563s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001110s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001136s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 23 ) ORDER BY id DESC LIMIT 0,9   [ RunTime:0.001023s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.014682s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.001243s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 6,6   [ RunTime:0.000736s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001004s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000600s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 4 ) ORDER BY id DESC LIMIT 0,3   [ RunTime:0.000608s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.021587s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001492s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001466s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 3 ) ORDER BY id DESC LIMIT 0,4   [ RunTime:0.006053s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000720s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000636s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000615s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000691s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000623s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000663s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 10 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000414s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000712s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000644s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000581s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000724s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000706s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000607s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000838s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000667s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000739s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000811s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000759s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000975s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000731s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000675s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000684s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000832s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000710s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000671s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000586s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000566s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000612s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000746s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000794s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000708s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000838s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000680s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000679s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000776s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000624s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000672s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.001271s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000784s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000706s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000853s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000674s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000655s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000598s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000669s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000688s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000619s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000794s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 26 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000810s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000821s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001100s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000791s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 27 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000643s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.974903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.975103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.016970s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003916s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004522s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035264s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008676s ]
+

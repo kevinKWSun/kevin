@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>上海SUNNY科技</title>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<js href="__PUBLIC__/Suny/Js/jquery-1.7.2.min.js" />
+<js href="__PUBLIC__/Suny/Js/news.js" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<script>
+	window.UEDITOR_HOME_URL = '__ROOT__/Date/ueditor/';
+	window.onload = function(){
+		window.UEDITOR_CONFIG.initialFrameHeight = '550';
+		window.UEDITOR_CONFIG.initialFrameWidth = '100%';
+		window.UEDITOR_CONFIG.imageUrl = "{:U(GROUP_NAME . '/News/upload')}";
+        window.UEDITOR_CONFIG.imagePath = '__ROOT__/Uploads/';  
+		
+		UE.getEditor('content');
+	}
+</script>
+<js href="__ROOT__/Date/ueditor/ueditor.config.js" />
+<js href="__ROOT__/Date/ueditor/ueditor.all.js" />
+</head>
+<body>
+<form action="{:U(GROUP_NAME . '/News/addNewsHandle')}" method="post" id="news">
+	<table class="table">
+		<thead>
+			<tr>
+				<td colspan="2">新闻发布</td>
+			</tr>
+		</thead>
+		<tr>
+			<td align="right" width="10%">所属分类：</td>
+			<td>
+				<select name="cid">
+					<option value="">==请选择分类==</option>
+					<foreach name='cate' item='v'>
+						<option value="{$v.id}">{$v.html}{$v.name}</option>
+					</foreach>
+				</select> <span>(请选择二级分类)</span>
+			</td>
+		</tr>
+		<tr>
+			<td align="right">新闻属性：</td>
+			<td>
+				<foreach name='attr' item='value'>
+					<input type="checkbox" name="aid[]" value="{$value.id}" /> {$value.name}　
+				</foreach>
+			</td>
+		</tr>
+		<tr>
+			<td align="right">点击次数：</td>
+			<td><input type="text" name="click" value="{$click}" onkeyup="value=value.replace(/[^\d]/g,'')" /></td>
+		</tr>
+		<tr>
+			<td align="right">新闻标题：</td>
+			<td><input type="text" name="title" /> <span>(标题长度60个汉字以内)</span></td>
+		</tr>
+		<tr>
+			<td align="right">缩略图：</td>
+			<td><input type="text" name="images" id="getImgUrl" /> <input type="button" class="submit" id="images" value="选择图片" /></td>
+		</tr>
+		<tr>
+			<td align="right">关键词：</td>
+			<td><input type="text" name="keyword" /></td>
+		</tr>
+		<tr>
+			<td align="right">描述：</td>
+			<td><textarea name="description" rows="2" cols="100"></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2"><textarea name="content" id="content"></textarea></td>
+		</tr>
+		<tr><td colspan="2" align="center"><input type="submit" class="submit" value="保存添加" /></td></tr>
+	</table>
+</form>
+<js href="__ROOT__/Public/kindeditor/kindeditor.js,__ROOT__/Public/kindeditor/lang/zh_CN.js" />
+<script type="text/javascript">
+	$(function(){
+
+		KindEditor.ready(function(K) {
+			K.create();
+			var editor = K.editor({
+				allowFileManager : true,
+				uploadJson : '__ROOT__/Public/kindeditor/php/upload_json2.php',
+				fileManagerJson:'__ROOT__/Public/kindeditor/php/file_manager_json2.php'
+				//sdl:false
+			});
+			K('#images').click(function() {
+				editor.loadPlugin('image', function() {
+					editor.plugin.imageDialog({
+						imageUrl : K('#getImgUrl').val(),
+						clickFn : function(url, title, width, height, border, align) {
+							K('#getImgUrl').val(url);
+							editor.hideDialog();
+						}
+					});
+				});
+			});
+		});
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit(); if(is_array($hot)): foreach($hot as $key=>$v): ?><a href="<?php echo U('/' . $v['id']);?>" title="<?php echo ($v["title"]); ?>" target="_blank"><?php echo ($v["title"]); ?></a><?php endforeach; endif; ?>

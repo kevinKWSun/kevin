@@ -1,0 +1,30 @@
+<script type="text/javascript">
+$(function(){
+	$(".foodBox li").click(function(){
+		var rel = $(this).attr("rel");
+		var id = $(this).attr("rels");
+		adds(id,<php> echo $_GET["idc"]; </php>,rel);
+	});
+});
+</script>
+<div class="foodBox">
+	<a><img src="__PUBLIC__/Img/Images/{$result.img_path}" alt="{$result.name}" /></a>
+	<dl>
+		<dt><a>{$result.name}</a></dt>
+		<dd>
+			<span>{$result.calories}大卡(每<if condition="$result['unit'] eq 'G'">{$pa}{$result.unit}<else/>{$result.unit}</if>)</span>
+			<a href="javascript:void(0);">
+				<div>
+					<ul>
+						<li rel="5" rels='{$result.id}'>5分钟</li>
+						<li rel="10" rels='{$result.id}'>10分钟</li>
+						<li rel="20" rels='{$result.id}'>20分钟</li>
+						<li rel="30" rels='{$result.id}'>30分钟</li>
+						<li rel="60" rels='{$result.id}'>1 小时</li>
+						<li rel="120" rels='{$result.id}'>2 小时</li>
+					</ul>
+				</div>
+			</a>
+		</dd>
+	</dl>
+</div>

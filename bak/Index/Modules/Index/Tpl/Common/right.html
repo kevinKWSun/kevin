@@ -1,0 +1,30 @@
+<div class="right_1l g300">
+	<center>{$Think.config.g300250}</center>
+</div>
+<div id="right_soso">
+	<form action="{:U('/searcher')}" method="get">
+		<input type="text" name="title" placeholder="请输入要搜索的关键字..." />
+		<button type="submit">搜 索</button>
+	</form>
+</div>
+<b class="mt1">卡路里计算器</b>
+<ul class="kll_tool">
+	<a href="{:U('/list-kll')}"><img src="__PUBLIC__/Img/can-icon.gif" alt="卡路里计算器" /></a>
+	<li>一个神奇的饮食瘦身必备工具,算出每天摄入和消耗的热量,健康减肥,绿色瘦身......<br /><a href="{:U('/list-kll')}">>> 马上体验 <<</a></li>
+</ul>
+<b>瘦身工具推荐</b>
+<ul class="side-nav">
+	<li><a href="{:U('/list-food')}" class="nav9">食物热量查询</a></li>	
+	<li><a href="{:U('/list-s')}" class="nav2">一分钟了解自己</a></li>
+	<li><a href="{:U('/list-bwh')}" class="nav10">三围标准计算(BWH)</a></li>
+	<li><a href="{:U('/list-sw')}" class="nav5">标准体重计算</a></li>
+	<li><a href="{:U('/list-hw')}" class="nav7">健康体重范围</a></li>
+	<li><a href="{:U('/list-hr')}" class="nav6">燃脂运动计算</a></li>
+	<li><a href="{:U('/list-bmr')}" class="nav8">基础代谢计算(BMR)</a></li>
+	<li><a href="{:U('/list-kll')}" class="nav4">运动卡路里计算器</a></li>
+	<li><a href="{:U('/list-bmi')}" class="nav3">身体质量指数(BMI)</a></li> 
+</ul>
+<b>热点推荐</b>
+<ul class="hot_tool">
+	{:W('New',array('limitstart' => '0,8'))}
+</ul>

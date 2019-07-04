@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>我的诗诗会员中心,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$Think.config.WEB_DESCRIPTION}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/iepng.js"></script>
+<script type="text/javascript">
+	var sendUrl = '{:U('/sendmail','','')}';
+</script>
+<script type="text/javascript" src="__PUBLIC__/Js/basic.js"></script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom">
+		<a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> <a href="{:U('/oneself')}">会员中心</a> >> <font color="#f66600">{$member}</font>
+	</div> 
+	<div id="member_left">
+		<include file='./Index/Modules/Index/Tpl/Common/left.html' />
+	</div>
+	<div id="member_right">
+		<div class="row-table">
+		<div class="row-table-title">
+			<a class="pull-right" href="{:U('/mails')}">返回信件列表</a>
+			查看短消息&nbsp;&nbsp;
+			<a href="javascript:self.location=document.referrer;">返回</a>
+		</div>
+		<div class="row-table-body">
+			<table class="table">
+				<thead>
+					<tr>
+						<td colspan="2">
+                            <if condition="$f">
+                            <else />
+                            <a class="pull-right btn btn-primary btn-xs" href="{:U('/send',array('id'=>$views['id'],'h'=>1))}" style="color:#FFF;">回复</a>
+                            </if>
+							<strong>{$views.title}</strong>
+                        </td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+                        <if condition="$f"><td>发件人：{$name}</td><td>收件人：{$views.uname}</td><else />
+                        <td>发件人：{$views.uname}</td><td>收件人：{$name}</td></if>
+                    </tr>
+					<tr><td>发送时间：{$views.send_time|date='Y-m-d H:i:s',###}</td><td>&nbsp;</td></tr>
+					<tr><td colspan="2"><pre>{$views.content}</pre>
+					<div class="clear"></div></td></tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit(); if(is_array($hotdescription)): foreach($hotdescription as $key=>$v): echo ($v["description"]); endforeach; endif; ?>

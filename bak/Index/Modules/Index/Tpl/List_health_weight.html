@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>身体质量指数,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="身体质量指数,健康体重范围,bmi" />
+<meta name="description" content="不同于标准体重，它是一个范围值，其原理是通过BMI身体质量指数反向推算。健康范围的身体质量指数(BMI)在18.5到24之间，结合身高，就可以计算出健康体重范围..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="__PUBLIC__/Js/iepng.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+	$( '.submit' ).click( function () {
+		var height = $( 'input[name=height]' ).val();
+		if(height==''){
+			alert('请填写身高!');
+			return;
+		}
+		$('#hwr').load('{:U("/list-hwr")}?height='+height,function() {
+		});
+		return false;
+	});
+});
+</script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom"><a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> 健康体重范围</div> 
+	<div id="list_left">
+		<p class="guidetitle"><span>健康体重范围</span></p>
+		<div class="guidecont hwr">
+			<p><span class="stress">健康体重</span>不同于标准体重，它是一个范围值，其原理是通过BMI身体质量指数反向推算。健康范围的身体质量指数(BMI)在18.5到24之间，结合身高，就可以计算出健康体重范围。</p>
+		</div>
+		<div class="divs">
+			<p class="fonts">请输入您的身高：</p>
+			<p class="clear">　
+				身高：<input class="form-text" name="height" size="6" type="text" onkeyup="value=value.replace(/[^\d.]/g,'') " /> CM（厘米）　
+				<input type="submit" value="计算" class="js submit" />　
+				<span id="hwr" class="stress"></span>　
+			</p>
+		</div>
+		
+		<p class="stress mt1">资料参考：</p>
+		<p class="liheight">&#8226; 除了计算健康体重范围，你也可以使用<a href="{:U('/list-bmi')}">BMI 身体质量指数</a> 和 <a href="{:U('/list-sw')}">标准体重计算</a></p>
+		
+		<div class="g728">{$Think.config.g72890}</div>
+	</div>
+	<div id="list_right">
+		<div class="right_1l">
+			<include file='./Index/Modules/Index/Tpl/Common/right.html' />
+		</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

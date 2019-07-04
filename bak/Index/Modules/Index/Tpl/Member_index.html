@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>我的诗诗会员中心,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$Think.config.WEB_DESCRIPTION}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="__PUBLIC__/Js/iepng.js" type="text/javascript"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+<script src="__PUBLIC__/Js/highcharts.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Js/exporting.js" type="text/javascript"></script>
+<script type="text/javascript">
+var chart; 
+$(function() { 
+    chart = new Highcharts.Chart({ 
+        chart: { 
+            renderTo: 'chart_line',//图表放置的容器，DIV 
+            defaultSeriesType: 'line', //图表类型line, spline, area, areaspline, column, bar, pie , scatter
+            //zoomType: 'x','y'   //x轴方向可以缩放 
+        }, 
+        credits: { 
+            enabled: true   //右下角不显示LOGO 
+        }, 
+        title: { 
+            text: '体重变化曲线图' //图表标题 
+        }, 
+        subtitle: { 
+            text: '数据来源于诗诗瘦身网'  //副标题 
+        }, 
+		lang:{
+			exportButtonTitle:'导出图片',
+			printButtonTitle:'打印报表'
+		},
+		exporting:{
+			// 是否允许导出
+			enabled:true,
+			// 按钮配置
+			buttons:{
+				// 导出按钮配置
+				exportButton:{
+					//是否显示导出选择菜单
+					/*menuItems: null,
+					onclick: function() {
+						this.exportChart();
+					}*/
+					menuItems: [{
+						text: '导出到PNG (小)',
+						onclick: function() {
+							this.exportChart({
+								width: 250
+							});
+						}
+					}, {
+						text: '导出到PNG (大)',
+						onclick: function() {
+							this.exportChart(); // 默认800像素
+						}
+					},
+					null,
+					null
+					]
+				},
+				// 打印按钮配置
+				printButton:{
+					enabled:true
+				}
+			},
+			filename:'诗诗瘦身网',
+			//本地化时的导出接口路径
+			//url''
+			// 导出文件默认类型
+			//type:'application/png'
+		},
+        xAxis: {  //x轴 
+            categories: {$mj}, 
+            //lineWidth: 1,  //基线宽度 
+            //labels:{y:16},  //x轴标签位置：距X轴下方26像素
+			title:{
+				text:'时间'
+			},
+			labels:{
+				rotation:-0//标签旋转的角度
+			},
+			gridLineWidth: 1,
+			minorTickInterval: 'auto',
+        }, 
+        
+		yAxis: {  //y轴
+            lineWidth : 1,
+			tickWidth: 1,
+			max: 150, 
+			min: 30,
+			title: {
+                text: '体重刻度值(KG)'
+            }
+        },
+		tooltip: {
+            formatter: function() {  //当鼠标悬置数据点时的格式化提示
+                return '<b>' + this.series.name + '</b><br/>' + this.x + ': ' + this.y + 'KG';
+            },
+			crosshairs: true
+        },
+		plotOptions:{
+			line:{
+				 allowPointSelect :true,//是否允许选中点  
+                 animation:true,//是否在显示图表的时候使用动画  
+                 cursor:'pointer',//鼠标移到图表上时鼠标的样式  
+                 dataLabels:{  
+                   enabled :true,//是否在点的旁边显示数据  
+                   rotation:0 
+				},
+				//enableMouseTracking: false
+			}
+		}, 
+        legend: {  //图例 
+            layout: 'vertical',  //图例显示的样式：水平（horizontal）/垂直（vertical） 
+            backgroundColor: '#ffc', //图例背景色 
+            align: 'left',  //图例水平对齐方式 
+            verticalAlign: 'top',  //图例垂直对齐方式 
+            x: 70,  //相对X位移 
+            y: 60,   //相对Y位移 
+            floating: true, //设置可浮动 
+            shadow: true  //设置阴影 
+        },  
+        series: [{  //数据列 
+            name: '实际体重', 
+            data: {$wj} 
+        },
+		{
+			name: '目标体重', 
+            data: {$wm} 
+		}] 
+    }); 
+	chart = new Highcharts.Chart({ 
+        chart: { 
+            renderTo: 'chart_line2',//图表放置的容器，DIV 
+            defaultSeriesType: 'line', //图表类型line, spline, area, areaspline, column, bar, pie , scatter
+            //zoomType: 'x','y'   //x轴方向可以缩放 
+        }, 
+        credits: { 
+            enabled: true   //右下角不显示LOGO 
+        }, 
+        title: { 
+            text: '围度变化曲线图' //图表标题 
+        }, 
+        subtitle: { 
+            text: '数据来源于诗诗瘦身网'  //副标题 
+        }, 
+		lang:{
+			exportButtonTitle:'导出图片',
+			printButtonTitle:'打印报表'
+		},
+		exporting:{
+			// 是否允许导出
+			enabled:true,
+			// 按钮配置
+			buttons:{
+				// 导出按钮配置
+				exportButton:{
+					//是否显示导出选择菜单
+					/*menuItems: null,
+					onclick: function() {
+						this.exportChart();
+					}*/
+					menuItems: [{
+						text: '导出到PNG (小)',
+						onclick: function() {
+							this.exportChart({
+								width: 250
+							});
+						}
+					}, {
+						text: '导出到PNG (大)',
+						onclick: function() {
+							this.exportChart(); // 默认800像素
+						}
+					},
+					null,
+					null
+					]
+				},
+				// 打印按钮配置
+				printButton:{
+					enabled:true
+				}
+			},
+			filename:'诗诗瘦身网',
+			//本地化时的导出接口路径
+			//url''
+			// 导出文件默认类型
+			//type:'application/png'
+		},
+        xAxis: {  //x轴 
+            categories: {$sj}, 
+            //lineWidth: 1,  //基线宽度 
+            //labels:{y:16},  //x轴标签位置：距X轴下方26像素
+			title:{
+				text:'时间'
+			},
+			labels:{
+				rotation:-0//标签旋转的角度
+			},
+			gridLineWidth: 1,
+			minorTickInterval: 'auto',
+        }, 
+        
+		yAxis: {  //y轴
+            lineWidth : 1,
+			tickWidth: 1,
+			max: 120, 
+			min: 10,
+			title: {
+                text: '围度刻度值(KG)'
+            }
+        },
+		tooltip: {
+            formatter: function() {  //当鼠标悬置数据点时的格式化提示
+                return '<b>' + this.series.name + '</b><br/>' + this.x + ': ' + this.y + 'KG';
+            },
+			crosshairs: true
+        },
+		plotOptions:{
+			line:{
+				 allowPointSelect :true,//是否允许选中点  
+                 animation:true,//是否在显示图表的时候使用动画  
+                 cursor:'pointer',//鼠标移到图表上时鼠标的样式  
+                 dataLabels:{  
+                   enabled :true,//是否在点的旁边显示数据  
+                   rotation:0 
+				},
+				//enableMouseTracking: false
+			}
+		}, 
+        legend: {  //图例 
+            layout: 'vertical',  //图例显示的样式：水平（horizontal）/垂直（vertical） 
+            backgroundColor: '#ffc', //图例背景色 
+            align: 'left',  //图例水平对齐方式 
+            verticalAlign: 'top',  //图例垂直对齐方式 
+            x: 70,  //相对X位移 
+            y: 60,   //相对Y位移 
+            floating: true, //设置可浮动 
+            shadow: true  //设置阴影 
+        },  
+        series: [{  //数据列 
+            name: '胸围', 
+            data: {$xw} 
+        },
+		{  //数据列 
+            name: '目标胸围', 
+            data: {$xwm} 
+        },
+		{  //数据列 
+            name: '腰围', 
+            data: {$yw} 
+        },
+		{  //数据列 
+            name: '目标腰围', 
+            data: {$ywm} 
+        },
+		{  //数据列 
+            name: '臀围', 
+            data: {$dw} 
+        },
+		{  //数据列 
+            name: '目标臀围', 
+            data: {$dwm} 
+        },
+		{  //数据列 
+            name: '手臂围', 
+            data: {$sbw} 
+        },
+		{  //数据列 
+            name: '目标手臂围', 
+            data: {$sbwm} 
+        },
+		{  //数据列 
+            name: '大腿围', 
+            data: {$dtw} 
+        },
+		{  //数据列 
+            name: '目标大腿围', 
+            data: {$dtwm} 
+        },
+		{  //数据列 
+            name: '小腿围', 
+            data: {$xtw} 
+        },
+		{  //数据列 
+            name: '目标小腿围', 
+            data: {$xtwm} 
+        }] 
+    });
+	chart = new Highcharts.Chart({ 
+        chart: { 
+            renderTo: 'chart_line3',//图表放置的容器，DIV 
+            defaultSeriesType: 'line', //图表类型line, spline, area, areaspline, column, bar, pie , scatter
+            //zoomType: 'x','y'   //x轴方向可以缩放 
+        }, 
+        credits: { 
+            enabled: true   //右下角不显示LOGO 
+        }, 
+        title: { 
+            text: '摄入消耗变化曲线图' //图表标题 
+        }, 
+        subtitle: { 
+            text: '数据来源于诗诗瘦身网'  //副标题 
+        }, 
+		lang:{
+			exportButtonTitle:'导出图片',
+			printButtonTitle:'打印报表'
+		},
+		exporting:{
+			// 是否允许导出
+			enabled:true,
+			// 按钮配置
+			buttons:{
+				// 导出按钮配置
+				exportButton:{
+					//是否显示导出选择菜单
+					/*menuItems: null,
+					onclick: function() {
+						this.exportChart();
+					}*/
+					menuItems: [{
+						text: '导出到PNG (小)',
+						onclick: function() {
+							this.exportChart({
+								width: 250
+							});
+						}
+					}, {
+						text: '导出到PNG (大)',
+						onclick: function() {
+							this.exportChart(); // 默认800像素
+						}
+					},
+					null,
+					null
+					]
+				},
+				// 打印按钮配置
+				printButton:{
+					enabled:true
+				}
+			},
+			filename:'诗诗瘦身网',
+			//本地化时的导出接口路径
+			//url''
+			// 导出文件默认类型
+			//type:'application/png'
+		},
+        xAxis: {  //x轴 
+            categories: {$times}, 
+            //lineWidth: 1,  //基线宽度 
+            //labels:{y:16},  //x轴标签位置：距X轴下方26像素
+			title:{
+				text:'时间'
+			},
+			labels:{
+				rotation:-0//标签旋转的角度
+			},
+			gridLineWidth: 1,
+			minorTickInterval: 'auto',
+        }, 
+        
+		yAxis: {  //y轴
+            lineWidth : 1,
+			tickWidth: 1,
+			max: 3000, 
+			min: 0,
+			title: {
+                text: '摄入消耗刻度值(KG)'
+            }
+        },
+		tooltip: {
+            formatter: function() {  //当鼠标悬置数据点时的格式化提示
+                return '<b>' + this.series.name + '</b><br/>' + this.x + ': ' + this.y + 'KG';
+            },
+			crosshairs: true
+        },
+		plotOptions:{
+			line:{
+				 allowPointSelect :true,//是否允许选中点  
+                 animation:true,//是否在显示图表的时候使用动画  
+                 cursor:'pointer',//鼠标移到图表上时鼠标的样式  
+                 dataLabels:{  
+                   enabled :true,//是否在点的旁边显示数据  
+                   rotation:0 
+				},
+				//enableMouseTracking: false
+			}
+		}, 
+        legend: {  //图例 
+            layout: 'vertical',  //图例显示的样式：水平（horizontal）/垂直（vertical） 
+            backgroundColor: '#ffc', //图例背景色 
+            align: 'left',  //图例水平对齐方式 
+            verticalAlign: 'top',  //图例垂直对齐方式 
+            x: 70,  //相对X位移 
+            y: 60,   //相对Y位移 
+            floating: true, //设置可浮动 
+            shadow: true  //设置阴影 
+        },  
+        series: [{  //数据列 
+            name: '摄入热量', 
+            data: {$sr} 
+        },
+		{
+			name: '运动消耗', 
+            data: {$xh}
+		}] 
+    });
+	//
+});
+a = 1;
+function fn(){
+	if(a == 1){
+		$('#message_tips').css({color:'#333'});
+		a = 0;
+	}else{
+		$('#message_tips').css({color:'#f66600'});
+		a = 1;
+	}
+}
+var myInterval;
+function message_tips(){
+	$.get("/messages", function(data){
+		if(data.message != $('#message_tips').html()){
+			$('#message_tips').css({color:'#F00'});
+			myInterval = setInterval(fn,1000);
+			$("#message_audio").html("<audio id='ttsoundplayer' autoplay='autoplay'><source src='__PUBLIC__/sound/Global.wav' type='audio/wav'></audio>");
+		} else {
+			$("#message_audio").html('');
+			if(data.message == 0){
+				$('#message_tips').css({color:'#000'});
+				clearInterval(myInterval);
+			}
+		}
+		$('#message_tips').html(data.message);
+	},'json');
+	setTimeout('message_tips()',5000);
+}
+message_tips();
+</script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom">
+		<a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> <a href="{:U('/oneself')}">会员中心</a> >> <font color="#f66600">{$member}</font>
+	</div> 
+	<div id="member_left">
+		<include file='./Index/Modules/Index/Tpl/Common/left.html' />
+	</div>
+	<div id="member_right">
+		<div class="ss_1">
+			<div class="imgs">
+				<if condition="$user['uimgpath'] and $user['uimgpath'] neq '100'"><img src="/Uploads/{$user.uname}/{$user.uimgpath}" width="100" height="100" />
+					<elseif condition="$user['uimgpath'] eq '100'" />
+					<img src="http://qzapp.qlogo.cn/qzapp/101053078/{$user.qq_status}/100" width="100" height="100" />
+					<elseif condition="!$user['uimgpath'] and $user['sex']==1" /><img src="__PUBLIC__/Img/dfboy.png" />
+					<elseif condition="!$user['uimgpath'] and $user['sex']==0" /><img src="__PUBLIC__/Img/dfgirl.png" />
+				</if>
+				<p><a href="{:U('/myself')}">上传头像</a> | <a href="{:U('/myself')}">修改资料</a></p>
+			</div>
+			<span>
+				<li>{$user.uname}</li>
+				<li>身份：注册会员　等级：<font color="#f66600">{$score}</font>　积分：<font color="#f66600">{$user.score}</font> 分</li>
+				<li> <div id="message_tips"></div></li>
+			</span>
+		</div>
+		<div class="ss_2">
+			<div class="weight">
+				<strong>瘦身第 <font color="red">{$day}</font> 天　已减</strong>
+				<div class="ss_2_0">{$weight}</div>
+				<div class="ss_2_1">
+					起始体重：<if condition="$ms['stratweight']">{$ms.stratweight}<else />0</if>KG<br />
+					目标体重：<if condition="$ms['mweight']">{$ms.mweight}<else />0</if>KG<br />
+					最新体重：<if condition="$newm['weight']">{$newm.weight}<else />0</if>KG
+				</div>
+			</div>
+			<div class="ss_2_2"><center><font color='#f66600'>瘦身进度图</font></center></div>
+			<div class="ss_2_2">
+				<div class="left"><if condition="$ms['stratweight']">{$ms.stratweight}<else />0</if>KG</div><div class="right"><if condition="$ms['mweight']">{$ms.mweight}<else />0</if>KG</div>
+			</div>
+			<div class="ss_2_2">
+				<div class="img" style="padding-left:{$bl}px;">
+					<img src="__PUBLIC__/jdt/weightpoint{$ms.point}.gif" width="40" />
+					<font color='#f66600'><if condition="$newm['weight']">{$newm.weight}<else />0</if>KG</font>
+				</div>
+				<img src="__PUBLIC__/jdt/weightbg{$ms.background}.gif" width="412" />
+			</div>
+		</div>
+		<div class="ss_2" id="zoomaTabs">
+			<h1>
+				<li class="b" onclick="changTab(this)">体重变化</li>
+				<li onclick="changTab(this)">围度变化</li>
+				<li onclick="changTab(this)">摄入热量</li>
+			</h1>
+			<div class="zoomTabCons">
+				<div class="display">
+					<div id="chart_line" style="width:843px; height: 450px; margin:0 auto;"></div>
+				</div>
+				<div class="undis">
+					<div id="chart_line2" style="width:843px; height: 450px; margin:0 auto;"></div>
+				</div>
+				<div class="undis">
+					<div id="chart_line3" style="width:843px; height: 450px; margin:0 auto;"></div>
+				</div>
+			</div> 
+		</div>
+		<!--<div class="ss_2">
+			<h1>日记</h1>
+		</div>
+		<div class="ss_2">
+			<h1>留言</h1>
+		</div>
+		<div class="ss_2">
+			<h1>我收到的礼物</h1>
+		</div>-->
+		
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+<script type="text/javascript">
+function changTab(objs){
+	var obj = document.getElementById("zoomaTabs");
+	if(obj){
+		var ti=obj.children[0].children;
+		for(i = 0;i<ti.length;i++){
+			if(objs == ti[i]){
+				ti[i].className="b";
+				obj.children[1].children[i].className="display";
+			}else{
+				obj.children[1].children[i].className="undis";	
+				ti[i].className="";
+			}
+		}
+	}	
+}
+</script>
+</body>
+</html>

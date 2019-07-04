@@ -1,0 +1,3 @@
+<foreach name='hotimg' item='v'>
+	<a href="{:U('/' . $v['id'])}"><img src='<if condition="$v.images">{$v.images}<else/>__PUBLIC__/Img/13.jpg</if>' alt="{$v.title}" height="{$imgheight}" width="{$imgwidth}"></a>
+</foreach>

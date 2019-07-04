@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>上海SUNNY科技</title>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+</head>
+<body>
+<table class="table">
+	<thead>
+		<tr>
+			<td colspan="6">{$tname}</td>
+		</tr>
+	</thead>
+	<tr align="center">
+		<td>ID</td>
+		<td>标题</td>
+		<td>所属分类</td>
+		<td>点击次数</td>
+		<td>发布时间</td>
+		<td>操作</td>
+	</tr>
+	<foreach name='news' item='v'>
+	<tr>
+		<td align="center" width="8%">{$v.id}</td>
+		<td>
+			{$v.title}
+			<foreach name='v.attr' item='value'>
+				<strong style="color:{$value.color}">[{$value.name}]</strong>
+			</foreach>
+		</td>
+		<td align="center" width="10%">{$v.cate}</td>
+		<td align="center" width="8%">{$v.click}</td>
+		<td align="center" width="12%">{$v.stime|date='Y-m-d H:i',###}</td>
+		<td align="center" width="12%">
+		<if condition='ACTION_NAME eq "index"'>
+			[<a href="{:U(GROUP_NAME . '/News/modifyNews',array('id' =>$v['id']))}">修改</a>]
+			[<a href="{:U(GROUP_NAME . '/News/toTrach',array('id' =>$v['id'],'type' => 1))}">删除</a>]
+			<else/>
+			[<a href="{:U(GROUP_NAME . '/News/toTrach',array('id' =>$v['id'],'type' => 0))}">还原</a>]
+			[<a href="{:U(GROUP_NAME . '/News/delete',array('id' =>$v['id']))}">彻底删除</a>]
+		</if>
+		</td>
+	</tr>
+	</foreach>
+</table>
+</body>
+</html>

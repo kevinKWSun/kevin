@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{$news.title},{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$news.keyword}" />
+<meta name="description" content="{$news.description}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="__PUBLIC__/Js/iepng.js" type="text/javascript"></script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom"><a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> 
+		<php>$last = count($parent) - 1;</php>
+		<foreach name='parent' item='v'>
+			<a href="{:U('/list-' . $v['id'])}">{$v.name}</a> <if condition='$key neq $last'>>></if>
+		</foreach>
+	</div> 
+	<div id="list_left">
+		<div class="title">
+			<h2>{$news.title}</h2>
+			<div>
+				<span class='fl'>发布于：{$news.stime|date='Y年m月d日',###}</span>
+				<span class='fr'>已被关注 <script src='{:U("/list-click", array("id" => $news["id"]))}'></script> 次</span>
+			</div>
+		</div>
+		<div class="content">
+			<div class="g336">{$Think.config.g336280}</div>{$news.content}
+		</div>
+	</div>
+	<div id="list_right">
+		<div class="right_1l">
+			<include file='./Index/Modules/Index/Tpl/Common/right.html' />
+		</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

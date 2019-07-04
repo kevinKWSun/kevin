@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>燃脂运动计算器,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="燃脂运动计算器,燃脂运动" />
+<meta name="description" content="燃脂运动，就是燃烧脂肪的运动，燃脂运动计算需要满足下面三个必要条件：1、该运动要达到中低强度的运动心率；2、这种中低强度运动心率的运动要持续20分钟以上；3、这种运动必须是大肌肉群的运动，如慢跑、游泳、健身操等。用下面的计算器，马上得到适合你的中低强度运动心率，低于这个范围或者高于这个范围，都不是以燃烧脂肪供能为主，减脂效果略差..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="__PUBLIC__/Js/iepng.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+	$( '.submit' ).click( function () {
+		var age = $( 'input[name=age]' ).val();
+		if(age==''){
+			alert('请填写年龄!');
+			return;
+		}
+		$('#fat').load('{:U("/list-fat")}?age='+age);
+		return false;
+	});
+});
+</script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom"><a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> 燃脂运动计算器</div> 
+	<div id="list_left">
+		<p class="guidetitle"><span>燃脂运动计算器</span></p>
+		<div class="guidecont fat">
+			<p><span class="stress">燃脂运动</span>，就是燃烧脂肪的运动，需要满足下面三个必要条件：</p>
+			<p>1、该运动要达到中低强度的运动心率；</p>
+			<p>2、这种中低强度运动心率的运动要持续20分钟以上；</p>
+			<p>3、这种运动必须是大肌肉群的运动，如慢跑、游泳、健身操等。</p>
+			<p>用下面的计算器，马上得到适合你的中低强度运动心率，低于这个范围或者高于这个范围，都不是以燃烧脂肪供能为主，减脂效果略差。</p>
+		</div>
+		<div class="divs">
+			<p class="fonts">请输入您的年龄：</p>
+			<p class="clear">　
+				年龄：<input class="form-text" name="age" size="6" type="text" onkeyup="value=value.replace(/[^\d.]/g,'') " /> 岁　　　
+				<input type="submit" value="计算" class="js submit" />　
+				<span id="fat" class="stress"></span>　
+			</p>
+		</div>
+		
+		<p class="stress mt1">资料参考：</p>
+		<p class="liheight">
+		　• 除了燃脂运动计算，你也可以使用 运动卡路里计算器 和 食物热量查询！
+		</p>
+		
+		<div class="g728">{$Think.config.g72890}</div>
+	</div>
+	<div id="list_right">
+		<div class="right_1l">
+			<include file='./Index/Modules/Index/Tpl/Common/right.html' />
+		</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

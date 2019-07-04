@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit(); if(is_array($hotimg)): foreach($hotimg as $key=>$v): ?><a href="<?php echo U('/' . $v['id']);?>"><img src='<?php if($v.images): echo ($v["images"]); else: ?>__PUBLIC__/Img/13.jpg<?php endif; ?>' alt="<?php echo ($v["title"]); ?>" height="<?php echo ($imgheight); ?>" width="<?php echo ($imgwidth); ?>"></a><?php endforeach; endif; ?>

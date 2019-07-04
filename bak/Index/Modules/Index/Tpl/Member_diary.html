@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>我的诗诗会员中心,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$Think.config.WEB_DESCRIPTION}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/iepng.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/basic.js"></script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom">
+		<a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> <a href="{:U('/oneself')}">会员中心</a> >> <font color="#f66600">{$member}</font>
+	</div> 
+	<div id="member_left">
+		<include file='./Index/Modules/Index/Tpl/Common/left.html' />
+	</div>
+	<div id="member_right">
+		<foreach name='diary' item='v'>
+		<div class="ss_3">
+			{$v.times|date="Y-m-d",###}　减肥第 <font color="#f66600"><php>echo ($v['times']-$day['startdate'])/3600/24;</php></font> 天　
+			<a href="javascript:void(0);" class="dela" rel="{$v.tid}"><font color="#f66600">删除</font></a>　 如果总共消耗为负数，您会增重哦...
+		</div>
+		<div class="ss_6">
+			<div class="ss_diary">
+				<strong>早餐</strong> 
+				<ul>
+					<foreach name='v.diary' item='vo'>
+						<if condition="$vo['cate'] eq 1"><li><a href="view-{$vo.pid}.html" target="_blank">{$vo.name}</a>　
+						<if condition="$vo['unit'] eq G"><php>echo $vo['num']*100,'克';</php><else />{$vo.num}{$vo.unit}</if>　　　{$vo.cal}千卡</li></if>
+					</foreach>
+				</ul>
+				<strong>午餐</strong>
+				<ul>
+					<foreach name='v.diary' item='vo'>
+						<if condition="$vo['cate'] eq 6"><li><a href="view-{$vo.pid}.html" target="_blank">{$vo.name}</a>　
+						<if condition="$vo['unit'] eq G"><php>echo $vo['num']*100,'克';</php><else />{$vo.num}{$vo.unit}</if>　　　{$vo.cal}千卡</li></if>
+					</foreach>
+				</ul>
+				<strong>晚餐</strong>
+				<ul>
+					<foreach name='v.diary' item='vo'>
+						<if condition="$vo['cate'] eq 2"><li><a href="view-{$vo.pid}.html" target="_blank">{$vo.name}</a>　
+						<if condition="$vo['unit'] eq G"><php>echo $vo['num']*100,'克';</php><else />{$vo.num}{$vo.unit}</if>　　　{$vo.cal}千卡</li></if>
+					</foreach>
+				</ul>
+				<strong>零食 / 点心</strong>
+				<ul>
+					<foreach name='v.diary' item='vo'>
+						<if condition="$vo['cate'] eq 7"><li><a href="view-{$vo.pid}.html" target="_blank">{$vo.name}</a>　
+						<if condition="$vo['unit'] eq G"><php>echo $vo['num']*100,'克';</php><else />{$vo.num}{$vo.unit}</if>　　　{$vo.cal}千卡</li></if>
+					</foreach>
+				</ul>
+				<strong>摄入热量：<php>echo $v['c_1']+$v['c_2']+$v['c_6']+$v['c_7'];</php> 千卡</strong>
+			</div>
+			<div class="ss_diarx">
+				<strong>运动</strong>
+				<ul>
+					<foreach name='v.diary' item='vo'>
+						<if condition="$vo['cate'] eq 4"><li><a href="view-{$vo.pid}.html" target="_blank">{$vo.name}</a>　
+						<if condition="$vo['unit'] eq G"><php>echo $vo['num']*100,'克';</php><else />{$vo.num}{$vo.unit}</if>　　　{$vo.cal}千卡</li></if>
+					</foreach>
+				</ul>
+				<strong><font color="#f66600">* 总共消耗 = 活动消耗 + 基础代谢率 - 摄入热量</font></strong>
+				<ul>
+					<li>运动消耗：<php>echo $v['c_4'];</php> 千卡</li>
+					<li>基础代谢：{$bmr} 千卡</li>
+					<li>总共消耗：<php>echo $bmr+$v['c_4']-($v['c_1']+$v['c_2']+$v['c_6']+$v['c_7']);</php> 千卡</li>
+				</ul>
+				<strong>时段供能比例</strong>
+				<ul>
+					<li>早餐：<php>echo number_format($v['c_1']/($v['c_1']+$v['c_2']+$v['c_6']+$v['c_7'])*100,0);</php>%　　午餐：<php>echo number_format($v['c_6']/($v['c_1']+$v['c_2']+$v['c_6']+$v['c_7'])*100,0);</php>%</li>
+					<li>晚餐：<php>echo number_format($v['c_2']/($v['c_1']+$v['c_2']+$v['c_6']+$v['c_7'])*100,0);</php>%　　零食：<php>echo number_format($v['c_7']/($v['c_1']+$v['c_2']+$v['c_6']+$v['c_7'])*100,0);</php>%</li>
+				</ul>
+			</div>
+		</div>
+		<div class="ss_3"></div>
+		</foreach>
+		{$page}</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

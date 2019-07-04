@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>我的诗诗会员中心,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$Think.config.WEB_DESCRIPTION}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/iepng.js"></script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom">
+		<a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> <a href="{:U('/oneself')}">会员中心</a> >> <font color="#f66600">{$member}</font>
+	</div> 
+	<div id="member_left">
+		<include file='./Index/Modules/Index/Tpl/Common/left.html' />
+	</div>
+	<div id="member_right">
+		<foreach name="datas" item="v">
+		<div class="ss_1">
+			<div class="imgs">
+				<if condition="$v['uimgpath'] and $v['uimgpath'] neq '100'"><img src="/Uploads/{$v.uname}/{$v.uimgpath}" width="100" height="100" />
+					<elseif condition="$v['uimgpath'] eq '100'" />
+					<img src="http://qzapp.qlogo.cn/qzapp/101053078/{$v.qq_status}/100" width="100" height="100" />
+					<elseif condition="!$v['uimgpath'] and $v['sex']==1" /><img src="__PUBLIC__/Img/dfboy.png" />
+					<elseif condition="!$v['uimgpath'] and $v['sex']==0" /><img src="__PUBLIC__/Img/dfgirl.png" />
+				</if>
+			</div>
+			<span>
+				<li><if condition="$v['nickname']">{$v.nickname}<else />诗诗宝贝</if>　　　自我介绍：<if condition="$v['biog']">{$v.biog|subtext=30}<else />
+				想要免费瘦身？来诗诗瘦身网吧...</if>	<a href="{:U('/send',array('id'=>$v['uid'],'h'=>2))}" style="color:#f66600;" class="pull-right">发消息</a>
+				</li>
+				<li>成功减重：<font color="#f66600"><php>echo $v['stratweight']-$v['newweight']['weight'];</php></font> KG　　　
+				瘦身宣言：<if condition="$v['sign']">{$v.sign|subtext=30}<else />想要免费瘦身？来诗诗瘦身网吧...</if>
+				</li>
+			</span>
+		</div>
+		</foreach>
+		{$page}</div>
+		<div class="g728" style="width:728px;">{$Think.config.g72890}</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

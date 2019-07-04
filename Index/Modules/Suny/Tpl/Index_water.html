@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>上海SUNNY科技</title>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body>
+<form action="{:U(GROUP_NAME . '/Index/updateWater')}" method="post">
+	<table class="table">
+		<thead>
+			<tr>
+				<td colspan="2">水印设置</td>
+			</tr>
+		</thead>
+		<tr>
+			<td align="right">水印图片路径:</td>
+			<td><input type="text" name="WATER_IMAGE" value="{$Think.config.WATER_IMAGE}" /></td>
+		</tr>
+		<tr>
+			<td align="right">水印位置:</td>
+			<td><input type="text" name="WATER_POS" value="{$Think.config.WATER_POS}" /></td>
+		</tr>
+		<tr>
+			<td align="right">水印透明度:</td>
+			<td><input type="text" name="WATER_ALPHA" value="{$Think.config.WATER_ALPHA}" /></td>
+		</tr>
+		<tr>
+			<td align="right">图片压缩比:</td>
+			<td><input type="text" name="WATER_COMPRESSION" value="{$Think.config.WATER_COMPRESSION}" /></td>
+		</tr>
+		<tr>
+			<td align="right">水印文字:</td>
+			<td><input type="text" name="WATER_TEXT" value="{$Think.config.WATER_TEXT}" /></td>
+		</tr>
+		<tr>
+			<td align="right">水印文字旋转角色:</td>
+			<td><input type="text" name="WATER_ANGLE" value="{$Think.config.WATER_ANGLE}" /></td>
+		</tr>
+		<tr>
+			<td align="right">水印文字大小:</td>
+			<td><input type="text" name="WATER_FONTSIZE" value="{$Think.config.WATER_FONTSIZE}" /></td>
+		</tr>
+		<tr>
+			<td align="right">水印文字颜色:</td>
+			<td><input type="text" name="WATER_FONTCOLOR" value="{$Think.config.WATER_FONTCOLOR}" /></td>
+		</tr>
+		<tr>
+			<td align="right">水印文字字体:</td>
+			<td><input type="text" name="WATER_FONTFILE" value="{$Think.config.WATER_FONTFILE}" /></td>
+		</tr>
+		<tr>
+			<td align="right">文字字符编码:</td>
+			<td><input type="text" name="WATER_CHARSET" value="{$Think.config.WATER_CHARSET}" /></td>
+		</tr>
+		<tr><td colspan="2" align="center"><input type="submit" class="submit" value="保存设置" /></td></tr>
+	</table>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

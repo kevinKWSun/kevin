@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>我的诗诗会员中心,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$Think.config.WEB_DESCRIPTION}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/iepng.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#check_all").click(function(){
+		$("input[class='check_list']").prop('checked',$(this).prop('checked'));
+	});
+}); 
+var delmUrl = "{:U('/delm','','')}";
+</script>
+<script type="text/javascript" src="__PUBLIC__/Js/basic.js"></script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom">
+		<a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> <a href="{:U('/oneself')}">会员中心</a> >> <font color="#f66600">{$member}</font>
+	</div> 
+	<div id="member_left">
+		<include file='./Index/Modules/Index/Tpl/Common/left.html' />
+	</div>
+	<div id="member_right">
+		<div class="row-table">
+			<div class="row-table-title">
+				<if condition="$fjx == 3"><a href="{:U('/mails')}">收件箱</a> 发件箱<else />收件箱 <a href="{:U('/mails/','fj=3')}">发件箱</a></if>
+			</div>
+			<div class="row-table-body">
+				<p class="form-title">
+					<a class="pull-right btn btn-primary btn-xs" href="{:U('/send')}" style="color:#FFF;">写信</a>
+					<if condition="$fjx == 1">全部 <a href="{:U('/mails/','fj=2')}">未读</a><elseif condition="$fjx == 2" />
+					<a href="{:U('/mails/','fj=1')}">全部</a> 未读<else />全部</if>
+				</p>
+				<table class="table">
+					<tbody>
+						<tr>
+							<td width="15%">　<input type="checkbox" id="check_all"/></td>
+							<if condition="$fjx == 3">
+							<td>收件人</td>
+							<else />
+							<td>发件人</td>
+							</if>
+							<td>标题</td>
+							<td>时间</td>
+							<td>状态</td>
+							<td>是否回复</td>
+							<td>操作</td>
+						</tr>
+						<foreach name='messages' item='v'>
+						<tr>
+							<td width="15%">　<input type="checkbox" name="message_id[]" value="{$v.id}" class="check_list"></td>
+							<td>{$v.uname}</td>
+							<td><if condition="$fjx == 3"><a href="{:U('/view',array('id'=>$v['id'],'f'=>1))}">{$v.title}</a><else />
+                            <a href="{:U('/view','id='.$v['id'])}">{$v.title}</a></if></td>
+							<td>{$v.send_time|date='Y-m-d H:i:s',###}</td>
+							<td><if condition="$v['read_time'] == 0">未读<else />已读</if></td>
+							<td><if condition="$v['type'] == 0">未回复<else />已回复</if></td>
+							<td><a href="javascript:void();" rel="{$v['id']}" class="delm">删除</a></td>
+						</tr>
+						</foreach>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td><input type="submit" value="删除" class="btn btn-primary btn-xs ids"></td>
+							<td colspan="6">{$page}<div class="clear"></div></td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

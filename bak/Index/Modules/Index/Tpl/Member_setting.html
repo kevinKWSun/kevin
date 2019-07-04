@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>我的诗诗会员中心,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="{$Think.config.WEB_DESCRIPTION}..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="__PUBLIC__/Js/iepng.js" type="text/javascript"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/jquery.cityselect.js"></script>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/timepicker/css/jquery-ui.css" />
+<script type="text/javascript" src="__PUBLIC__/timepicker/js/jquery-ui-datepicker.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#city").citySelect({  
+		url:"/Public/Js/city.min.js",  
+		prov:'<if condition="$user['area'] eq ''">上海<else />{$user.area}</if>', 
+		city:'<if condition="$user['city'] eq ''">浦东新区<else />{$user.city}</if>',
+		nodata:"none"
+	});  
+	$('#time').datepicker({
+		yearRange:'-0:+0',
+		minDate: -30,
+		maxDate: 0
+	}); 
+	$('#date').datepicker({
+		//showWeek: true,
+		yearRange:'-60:+0',
+		maxDate: 0
+	}); 
+});
+var basicUrl = '{:U('/setted','','')}';
+var soUrl = '{:U('/so','','')}';
+var pwdUrl = '{:U('/pwd','','')}';
+var bgUrl = '{:U('/bg','','')}';
+</script>
+<script type="text/javascript" src="__PUBLIC__/Js/basic.js"></script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom">
+		<a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> <a href="{:U('/oneself')}">会员中心</a> >> <font color="#f66600">{$member}</font>
+	</div> 
+	<div id="member_left">
+		<include file='./Index/Modules/Index/Tpl/Common/left.html' />
+	</div>
+	<div id="member_right">
+		<div class="ss_2" id="zoomaTabs" style="margin-top:8px;">
+			<h1>
+				<li class="b" onclick="changTab(this)">基本信息</li>
+				<li onclick="changTab(this)">瘦身信息</li>
+				<li onclick="changTab(this)">修改密码</li>
+				<li onclick="changTab(this)">头像设置</li>
+				<li onclick="changTab(this)">进度条设置</li>
+			</h1>
+			<div class="zoomTabCons">
+				<div class="display">
+					<div class="ss_3">用 户 名 ：<strong>{$username}</strong></div>
+					<div class="ss_3">昵　　称：<input type="text" name="name" value="{$user.nickname}" /></div>
+					<div class="ss_3">邮　　箱：<input type="text" name="mail" value="{$user.email}" /></div>
+					<div class="ss_3">Q Q 　号：<input type="text" name="qqs" value="{$user.qq}" onkeyup="value=value.replace(/[^\d]/g,'') " /></div>
+					<div class="ss_3">电　　话：<input type="text" name="telp" value="{$user.tel}" onkeyup="value=value.replace(/[^\d]/g,'') " /></div>
+					<div class="ss_3">邮政编码：<input type="text" name="codes" value="{$user.code}" onkeyup="value=value.replace(/[^\d]/g,'') " /></div>
+					<div class="ss_3" id="city">所在地区：
+					<select class="prov" name="areas"></select>  
+    				<select class="city" name="citys" disabled="disabled"></select>　
+					</div>
+					<div class="ss_3">详细地址：<input type="text" class="ss_4" name="addresses" value="{$user.address}" /></div>
+					<div class="ss_3">个人签名：<textarea name="signs" class="textarea">{$user.sign}</textarea></div>
+					<div class="ss_3">自我介绍：<textarea name="biogs" class="textarea">{$user.biog}</textarea></div>
+					<div class="ss_3"><center><a id="sbumit" class="sbmits">保存设置</a></center></div> 
+				</div>
+				<div class="undis">
+					<div class="ss_3"><strong><font color='#f66600'>必填项</font></strong></div>
+					<div class="ss_3">
+						瘦身起始日期：<input type="text" name="startdates" id="time" size="10" value="{$user.startdate|date="Y-m-d",###}" onkeyup="value=value.replace(/[^\d-]/g,'') " />　　
+						起始体重：<input type="text" name="stratweights" value="{$user.stratweight}" size="5" onkeyup="value=value.replace(/[^\d]/g,'') " /> KG　　
+						目标体重：<input type="text" name="mweights" value="{$user.mweight}" size="5" onkeyup="value=value.replace(/[^\d]/g,'') " /> KG　<br /><br />
+						出 生 年 月 ：<input type="text" name="birthdays" id="date" size="10" value="{$user.birthday|date="Y-m-d",###}" />　　
+						性　别：<label>　男　<input type="radio" name="sexs" value="1" <if condition="$user['sex']==1">checked="checked"</if> /></label>　<label>女　<input type="radio" name="sexs" value="0" <if condition="$user['sex']==0">checked="checked"</if> /></label>　 
+						身　　高 ：<input type="text" name="heights" size="5" value="{$user.height}" onkeyup="value=value.replace(/[^\d]/g,'') " /> CM　　
+					</div>
+					<div class="ss_3"><strong>选填项</strong></div>
+					<div class="ss_3">
+						目标胸围：<input type="text" name="xwms" value="{$user.xwm}" size="5" onkeyup="value=value.replace(/[^\d]/g,'') " /> CM　
+						目标腰围：<input type="text" name="ywms" value="{$user.ywm}" size="5" onkeyup="value=value.replace(/[^\d]/g,'') " /> CM　
+						目标臀围：<input type="text" name="dwms" value="{$user.dwm}" size="5" onkeyup="value=value.replace(/[^\d]/g,'') " /> CM<br /><br />
+						目标手臂：<input type="text" name="sbwms" value="{$user.sbwm}" size="5" onkeyup="value=value.replace(/[^\d]/g,'') " /> CM　
+						目标大腿：<input type="text" name="dtwms" value="{$user.dtwm}" size="5" onkeyup="value=value.replace(/[^\d]/g,'') " /> CM　
+						目标小腿：<input type="text" name="xtwms" value="{$user.xtwm}" size="5" onkeyup="value=value.replace(/[^\d]/g,'') " /> CM　
+					</div>
+					<div class="ss_3 positions">
+						想瘦部位:　<input type="checkbox" name="positions[]" value="1" <php>if(in_array('1',explode(',',$user['position']))){echo 'checked="checked"';}</php>
+ /> 丰胸　
+						<input type="checkbox" name="positions[]" value="2" <php>if(in_array('2',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 瘦脸　　
+						<input type="checkbox" name="positions[]" value="3" <php>if(in_array('3',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 瘦手臂　　
+						<input type="checkbox" name="positions[]" value="4" <php>if(in_array('4',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 瘦胸　　
+						<input type="checkbox" name="positions[]" value="5" <php>if(in_array('5',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 瘦背　　
+						<input type="checkbox" name="positions[]" value="6" <php>if(in_array('6',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 瘦腰腹<br /><br />　　　　　 
+						<input type="checkbox" name="positions[]" value="7" <php>if(in_array('7',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 瘦臀　　
+						<input type="checkbox" name="positions[]" value="8" <php>if(in_array('8',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 瘦大腿　　
+						<input type="checkbox" name="positions[]" value="9" <php>if(in_array('9',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 瘦小腿　　
+						<input type="checkbox" name="positions[]" value="10" <php>if(in_array('10',explode(',',$user['position']))){echo 'checked="checked"';}</php> /> 肌肉腿
+					</div>
+					<div class="ss_3 styles">
+					工作类型:　<input type="checkbox" name="styles[]" value="1" <php>if(in_array('1',explode(',',$user['style']))){echo 'checked="checked"';}</php> /> 加班族　
+						<input type="checkbox" name="styles[]" value="2" <php>if(in_array('2',explode(',',$user['style']))){echo 'checked="checked"';}</php> /> 久站族　　
+						<input type="checkbox" name="styles[]" value="3" <php>if(in_array('3',explode(',',$user['style']))){echo 'checked="checked"';}</php> /> 新妈妈　　
+						<input type="checkbox" name="styles[]" value="4" <php>if(in_array('4',explode(',',$user['style']))){echo 'checked="checked"';}</php> /> 应酬族　　
+						<input type="checkbox" name="styles[]" value="5" <php>if(in_array('5',explode(',',$user['style']))){echo 'checked="checked"';}</php> /> 办公族　　
+						<input type="checkbox" name="styles[]" value="6" <php>if(in_array('6',explode(',',$user['style']))){echo 'checked="checked"';}</php> /> 学生族
+					</div>
+					<div class="ss_3">公开信息：<input type="checkbox" name="open" value="1" id="opens" <if condition="$user['open']">checked="checked"</if> />　( 如果想公开信息请打勾 )</div>
+					<div class="ss_3">饮食爱好：<textarea name="eatloves" class="textarea">{$user.eatlove}</textarea></div>
+					<div class="ss_3">运动爱好：<textarea name="sportloves" class="textarea">{$user.sportlove}</textarea></div>
+					<div class="ss_3"><center><a id="sbumit" class="soso">保存设置</a></center></div>
+				</div>
+				<div class="undis">
+					<div class="ss_3">原 密 码：<input type="password" name="password" /></div>
+					<div class="ss_3">新 密 码：<input type="password" name="newpwd" /></div>
+					<div class="ss_3">确认密码：<input type="password" name="newpwds" /></div>
+					<div class="ss_3"><center><a id="sbumit" class="user">保存设置</a></center></div>
+				</div>
+				<div class="undis">
+				<form action="{:U('/pic')}" method="post" enctype="multipart/form-data">
+					<div class="ss_5">
+						<div class="imgs mt1">
+							<label for="FileUpload">
+								<if condition="$user['uimgpath'] and $user['uimgpath'] neq '100'"><img src="/Uploads/{$user.uname}/{$user.uimgpath}" width="100" height="100" />
+									<elseif condition="$user['uimgpath'] eq '100'" />
+									<img src="http://qzapp.qlogo.cn/qzapp/101053078/{$user.qq_status}/100" width="100" height="100" />
+									<elseif condition="!$user['uimgpath'] and $user['sex']==1" /><img src="__PUBLIC__/Img/dfboy.png" />
+									<elseif condition="!$user['uimgpath'] and $user['sex']==0" /><img src="__PUBLIC__/Img/dfgirl.png" />
+								</if>
+							</label>
+						</div>
+						<span>
+							<li>请选择您的头像：<input type="file" name="uimg" id="FileUpload" /></li>
+							<li>推荐大小：100*100</li>
+						</span>
+					</div>
+					<div class="ss_3"><center><input style="width:60px; cursor:pointer;" type="submit" value="上传" /></center></div>
+				</form>
+				</div>
+				<div class="undis">
+					<div class="ss_3"><strong>请选择进度背景</strong></div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="61" <if condition="$user['background']==61">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg61.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="62" <if condition="$user['background']==62">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg62.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="1" <if condition="$user['background']==1">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg1.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="2" <if condition="$user['background']==122">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg2.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="3" <if condition="$user['background']==3">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg3.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="4" <if condition="$user['background']==4">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg4.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="5" <if condition="$user['background']==5">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg5.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="6" <if condition="$user['background']==6">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg6.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="7" <if condition="$user['background']==7">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg7.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="8" <if condition="$user['background']==8">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg8.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="9" <if condition="$user['background']==9">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg9.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="10" <if condition="$user['background']==10">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg10.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="11" <if condition="$user['background']==11">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg11.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="12" <if condition="$user['background']==12">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg12.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="13" <if condition="$user['background']==13">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg13.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="14" <if condition="$user['background']==14">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg14.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="15" <if condition="$user['background']==15">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg15.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="16" <if condition="$user['background']==16">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg16.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="17" <if condition="$user['background']==17">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg17.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="18" <if condition="$user['background']==18">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg18.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="19" <if condition="$user['background']==19">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg19.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="20" <if condition="$user['background']==20">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg20.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="21" <if condition="$user['background']==21">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg21.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="22" <if condition="$user['background']==22">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg22.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="23" <if condition="$user['background']==23">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg23.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="24" <if condition="$user['background']==24">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg24.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="25" <if condition="$user['background']==25">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg25.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="26" <if condition="$user['background']==26">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg26.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="27" <if condition="$user['background']==27">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg27.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="28" <if condition="$user['background']==28">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg28.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="29" <if condition="$user['background']==29">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg29.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="30" <if condition="$user['background']==30">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg30.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="31" <if condition="$user['background']==31">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg31.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="32" <if condition="$user['background']==32">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg32.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="33" <if condition="$user['background']==33">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg33.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="34" <if condition="$user['background']==34">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg34.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="35" <if condition="$user['background']==35">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg35.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="36" <if condition="$user['background']==36">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg36.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="37" <if condition="$user['background']==37">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg37.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="38" <if condition="$user['background']==38">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg38.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="39" <if condition="$user['background']==39">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg39.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="40" <if condition="$user['background']==40">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg40.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="41" <if condition="$user['background']==41">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg41.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="42" <if condition="$user['background']==42">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg42.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="43" <if condition="$user['background']==43">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg43.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="44" <if condition="$user['background']==44">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg44.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="45" <if condition="$user['background']==45">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg45.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="46" <if condition="$user['background']==46">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg46.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="47" <if condition="$user['background']==47">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg47.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="48" <if condition="$user['background']==48">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg48.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="49" <if condition="$user['background']==49">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg49.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="50" <if condition="$user['background']==50">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg50.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="51" <if condition="$user['background']==51">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg51.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="52" <if condition="$user['background']==52">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg52.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="53" <if condition="$user['background']==53">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg53.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="54" <if condition="$user['background']==54">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg54.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="55" <if condition="$user['background']==55">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg55.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="56" <if condition="$user['background']==56">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg56.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="57" <if condition="$user['background']==57">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg57.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="58" <if condition="$user['background']==58">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg58.gif" width="335" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="img" value="59" <if condition="$user['background']==59">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg59.gif" width="335" /></label>
+						<label><span><input type="radio" name="img" value="60" <if condition="$user['background']==60">checked="checked"</if> /></span>　<img src="__PUBLIC__/jdt/weightbg60.gif" width="335" /></label>
+					</div>
+					<div class="ss_3"><strong>选择进度指示图案</strong></div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="imgs" value="1" <if condition="$user['point']==1">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint1.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="2" <if condition="$user['point']==2">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint2.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="3" <if condition="$user['point']==3">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint3.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="4" <if condition="$user['point']==4">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint4.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="5" <if condition="$user['point']==5">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint5.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="6" <if condition="$user['point']==6">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint6.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="7" <if condition="$user['point']==7">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint7.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="8" <if condition="$user['point']==8">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint8.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="9" <if condition="$user['point']==9">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint9.gif" /></label>　
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="imgs" value="10" <if condition="$user['point']==10">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint10.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="11" <if condition="$user['point']==11">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint11.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="12" <if condition="$user['point']==12">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint12.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="53" <if condition="$user['point']==53">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint53.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="64" <if condition="$user['point']==64">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint54.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="14" <if condition="$user['point']==14">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint14.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="16" <if condition="$user['point']==16">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint16.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="17" <if condition="$user['point']==17">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint17.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="18" <if condition="$user['point']==18">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint18.gif" /></label>　
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="imgs" value="19" <if condition="$user['point']==19">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint19.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="20" <if condition="$user['point']==20">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint20.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="21" <if condition="$user['point']==21">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint21.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="22" <if condition="$user['point']==22">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint22.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="23" <if condition="$user['point']==23">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint23.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="24" <if condition="$user['point']==24">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint24.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="25" <if condition="$user['point']==25">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint25.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="26" <if condition="$user['point']==26">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint26.gif" /></label>　
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="imgs" value="27" <if condition="$user['point']==27">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint27.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="28" <if condition="$user['point']==28">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint28.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="29" <if condition="$user['point']==29">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint29.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="30" <if condition="$user['point']==30">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint30.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="31" <if condition="$user['point']==31">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint31.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="32" <if condition="$user['point']==32">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint32.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="33" <if condition="$user['point']==33">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint33.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="34" <if condition="$user['point']==34">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint34.gif" /></label>
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="imgs" value="35" <if condition="$user['point']==35">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint35.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="36" <if condition="$user['point']==36">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint36.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="37" <if condition="$user['point']==37">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint37.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="38" <if condition="$user['point']==38">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint38.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="39" <if condition="$user['point']==39">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint39.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="40" <if condition="$user['point']==40">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint40.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="41" <if condition="$user['point']==41">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint41.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="42" <if condition="$user['point']==42">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint42.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="43" <if condition="$user['point']==43">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint43.gif" /></label>　
+					</div>
+					<div class="ss_3 borders">
+						<label><span><input type="radio" name="imgs" value="44" <if condition="$user['point']==44">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint44.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="45" <if condition="$user['point']==45">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint45.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="46" <if condition="$user['point']==46">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint46.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="47" <if condition="$user['point']==47">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint47.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="48" <if condition="$user['point']==48">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint48.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="49" <if condition="$user['point']==49">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint49.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="50" <if condition="$user['point']==50">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint50.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="51" <if condition="$user['point']==51">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint51.gif" /></label>
+						<label><span><input type="radio" name="imgs" value="52" <if condition="$user['point']==52">checked="checked"</if> /> </span> <img src="__PUBLIC__/jdt/weightpoint52.gif" /></label>　
+					</div>
+					<div class="ss_3"><center><a id="sbumit" class="bg">保存设置</a></center></div>
+				</div>
+			</div> 
+		</div>
+		
+		
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+<script type="text/javascript">
+function changTab(objs){
+	var obj = document.getElementById("zoomaTabs");
+	if(obj){
+		var ti=obj.children[0].children;
+		for(i = 0;i<ti.length;i++){
+			if(objs == ti[i]){
+				ti[i].className="b";
+				obj.children[1].children[i].className="display";
+			}else{
+				obj.children[1].children[i].className="undis";	
+				ti[i].className="";
+			}
+		}
+	}	
+}
+</script>
+</body>
+</html>

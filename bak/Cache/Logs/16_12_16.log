@@ -1,0 +1,66 @@
+[ 2016-12-16T02:08:59+08:00 ] 58.62.230.183 /bak/ChangeDb.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003190s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006089s ]
+NOTIC: [8] Undefined variable: group /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/App.class.php 第 95 行.
+ERR: 无法加载模块:ChangeDb.php
+
+[ 2016-12-16T02:08:59+08:00 ] 58.62.230.183 /bak/ChangeDb.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005535s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005693s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002036s ]
+NOTIC: [8] Undefined variable: group /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/App.class.php 第 95 行.
+ERR: 无法加载模块:ChangeDb.php
+
+[ 2016-12-16T02:09:01+08:00 ] 58.62.230.183 /bak/ChangeDb.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001922s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002080s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8] Undefined variable: group /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/App.class.php 第 95 行.
+ERR: 无法加载模块:ChangeDb.php
+
+[ 2016-12-16T02:09:04+08:00 ] 58.62.230.183 /bak/%20ChangeDb.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001920s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002063s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+NOTIC: [8] Undefined variable: group /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/App.class.php 第 95 行.
+ERR: 无法加载模块: ChangeDb.php
+
+[ 2016-12-16T02:09:08+08:00 ] 58.62.230.183 /bak/%20ChangeDb.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined variable: group /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/App.class.php 第 95 行.
+ERR: 无法加载模块: ChangeDb.php
+
+[ 2016-12-16T02:09:08+08:00 ] 58.62.230.183 /bak/%20ChangeDb.php
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002412s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+NOTIC: [8] Undefined variable: group /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/App.class.php 第 95 行.
+ERR: 无法加载模块: ChangeDb.php
+

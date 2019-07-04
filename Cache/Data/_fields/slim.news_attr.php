@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'nid', 1 => 'aid', '_autoinc' => false, '_type' => array ( 'nid' => 'int(10) unsigned', 'aid' => 'int(10) unsigned', ), );?>

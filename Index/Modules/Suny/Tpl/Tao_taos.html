@@ -1,0 +1,14 @@
+<if condition='$c'> 
+<volist id='v' name='c'>
+<tr>
+	<td id='' width='20'><input type='checkbox' name='num_iid[]'value="{$v.num_iid}" /></td>
+	<td width='60'><a href='{$v.item_url}' target='_blank'><img src='{$v.pict_url}' width='100' /></a></td>
+	<td>
+		<a href='{$v.item_url}' target='_blank'>{$v.title}</a><br><br>
+		原价：<span style='text-decoration:line-through;'>{$v.reserve_price}</span> 折后价：{$v.zk_final_price}
+	</td>
+</tr> 
+</volist> 
+<else />
+没有找到所要的结果...
+</if>

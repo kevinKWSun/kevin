@@ -1,0 +1,1289 @@
+[ 2014-04-05T21:06:05+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.039635s ]
+INFO: [ route_check ] --END-- [ RunTime:0.039928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008456s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.127794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128080s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014134s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004241s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004223s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032948s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008356s ]
+
+[ 2014-04-05T21:06:05+08:00 ] 127.0.0.1 /Calorie/Index/view.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003051s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003238s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000541s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002107s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2014-04-05T21:06:06+08:00 ] 127.0.0.1 /Calorie/Add/data.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003448s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8] Undefined index: ConnerCart_1 D:\wamp5.3\www\Index\Class\Cart.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 246 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 247 行.
+NOTIC: [8] Undefined index: ConnerCart_2 D:\wamp5.3\www\Index\Class\Cart2.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 259 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 260 行.
+NOTIC: [8] Undefined index: ConnerCart_4 D:\wamp5.3\www\Index\Class\Cart4.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 272 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 273 行.
+NOTIC: [8] Undefined index: ConnerCart_6 D:\wamp5.3\www\Index\Class\Cart6.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 285 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 286 行.
+NOTIC: [8] Undefined index: ConnerCart_7 D:\wamp5.3\www\Index\Class\Cart7.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 298 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 299 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060321s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000668s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000557s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000453s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002689s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2014-04-05T21:06:07+08:00 ] 127.0.0.1 /Calorie/Index/lists.html?idc=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002839s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003022s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `sun_calories` [ RunTime:0.106328s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 1   [ RunTime:0.036872s ]
+SQL: SELECT * FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 0,8   [ RunTime:0.009784s ]
+NOTIC: [8] Undefined variable: nextPage D:\wamp5.3\www\SunyC#\Extend\Library\ORG\Util\Pages.class.php 第 150 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Cache\Cache\Calorie\e6e63f9dbe282ae3699ae22947c0d841.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030944s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000588s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002622s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2014-04-05T21:06:07+08:00 ] 127.0.0.1 /Calorie/Add/bmrview.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003298s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003492s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8] Undefined index: bmrs D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 396 行.
+
+[ 2014-04-05T21:06:25+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003833s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015459s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000671s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000564s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002651s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000794s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:06:40+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003403s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014513s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002236s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000721s ]
+NOTIC: [2] require_once(./lib/SnsNetwork.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory D:\wamp5.3\www\Index\APPSDK\OpenApiV3.class.php 第 21 行.
+
+[ 2014-04-05T21:06:51+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002629s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013149s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000509s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000472s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002243s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:22+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005381s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005747s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013779s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002378s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:23+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012064s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000479s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002103s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000717s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:24+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002882s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003075s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015031s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002588s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000812s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:24+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003344s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017464s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000504s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:24+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004385s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012414s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000457s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002201s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000780s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:25+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004339s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013293s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000504s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002215s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:25+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004293s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015178s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000663s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:26+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014686s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000635s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000548s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002676s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000702s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:26+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003354s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013518s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002528s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:27+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003180s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016122s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002207s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:27+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015985s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000709s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002417s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000658s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000776s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:28+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003150s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013757s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000691s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000525s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002552s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:29+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015434s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000544s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002661s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:29+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003939s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016081s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000477s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000462s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002122s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:29+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000731s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:46+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003304s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017186s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000580s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000922s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001086s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:46+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012602s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002313s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:47+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015102s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000612s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002581s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:47+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003985s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016283s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000560s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000701s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000846s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:48+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002997s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014870s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000573s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000555s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002614s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:08:48+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003236s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003470s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015361s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000538s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000443s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:09:15+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002899s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013137s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000555s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000606s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002505s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:09:16+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003685s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003927s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015107s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000307s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002173s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000845s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:09:17+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000487s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:09:17+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015233s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:09:17+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015042s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000618s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002373s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000732s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:09:18+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003238s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000656s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002297s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000609s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:50+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003287s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003511s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016836s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000777s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000548s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002719s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:51+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003998s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004256s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014137s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002247s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:51+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002612s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000487s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:52+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003710s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000444s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002141s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:52+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003516s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003736s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015342s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000518s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000516s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000627s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:52+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003862s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004115s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016808s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000761s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002515s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:52+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002590s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013564s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000466s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000710s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:52+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006331s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000622s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004234s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006605s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000843s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:53+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002718s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012567s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002162s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:53+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002479s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002367s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:54+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002604s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002783s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000875s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002662s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:54+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002598s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012901s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000512s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002159s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000716s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:54+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003087s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015175s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002169s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000626s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:55+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002624s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012844s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:55+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014380s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002159s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:56+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002613s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013362s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000536s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000617s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:13:56+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002490s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002664s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012535s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000488s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002155s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 112 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 113 行.
+
+[ 2014-04-05T21:17:07+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002556s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002753s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013449s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000564s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002767s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 122 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 123 行.
+
+[ 2014-04-05T21:17:08+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005687s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006044s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013021s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002256s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000782s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 122 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 123 行.
+
+[ 2014-04-05T21:17:08+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015138s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000506s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002226s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined index: openid D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 122 行.
+NOTIC: [8] Undefined index: openkey D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 123 行.
+
+[ 2014-04-05T21:25:04+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002926s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015089s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000552s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002759s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-04-05T21:25:05+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004266s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012936s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000505s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000606s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-04-05T21:25:05+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002589s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002768s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000471s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000313s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002249s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2014-04-05T21:25:06+08:00 ] 127.0.0.1 /Calorie/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004376s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017840s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000576s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002352s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000823s ]
+

@@ -1,0 +1,322 @@
+[ 2014-04-15T20:50:33+08:00 ] 115.174.46.129 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013094s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000445s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000375s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000315s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001801s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2014-04-15T20:50:34+08:00 ] 115.174.46.129 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:50:35+08:00 ] 115.174.46.129 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013073s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000406s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001840s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2014-04-15T20:50:35+08:00 ] 115.174.46.129 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:50:37+08:00 ] 115.174.46.129 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:50:38+08:00 ] 115.174.46.129 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:50:38+08:00 ] 115.174.46.129 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001128s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:50:39+08:00 ] 115.174.46.129 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001112s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:52:04+08:00 ] 115.174.46.129 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012400s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000364s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000369s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000394s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001745s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2014-04-15T20:52:04+08:00 ] 115.174.46.129 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001027s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:56:35+08:00 ] 115.174.46.129 /loginc/type/qq.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001766s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+
+[ 2014-04-15T20:56:38+08:00 ] 115.174.46.129 /callback?type=qq&code=0727E3C87419D992B715E206C811B177
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001118s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001230s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.000815s ]
+SQL: SELECT `uid`,`uname`,`score`,`login`,`last_login_time` FROM `sun_member` WHERE ( `qq_status` = '9A91B92BB1DE510C4ACB2D1E3900C065' ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: UPDATE `sun_member` SET `login`=3,`last_login_ip`='115.174.46.129',`last_login_time`=1397566598 WHERE ( `uid` = 6 ) [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007647s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000364s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001709s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2014-04-15T20:56:39+08:00 ] 115.174.46.129 /myself.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006828s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000367s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001831s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000724s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-04-15T20:56:41+08:00 ] 115.174.46.129 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001156s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000622s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002681s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000797s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2014-04-15T20:56:41+08:00 ] 115.174.46.129 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:56:53+08:00 ] 115.174.46.129 /verify/0.5717560919592127
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001234s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Extend/Library/ORG/Util/Image.class.php 第 550 行.
+
+[ 2014-04-15T20:58:17+08:00 ] 171.125.228.201 /Calorie/Index/lists/idc/4/p/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001264s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [8] Undefined index:  idcs /home/wwwroot/slim_shaiyy_com/public_html/Index/Modules/Calorie/Action/IndexAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sun_calories` [ RunTime:0.000776s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sun_calories` WHERE ( `a_name` = '消耗' ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: SELECT * FROM `sun_calories` WHERE ( `a_name` = '消耗' ) LIMIT 8,8   [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  idcs /home/wwwroot/slim_shaiyy_com/public_html/Cache/Cache/Calorie/000b5257abbf6645430452ceed4e7133.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014426s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000354s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000381s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000553s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2014-04-15T20:58:21+08:00 ] 171.125.228.201 /Calorie/Index/lists/idc/4/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Common/functions.php 第 566 行.
+NOTIC: [8] Undefined index:  idcs /home/wwwroot/slim_shaiyy_com/public_html/Index/Modules/Calorie/Action/IndexAction.class.php 第 75 行.
+SQL: SHOW COLUMNS FROM `sun_calories` [ RunTime:0.000644s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sun_calories` WHERE ( `a_name` = '消耗' ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT * FROM `sun_calories` WHERE ( `a_name` = '消耗' ) LIMIT 0,8   [ RunTime:0.000161s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  idcs /home/wwwroot/slim_shaiyy_com/public_html/Cache/Cache/Calorie/000b5257abbf6645430452ceed4e7133.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000392s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002202s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /home/wwwroot/slim_shaiyy_com/public_html/index.php:1) /home/wwwroot/slim_shaiyy_com/public_html/SunyC#/Lib/Core/View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000634s ]
+

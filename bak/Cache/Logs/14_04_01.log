@@ -1,0 +1,515 @@
+[ 2014-04-01T16:18:58+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.024910s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.019558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019898s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.299429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.299819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.015941s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004203s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.035077s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008268s ]
+
+[ 2014-04-01T16:18:59+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002830s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+
+[ 2014-04-01T16:19:53+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021872s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000767s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000600s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003219s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2014-04-01T16:19:54+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.020070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020323s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+
+[ 2014-04-01T16:20:17+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002968s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022427s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000997s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000861s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000659s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000825s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2014-04-01T16:20:17+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001855s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+
+[ 2014-04-01T16:20:26+08:00 ] 127.0.0.1 /qqlogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp5.3\www\Index\qq_login\qqConnectAPI.class.php 第 2 行.
+NOTIC: [8] Undefined index: state D:\wamp5.3\www\Index\qq_login\class\Oauth.class.php 第 57 行.
+NOTIC: [8] Undefined index: code D:\wamp5.3\www\Index\qq_login\class\Oauth.class.php 第 67 行.
+NOTIC: [2] file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? D:\wamp5.3\www\Index\qq_login\class\URL.class.php 第 49 行.
+NOTIC: [2] file_get_contents(https://graph.qq.com/oauth2.0/token?grant_type=authorization_code&amp;client_id=101053078&amp;redirect_uri=http%3A%2F%2Fslim.shaiyy.com&amp;client_secret=7c90916d098ddcd2113b84f6ff3bc57c&amp;code=) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\wamp5.3\www\Index\qq_login\class\URL.class.php 第 49 行.
+
+[ 2014-04-01T16:21:05+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+
+[ 2014-04-01T16:21:19+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002196s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001055s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000960s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001447s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005311s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2014-04-01T16:21:19+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+
+[ 2014-04-01T20:17:08+08:00 ] 127.0.0.1 /Calorie/Index/klljf.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.045495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.074326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.019149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019412s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.176314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176650s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010005s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.013417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.013575s ]
+
+[ 2014-04-01T20:17:09+08:00 ] 127.0.0.1 /Calorie/Index/view.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002447s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002607s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057871s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000946s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000832s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003648s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000972s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2014-04-01T20:17:10+08:00 ] 127.0.0.1 /Calorie/Add/data.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002658s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [8] Undefined index: ConnerCart_1 D:\wamp5.3\www\Index\Class\Cart.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 246 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 247 行.
+NOTIC: [8] Undefined index: ConnerCart_2 D:\wamp5.3\www\Index\Class\Cart2.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 259 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 260 行.
+NOTIC: [8] Undefined index: ConnerCart_4 D:\wamp5.3\www\Index\Class\Cart4.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 272 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 273 行.
+NOTIC: [8] Undefined index: ConnerCart_6 D:\wamp5.3\www\Index\Class\Cart6.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 285 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 286 行.
+NOTIC: [8] Undefined index: ConnerCart_7 D:\wamp5.3\www\Index\Class\Cart7.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 298 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 299 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099381s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000561s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000521s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002347s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2014-04-01T20:17:12+08:00 ] 127.0.0.1 /Calorie/Index/lists.html?idc=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `sun_calories` [ RunTime:0.277619s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 1   [ RunTime:0.072244s ]
+SQL: SELECT * FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 0,8   [ RunTime:0.000707s ]
+NOTIC: [8] Undefined variable: nextPage D:\wamp5.3\www\SunyC#\Extend\Library\ORG\Util\Pages.class.php 第 150 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Cache\Cache\Calorie\e6e63f9dbe282ae3699ae22947c0d841.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066702s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000855s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004027s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001152s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2014-04-01T20:17:12+08:00 ] 127.0.0.1 /Calorie/Add/bmrview.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006165s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] Undefined index: bmrs D:\wamp5.3\www\Index\Modules\Calorie\Action\AddAction.class.php 第 396 行.
+
+[ 2014-04-01T20:17:25+08:00 ] 127.0.0.1 /Calorie/Index/lists/idc/1/p/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005981s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `sun_calories` [ RunTime:0.003491s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: SELECT * FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 8,8   [ RunTime:0.000524s ]
+NOTIC: [8] Undefined variable: nextPage D:\wamp5.3\www\SunyC#\Extend\Library\ORG\Util\Pages.class.php 第 150 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Cache\Cache\Calorie\e6e63f9dbe282ae3699ae22947c0d841.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026472s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000685s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002887s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-04-01T20:17:26+08:00 ] 127.0.0.1 /Calorie/Index/lists/idc/1/p/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004784s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Index\Modules\Calorie\Action\IndexAction.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `sun_calories` [ RunTime:0.002738s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT * FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 16,8   [ RunTime:0.000330s ]
+NOTIC: [8] Undefined variable: nextPage D:\wamp5.3\www\SunyC#\Extend\Library\ORG\Util\Pages.class.php 第 150 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Cache\Cache\Calorie\e6e63f9dbe282ae3699ae22947c0d841.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012522s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000470s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000588s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002343s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2014-04-01T20:17:30+08:00 ] 127.0.0.1 /list-kll.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067086s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000750s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000737s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000438s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003156s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2014-04-01T20:17:34+08:00 ] 127.0.0.1 /list-view.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000696s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001007s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003120s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2014-04-01T20:17:34+08:00 ] 127.0.0.1 /list-data.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined index: ConnerCart_1 D:\wamp5.3\www\Index\Class\Cart.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 281 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 282 行.
+NOTIC: [8] Undefined index: ConnerCart_2 D:\wamp5.3\www\Index\Class\Cart2.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 294 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 295 行.
+NOTIC: [8] Undefined index: ConnerCart_4 D:\wamp5.3\www\Index\Class\Cart4.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 307 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 308 行.
+NOTIC: [8] Undefined index: ConnerCart_6 D:\wamp5.3\www\Index\Class\Cart6.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 320 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 321 行.
+NOTIC: [8] Undefined index: ConnerCart_7 D:\wamp5.3\www\Index\Class\Cart7.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 333 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 334 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078570s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000502s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000493s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002151s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2014-04-01T20:17:34+08:00 ] 127.0.0.1 /list-lists.html?idc=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012489s ]
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Index\Modules\Index\Action\CalAction.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `sun_calories` [ RunTime:0.003120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 1   [ RunTime:0.000851s ]
+SQL: SELECT * FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 0,8   [ RunTime:0.000512s ]
+NOTIC: [8] Undefined variable: nextPage D:\wamp5.3\www\SunyC#\Extend\Library\ORG\Util\Pages.class.php 第 150 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Cache\Cache\Index\875f8ae58e5f23e0a28a1b80778862b5.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060406s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000664s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000648s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002854s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2014-04-01T20:17:34+08:00 ] 127.0.0.1 /list-bmrview.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002390s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [8] Undefined index: bmrs D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 430 行.
+
+[ 2014-04-01T20:20:49+08:00 ] 127.0.0.1 /list-kll.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002756s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020635s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000834s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000654s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000533s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003296s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2014-04-01T20:20:49+08:00 ] 127.0.0.1 /list-view.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003080s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001373s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000551s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003304s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2014-04-01T20:20:49+08:00 ] 127.0.0.1 /list-data.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001665s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [8] Undefined index: ConnerCart_1 D:\wamp5.3\www\Index\Class\Cart.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 281 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 282 行.
+NOTIC: [8] Undefined index: ConnerCart_2 D:\wamp5.3\www\Index\Class\Cart2.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 294 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 295 行.
+NOTIC: [8] Undefined index: ConnerCart_4 D:\wamp5.3\www\Index\Class\Cart4.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 307 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 308 行.
+NOTIC: [8] Undefined index: ConnerCart_6 D:\wamp5.3\www\Index\Class\Cart6.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 320 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 321 行.
+NOTIC: [8] Undefined index: ConnerCart_7 D:\wamp5.3\www\Index\Class\Cart7.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant item - assumed 'item' D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 333 行.
+NOTIC: [2] array_slice() expects parameter 1 to be array, null given D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 334 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035845s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000508s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002174s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2014-04-01T20:20:49+08:00 ] 127.0.0.1 /list-lists.html?idc=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002575s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002775s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Index\Modules\Index\Action\CalAction.class.php 第 51 行.
+SQL: SHOW COLUMNS FROM `sun_calories` [ RunTime:0.018004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 1   [ RunTime:0.000843s ]
+SQL: SELECT * FROM `sun_calories` WHERE ( `a_name` = '摄入' ) LIMIT 0,8   [ RunTime:0.000674s ]
+NOTIC: [8] Undefined variable: nextPage D:\wamp5.3\www\SunyC#\Extend\Library\ORG\Util\Pages.class.php 第 150 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: idcs D:\wamp5.3\www\Cache\Cache\Index\875f8ae58e5f23e0a28a1b80778862b5.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017389s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000649s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000795s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000565s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2014-04-01T20:20:50+08:00 ] 127.0.0.1 /list-bmrview.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002817s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Undefined index: bmrs D:\wamp5.3\www\Index\Modules\Index\Action\AddAction.class.php 第 430 行.
+

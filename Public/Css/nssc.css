@@ -1,0 +1,512 @@
+﻿.span12 {width: 470px; float: left; min-height: 1px; margin-right: 10px}
+.red{ color:#F69}
+.module-title {height: 40px; line-height: 40px;  }
+.module-title span{ float: left; padding: 0 10px;  font-size: 18px; font-weight: bold; background: #f69; color: #fff}
+.row {margin-right: -10px; *zoom: 1}
+.row:before, .row:after {display: table; line-height: 0; content: ""}
+.row:after {clear: both}
+.margin40 {margin-bottom: 40px}
+.margin20{ margin-bottom:20px}
+p{ text-indent:2em;}
+#nssc{
+  font-family: Verdana,"microsoft yahei","STHeiti";
+  color: #666;
+  }
+h1,h2,h3,h4{
+  font-family: Verdana,"microsoft yahei","STHeiti";
+  font-weight: lighter;
+}
+
+.justify{
+  text-align: justify;
+}
+
+.broadcast{
+  display: none !important;
+}
+
+.pop-apply-wrap { width:490px; margin-left:-245px; }
+.pop-apply div { width:178px; padding:15px; border:1px solid #CCC; text-align:center; background:#F3F3F3; }
+.pop-apply div.float-left { background:#f4faf0; border-color:#d3e9c3; }
+.pop-apply div.float-right { background:#fff6fa; border-color:#ffd9e9; }
+
+#nssc #toolbar{
+  height: 110px;
+  }
+#nssc #toolbar div{
+  width: 950px;
+  height: 108px;
+  bottom: 0;
+  border-top: 2px solid #fff;
+  }
+#nssc #toolbar div.static{
+  position: static;
+  background: #fff;
+  }
+#nssc #toolbar div.fixed{
+  position: fixed;
+  background: rgb(255,245,245);
+  background: rgba(255,245,245,0.9);
+  }
+
+#nssc ul.photo-wall{
+  margin-bottom: 30px; 
+  }
+#nssc ul.photo-wall li {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 230px;
+  height: 310px;
+  margin: 0 10px 10px 0;
+}
+
+#nssc ul.photo-wall li dl {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90px;
+  line-height: 30px;
+  padding: 10px 0;
+  background: #f9f9f9; 
+  }
+#nssc ul.photo-wall li dl dt {
+  text-indent: 15px;
+  font-size: 16px;
+  color: #333333; 
+  }
+#nssc ul.photo-wall li dl dd {
+  text-indent: 15px; 
+}
+
+#nssc ul.photo-wall li img {
+  height: 100%;
+  display: block;
+  }
+#nssc ul.photo-wall li span{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 75px;
+  height: 100px;
+  border: 10px solid #fff;
+  border-width: 2px 2px 0 0;
+  }
+#nssc ul.photo-wall li.cover span{
+  width: 150px;
+  height: 200px;
+  }
+
+#nssc ul.photo-wall li b {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid #fff;
+  border-width: 2px 0 0 2px;
+  text-align: center;
+  font-weight: lighter;
+  background: #f69;
+  color: #fff; }
+#nssc ul.photo-wall li b i {
+  font-family: "Trebuchet MS";
+  font-size: 30px; }
+
+#nssc ul.photo-wall li a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 230px;
+  height: 310px;
+  background: url(/Public/Img/blank.png); 
+  }
+#nssc ul.photo-wall li.cover,
+#nssc ul.photo-wall li.cover a {
+  width: 470px;
+  height: 630px; 
+}
+
+#nssc .principle-show{
+  height: 420px;
+  line-height: 35px;
+  padding: 40px 0 0 480px;
+  margin-bottom: 20px;
+  text-align: justify;
+  font-size: 16px;
+  background: url(/Public/Img/pic.jpg) no-repeat 0 0;
+  }
+#nssc .principle-show dl{
+  line-height: 40px;
+  border: 1px solid #ddd;
+  border-width: 1px 0;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  text-align: center;
+  }
+#nssc .principle-show dt{
+  font-size: 20px;
+  }
+#nssc .principle-show dd{
+  font-size: 16px;
+}
+
+#nssc .comments-list{
+  border-bottom: 1px solid #ddd;
+  }
+#nssc .comments-list li {
+  position: relative;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  margin: 0 10px 0 0;
+  }
+#nssc .comments-list li .illus {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  background: url(/Public/Img/blank.png);}
+#nssc .comments-list li dl {
+  line-height: 30px; 
+  padding: 0 15px 0 90px;
+  }
+#nssc .comments-list li dl dt {
+  height: 90px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  }
+#nssc .comments-list li dl dd{
+  height: 30px;
+}
+
+.purchase .service-intro{
+  height: 150px;
+  }
+.purchase .service-intro dl{
+  float: left;
+  width: 290px;
+  height: 130px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  }
+.purchase .service-intro .list1{
+  margin-right: 10px;
+  border-color: #f69;
+  }
+.purchase .service-intro .list2{
+  border-color: #6cf;
+  
+  }
+.purchase .service-intro .list3{
+  float: right;
+  border-color: #6c0;
+}
+.purchase .service-intro dt{
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+  }
+.purchase .service-intro dd{
+  font-size: 14px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.purchase .services-list{
+  height: 300px;
+  }
+.purchase .services-list section{
+  float: left;
+  width: 310px;
+  height: 300px;
+  margin-right: 10px;
+  font-size: 16px;
+  background: #fff7fa;
+  }
+.purchase .services-list section.list3{
+  float: right;
+  margin-right: 0;
+  }
+.purchase .services-list section h3{
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  background: #f69;
+  color: #fff;
+}
+.purchase .services-list section ul{
+  line-height: 30px;
+  margin: 10px 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  }
+.purchase .services-list section li{
+  list-style: disc inside;
+}
+.purchase .services-list section dl{
+  margin: 0 40px 10px;
+  text-align: center;
+  }
+.purchase .services-list section dt{
+  line-height: 30px;
+  margin-bottom: 10px;
+  }
+.purchase .services-list section.list1 dt{
+  line-height: 60px;
+}
+.purchase .services-list section a,
+.purchase .reorder-list section a{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  }
+.purchase .services-list section a:hover,
+.purchase .reorder-list section a:hover{
+  background-position: 0 100%;
+}
+
+.purchase .reorder-list{
+  height: 260px;
+  }
+.purchase .reorder-list section{
+  float: left;
+  width:310px;
+  height: 260px;
+  font-size: 16px;
+  background: #fff7fa;
+  }
+.purchase .reorder-list section h3{
+  line-height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  background: #f69;
+  color: #fff;
+  }
+.purchase .reorder-list section.list1{
+  margin-right: 10px;
+}
+.purchase .reorder-list section.list3{
+  float: right;
+}
+.purchase .reorder-list section ul{
+  padding: 0 0 10px;
+  line-height: 30px;
+  margin: 0 40px 10px;
+  border-bottom: 1px solid #ddd;
+}
+.purchase .reorder-list section p{
+  margin-bottom: 10px;
+  text-indent:2em;
+}
+.purchase .reorder-list section li{
+  list-style: disc inside;
+}
+
+
+#nssc .purchase .banner{
+  margin-bottom: 20px;
+  }
+#nssc .purchase .banner img{
+  display: block;
+}
+
+#nssc .faq-list aside{
+  background: #f7fcff;
+}
+#nssc .faq-list aside dl{
+  border-bottom: 2px solid #fff;
+  }
+#nssc .faq-list aside dt{
+  padding: 0 10px;
+  line-height: 40px;
+  height: 40px;
+  font-size:16px;
+  background: #ffeff5;
+  color: #333;
+  cursor: pointer;
+  }
+#nssc .faq-list aside dt b{
+  float: left;
+  }
+#nssc .faq-list aside dt span{
+  width: 20px;
+  text-align: center;
+  font: 20px/40px "microsoft yahei";
+  float: right;
+}
+
+#nssc .faq-list aside dd{
+  display: none;
+}
+
+#nssc .faq-list aside li{
+  zoom:1;
+  border-top: 1px solid #eee;
+  }
+#nssc .faq-list aside li a{
+  display: block;
+  padding:0 10px;
+  line-height: 35px;
+  color:#666;
+  }
+#nssc .faq-list aside li a.current,
+#nssc .faq-list aside li a:hover{
+  background: #e0f5ff;
+}
+
+#nssc .faq-list article{
+  line-height: 2;
+  padding-left: 10px;
+  font-size: 16px;
+  }
+#nssc .faq-list article p,
+#nssc .faq-list article ul,
+#nssc .faq-list article ol{
+  margin-bottom: 1em;
+}
+
+#nssc .faq-list article ul li{
+  list-style: disc outside;
+  margin-left: 1em;
+}
+
+#nssc .faq-list article section div{
+  display: none;
+  }
+#nssc .faq-list article section div div{
+  display: block;
+}
+
+#nssc .faq-list article h2{
+  line-height: normal;
+  height: 40px;
+  font-size: 20px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#nssc .faq-list article h3{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pay-intro span{  
+  background:url(/Public/Img/blank.png) no-repeat;
+  border:#ccc solid 1px; 
+  width:90px; 
+  height:30px; 
+  overflow:hidden; 
+  text-indent:-999em; 
+  float:left; 
+  margin:10px 10px 0 0; 
+  }
+.pay-intro div{
+  overflow: auto;
+  height: 1%;
+  } 
+#bank-zhifubao { background-position:0 0; }
+#bank-kuaiqian { background-position:0 -30px; }
+#bank-caifutong { background-position:0 -60px; }
+#bank-paypal { background-position:0 -90px; }
+#bank-icbc { background-position:-90px 0; }
+#bank-abc { background-position:-90px -30px; }
+#bank-bocb { background-position:-90px -60px; }
+#bank-ccb { background-position:-90px -90px; }
+#bank-comm { background-position:-90px -120px; }
+#bank-cmb { background-position:-90px -150px; }
+#bank-spdb { background-position:-90px -180px; }
+#bank-cib { background-position:-90px -210px; }
+#bank-citic { background-position:-90px -240px; }
+#bank-cmbc { background-position:-90px -270px; }
+#bank-yhhk { background-position:-180px 0px; }
+#bank-yzhk { background-position:-180px -30px; }
+#bank-master { background-position:-270px 0px; }
+#bank-visa { background-position:-270px -30px; }
+
+#nssc .principle{
+  font-size: 16px;
+  }
+#nssc .principle .banner{
+  line-height: 35px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+#nssc .principle article{
+  line-height: 2;
+  }
+#nssc .principle article section{
+  padding: 10px 10px 0;
+  border-top: 1px solid #ddd;
+  }
+#nssc .principle article p{
+  margin-bottom: 1em;
+}
+
+#nssc .compare{
+  width: 100%;
+  overflow: hidden;
+  line-height: 40px;
+  border-bottom: 1px solid #ddd;
+  }
+#nssc .compare h3{
+  line-height: 50px;
+  padding: 0 15px;
+  border-bottom: 2px solid #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  }
+#nssc .compare dt{
+  padding: 0 15px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  }
+#nssc .compare dd{
+  line-height: 30px;
+  padding: 5px 30px;
+  font-size: 14px;
+  }
+#nssc .compare .our h3{
+  background: #e4f1cc;
+  }
+#nssc .compare .our dt{
+  background: #f1f8e5;
+  }
+#nssc .compare .other h3{
+  background: #ffe0eb;
+  }
+#nssc .compare .other dt{
+  background: #ffeff5;
+}
+
+#nssc .comments aside dl{
+  line-height: 30px;
+  padding: 5px 15px;
+  border-top: 1px solid #eee;
+  background: #f7fcff;
+  }
+#nssc .comments aside dl dt{
+  font-size: 16px;
+  }
+#nssc .comments aside dl dt a{
+  color: #333;
+  }
+#nssc .comments aside dl dd{
+  text-align: right;
+  color: #999;
+}

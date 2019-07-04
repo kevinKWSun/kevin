@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<title>淘宝客商品</title>
+<meta name="keywords" content="淘宝客商品,{$Think.config.WEB_KEYWORD}" />
+<meta name="description" content="淘宝客商品,{$Think.config.WEB_DESCRIPTION}..." />
+<style>
+.taob{
+	float:left;
+	width:311px;
+	margin-bottom:8px;
+	padding-left:10px;
+	overflow:hidden;
+}
+</style>
+</head>
+<body>
+<table class="table">
+	<thead>
+		<tr>
+			<td><volist name='cids' id='c'>
+			<a href='/Suny/Tao/?cid={$c.id}' class="bt2">{$c.name}</a>
+			</volist>
+			</td>
+		</tr>
+	</thead>
+</table>
+<volist name='t' id='v'>
+	<div class='taob'>
+		<a data-type="0" biz-itemid="{$v.num_iid}" data-tmpl="290x380" 
+		data-tmplid="5" data-rd="2" data-style="2" data-border="1" 
+		href="https://item.taobao.com/item.htm?id={$v.num_iid}"></a>
+	</div>
+</volist>
+<script type="text/javascript">
+    (function(win,doc){
+        var s = doc.createElement("script"), h = doc.getElementsByTagName("head")[0];
+        if (!win.alimamatk_show) {
+            s.charset = "utf-8";
+            s.async = true;
+            s.src = "http://a.alimama.cn/tkapi.js";
+            h.insertBefore(s, h.firstChild);
+        };
+        var o = {
+            pid: "mm_16385995_10080476_40974572",/*推广单元ID，用于区分不同的推广渠道*/
+            appkey: "23196497",/*通过TOP平台申请的appkey，设置后引导成交会关联appkey*/
+            unid: "123654",/*自定义统计字段*/
+            type: "click" /* click 组件的入口标志 （使用click组件必设）*/
+        };
+        win.alimamatk_onload = win.alimamatk_onload || [];
+        win.alimamatk_onload.push(o);
+    })(window,document);
+	
+</script>
+</body>
+</html>

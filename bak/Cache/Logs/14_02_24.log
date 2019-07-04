@@ -1,0 +1,1099 @@
+[ 2014-02-24T14:52:15+08:00 ] 127.0.0.1 /home/user/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018586s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019123s ]
+ERR: 无法加载模块:home
+
+[ 2014-02-24T15:05:55+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010354s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `sun_news` [ RunTime:0.081465s ]
+SQL: SHOW COLUMNS FROM `sun_news_attr` [ RunTime:0.017680s ]
+SQL: SHOW COLUMNS FROM `sun_attr` [ RunTime:0.020109s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.051638s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001376s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000988s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 23 ) ORDER BY id DESC LIMIT 0,9   [ RunTime:0.000791s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.032540s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.001054s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 6,6   [ RunTime:0.000667s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000934s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000843s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 4 ) ORDER BY id DESC LIMIT 0,3   [ RunTime:0.000710s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.060941s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001706s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001773s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 3 ) ORDER BY id DESC LIMIT 0,4   [ RunTime:0.007293s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000793s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000959s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000791s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000761s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000813s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000830s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 10 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000593s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000624s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000832s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000728s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000705s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000703s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000809s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000824s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000723s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000733s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000803s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000667s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000700s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000693s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000778s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000708s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000722s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000535s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000682s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000543s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000557s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000518s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000724s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000559s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000532s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000637s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000759s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000710s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000583s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000554s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000612s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000472s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000514s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000520s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000620s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000645s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000483s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000462s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000769s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000474s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000571s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000466s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 26 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000412s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000741s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000789s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000727s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 27 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.002611s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:1.552320s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.552535s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003872s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004518s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030234s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008149s ]
+
+[ 2014-02-24T15:08:57+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.038341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.038569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046298s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000703s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000542s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003186s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000888s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2014-02-24T15:08:57+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002081s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2014-02-24T15:09:15+08:00 ] 127.0.0.1 /logins
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001960s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.122375s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = 'karrysun007' ) AND ( `pwd` = 'af1776eafdd64d2be5f58246769b7f9f' ) AND ( `mstatus` = 1 ) LIMIT 1   [ RunTime:0.000784s ]
+
+[ 2014-02-24T15:09:25+08:00 ] 127.0.0.1 /logins
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003764s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.005825s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = 'karrysun' ) AND ( `pwd` = '168521cf6324fb22f27fe305cebd783b' ) AND ( `mstatus` = 1 ) LIMIT 1   [ RunTime:0.001014s ]
+SQL: UPDATE `sun_member` SET `login`=15,`score`=2088,`last_login_ip`='127.0.0.1',`last_login_time`=1393225765 WHERE ( `uid` = 1 ) [ RunTime:0.076661s ]
+
+[ 2014-02-24T15:09:26+08:00 ] 127.0.0.1 /oneself.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003148s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003055s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000594s ]
+NOTIC: [8] Undefined variable: scores D:\wamp5.3\www\Index\Modules\Index\Action\MemberAction.class.php 第 16 行.
+NOTIC: [8] Undefined variable: scores D:\wamp5.3\www\Index\Modules\Index\Action\MemberAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063776s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000649s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000617s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000741s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003198s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2014-02-24T15:15:02+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `sun_news` [ RunTime:0.003047s ]
+SQL: SHOW COLUMNS FROM `sun_news_attr` [ RunTime:0.002284s ]
+SQL: SHOW COLUMNS FROM `sun_attr` [ RunTime:0.002541s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000728s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000687s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 23 ) ORDER BY id DESC LIMIT 0,9   [ RunTime:0.000596s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000714s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000389s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 6,6   [ RunTime:0.000500s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000570s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000542s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 4 ) ORDER BY id DESC LIMIT 0,3   [ RunTime:0.000609s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001727s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001373s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001485s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 3 ) ORDER BY id DESC LIMIT 0,4   [ RunTime:0.000699s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000631s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000744s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000764s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000635s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000690s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000647s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 10 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000535s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000549s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001035s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000712s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000603s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000605s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000627s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000609s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000732s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000717s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000541s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000582s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000672s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000660s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000590s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000821s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000611s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000626s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000919s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000771s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000649s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000461s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000490s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000800s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000493s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000454s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000455s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000456s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000846s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000797s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000512s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000567s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000802s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000560s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000509s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000593s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000605s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000658s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000524s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000464s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000793s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 26 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000638s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000742s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000666s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000639s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 27 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000477s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.350018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.350190s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000669s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002994s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000771s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2014-02-24T15:15:52+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023467s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001396s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001159s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005504s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001539s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2014-02-24T15:15:52+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002968s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+
+[ 2014-02-24T15:16:04+08:00 ] 127.0.0.1 /logins
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004685s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.002880s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = 'karrysun007' ) AND ( `pwd` = 'af1776eafdd64d2be5f58246769b7f9f' ) AND ( `mstatus` = 1 ) LIMIT 1   [ RunTime:0.000447s ]
+
+[ 2014-02-24T15:18:45+08:00 ] 127.0.0.1 /logins
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003794s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003789s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = 'karrysun007' ) AND ( `pwd` = 'af1776eafdd64d2be5f58246769b7f9f' ) AND ( `mstatus` = 1 ) LIMIT 1   [ RunTime:0.000671s ]
+
+[ 2014-02-24T15:19:42+08:00 ] 127.0.0.1 /reg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003451s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.106408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106590s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004753s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003855s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008389s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008552s ]
+
+[ 2014-02-24T15:19:42+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002873s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+
+[ 2014-02-24T15:21:24+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.143525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143743s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005034s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004213s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008406s ]
+
+[ 2014-02-24T15:21:25+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+
+[ 2014-02-24T15:21:38+08:00 ] 127.0.0.1 /logins
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.005197s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = 'karrysun' ) AND ( `pwd` = '168521cf6324fb22f27fe305cebd783b' ) AND ( `mstatus` = 1 ) LIMIT 1   [ RunTime:0.000947s ]
+SQL: UPDATE `sun_member` SET `login`=16,`score`=2090,`last_login_ip`='127.0.0.1',`last_login_time`=1393226498 WHERE ( `uid` = 1 ) [ RunTime:0.000821s ]
+
+[ 2014-02-24T15:21:40+08:00 ] 127.0.0.1 /oneself.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003227s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.002842s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000375s ]
+NOTIC: [8] Undefined variable: scores D:\wamp5.3\www\Index\Modules\Index\Action\MemberAction.class.php 第 16 行.
+NOTIC: [8] Undefined variable: scores D:\wamp5.3\www\Index\Modules\Index\Action\MemberAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002278s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001690s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007446s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002111s ]
+
+[ 2014-02-24T15:21:45+08:00 ] 127.0.0.1 /logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003863s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+
+[ 2014-02-24T15:21:45+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `sun_news` [ RunTime:0.002726s ]
+SQL: SHOW COLUMNS FROM `sun_news_attr` [ RunTime:0.002091s ]
+SQL: SHOW COLUMNS FROM `sun_attr` [ RunTime:0.002147s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000952s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000698s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000558s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 23 ) ORDER BY id DESC LIMIT 0,9   [ RunTime:0.000838s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000810s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000477s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 6,6   [ RunTime:0.000370s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000504s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000717s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 4 ) ORDER BY id DESC LIMIT 0,3   [ RunTime:0.000575s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001437s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001462s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001431s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 3 ) ORDER BY id DESC LIMIT 0,4   [ RunTime:0.000567s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000549s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000653s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000626s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000866s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000616s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000530s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 10 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000381s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000641s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000636s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000623s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000542s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000545s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000573s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000620s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000671s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000608s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000522s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000618s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000557s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000596s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000944s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000667s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000628s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000608s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000737s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000622s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000735s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000813s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000742s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000771s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000701s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000883s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000742s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000655s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000711s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000620s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000757s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000751s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000728s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000622s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000710s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000600s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000598s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000759s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000846s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000721s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000713s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000725s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 26 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000480s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000806s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000635s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000653s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 27 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000580s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.411892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.412043s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000935s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000662s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2014-02-24T15:21:48+08:00 ] 127.0.0.1 /reg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004835s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.100839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101046s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001136s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001011s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004377s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2014-02-24T15:21:48+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+
+[ 2014-02-24T15:22:57+08:00 ] 127.0.0.1 /regs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003569s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.004530s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = 'karrysun' ) LIMIT 1   [ RunTime:0.000711s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `email` = '1053577162@qq.com' ) LIMIT 1   [ RunTime:0.000594s ]
+
+[ 2014-02-24T15:23:04+08:00 ] 127.0.0.1 /regs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004456s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003659s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = 'karrysuns' ) LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `email` = '1053577162@qq.com' ) LIMIT 1   [ RunTime:0.000807s ]
+
+[ 2014-02-24T15:30:32+08:00 ] 127.0.0.1 /reg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002452s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002652s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000747s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000699s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000516s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003151s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2014-02-24T15:30:32+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+
+[ 2014-02-24T15:30:49+08:00 ] 127.0.0.1 /regs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002906s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003130s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003323s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = '1053577162@qq.com' ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `email` = '10535771625@qq.com' ) LIMIT 1   [ RunTime:0.000517s ]
+SQL: INSERT INTO `sun_member` (`uname`,`pwd`,`email`,`reg_ip`,`reg_time`) VALUES ('1053577162@qq.com','0f014b81fd74018f5550ea16809c051f','10535771625@qq.com','127.0.0.1',1393227049) [ RunTime:0.103191s ]
+SQL: SHOW COLUMNS FROM `sun_members` [ RunTime:0.007546s ]
+SQL: INSERT INTO `sun_members` (`uid`,`sex`) VALUES (null,1) [ RunTime:0.000532s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `sun_members` (`uid`,`sex`) VALUES (null,1)
+
+[ 2014-02-24T15:31:37+08:00 ] 127.0.0.1 /reg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002461s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2014-02-24T15:31:37+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002069s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+
+[ 2014-02-24T15:32:03+08:00 ] 127.0.0.1 /regs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003098s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = '123456' ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `email` = '123456@qq.com' ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: INSERT INTO `sun_member` (`uname`,`pwd`,`email`,`reg_ip`,`reg_time`) VALUES ('123456','9aa162913385bf054cb73fa49fe4df08','123456@qq.com','127.0.0.1',1393227123) [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `sun_members` [ RunTime:0.002798s ]
+SQL: INSERT INTO `sun_members` (`uid`,`sex`) VALUES (null,1) [ RunTime:0.000164s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `sun_members` (`uid`,`sex`) VALUES (null,1)
+
+[ 2014-02-24T15:33:59+08:00 ] 127.0.0.1 /reg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002341s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002526s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020110s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001007s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000949s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001083s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005093s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001960s ]
+
+[ 2014-02-24T15:33:59+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002349s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+
+[ 2014-02-24T15:34:12+08:00 ] 127.0.0.1 /regs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003144s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003378s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003005s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = '123456@qq.com' ) LIMIT 1   [ RunTime:0.000614s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `email` = '1234567@qq.com' ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: INSERT INTO `sun_member` (`uname`,`pwd`,`email`,`reg_ip`,`reg_time`) VALUES ('123456@qq.com','39c2ed7054ce632daa8a0c4aa361d2ec','1234567@qq.com','127.0.0.1',1393227252) [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `sun_members` [ RunTime:0.003260s ]
+SQL: INSERT INTO `sun_members` (`uid`,`sex`) VALUES (null,1) [ RunTime:0.000371s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `sun_members` (`uid`,`sex`) VALUES (null,1)
+
+[ 2014-02-24T15:36:05+08:00 ] 127.0.0.1 /reg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003502s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003758s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020553s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001624s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001186s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005520s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001327s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2014-02-24T15:36:05+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002876s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+
+[ 2014-02-24T15:36:17+08:00 ] 127.0.0.1 /regs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003100s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = '1234567@qq.com' ) LIMIT 1   [ RunTime:0.000461s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `email` = '12345678@qq.com' ) LIMIT 1   [ RunTime:0.000372s ]
+SQL: INSERT INTO `sun_member` (`uname`,`pwd`,`email`,`reg_ip`,`reg_time`) VALUES ('1234567@qq.com','6b8c7fd611ab251344a6d92770d29bca','12345678@qq.com','127.0.0.1',1393227377) [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `sun_members` [ RunTime:0.003140s ]
+SQL: INSERT INTO `sun_members` (`uid`,`sex`) VALUES (null,0) [ RunTime:0.000227s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `sun_members` (`uid`,`sex`) VALUES (null,0)
+
+[ 2014-02-24T16:24:41+08:00 ] 127.0.0.1 /regs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002828s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003050s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003248s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = '1234567@qq.com' ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `email` = '12345678@qq.com' ) LIMIT 1   [ RunTime:0.000325s ]
+
+[ 2014-02-24T16:28:39+08:00 ] 127.0.0.1 /Index/Reg/aa
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002585s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.002888s ]
+SQL: INSERT INTO `sun_member` (`uname`,`pwd`) VALUES ('111111','33333') [ RunTime:0.000276s ]
+
+[ 2014-02-24T16:30:32+08:00 ] 127.0.0.1 /reg.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002453s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020738s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000977s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000951s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004140s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001133s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2014-02-24T16:30:32+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+
+[ 2014-02-24T16:30:55+08:00 ] 127.0.0.1 /regs
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002674s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003583s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = '543210' ) LIMIT 1   [ RunTime:0.000576s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `email` = '543210@qq.com' ) LIMIT 1   [ RunTime:0.000593s ]
+SQL: INSERT INTO `sun_member` (`uname`,`pwd`,`email`,`reg_ip`,`reg_time`) VALUES ('543210','5197fd8269f2683cd368ee0a9744de91','543210@qq.com','127.0.0.1',1393230655) [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `sun_members` [ RunTime:0.003354s ]
+SQL: INSERT INTO `sun_members` (`uid`,`sex`) VALUES (9,0) [ RunTime:0.107191s ]
+
+[ 2014-02-24T16:30:56+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002926s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003351s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.096386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007325s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002179s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002512s ]
+
+[ 2014-02-24T16:30:57+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+
+[ 2014-02-24T16:38:02+08:00 ] 127.0.0.1 /logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002321s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002512s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+
+[ 2014-02-24T16:38:03+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `sun_news` [ RunTime:0.003686s ]
+SQL: SHOW COLUMNS FROM `sun_news_attr` [ RunTime:0.003014s ]
+SQL: SHOW COLUMNS FROM `sun_attr` [ RunTime:0.003577s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001007s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000874s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 23 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000942s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 23 ) ORDER BY id DESC LIMIT 0,9   [ RunTime:0.000644s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001138s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.000566s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\HotWidget.class.php 第 11 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( attr.id = 1 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000716s ]
+NOTIC: [8] Undefined index: cid D:\wamp5.3\www\Index\Modules\Index\Widget\NewWidget.class.php 第 10 行.
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) ORDER BY id DESC LIMIT 6,6   [ RunTime:0.000513s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001134s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 4 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000751s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 4 ) ORDER BY id DESC LIMIT 0,3   [ RunTime:0.000584s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001653s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001416s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 3 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001544s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 3 ) ORDER BY id DESC LIMIT 0,4   [ RunTime:0.000799s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000739s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000785s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000712s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000756s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 12 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000760s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 10 ) ORDER BY id DESC LIMIT 0,6   [ RunTime:0.001931s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000698s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000982s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000616s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 10 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000690s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000745s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000743s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000669s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000689s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000576s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 28 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000869s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000976s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000976s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000925s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000732s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 25 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000852s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000795s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000736s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000824s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000883s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000671s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 24 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000920s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000869s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000777s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000864s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000888s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000888s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 5 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000968s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000861s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000862s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000658s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 1,1   [ RunTime:0.000722s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000748s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 2,1   [ RunTime:0.000829s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000806s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 3,1   [ RunTime:0.000875s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000831s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 9 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 4,1   [ RunTime:0.000644s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000987s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000933s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 26 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000718s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 26 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000539s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000745s ]
+NOTIC: [8] Use of undefined constant images - assumed 'images' D:\wamp5.3\www\Cache\Cache\Index\8ed2c844f6ed837cbecd724df679eeb0.php 第 1 行.
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.001984s ]
+SQL: SELECT news.id AS id,news.title AS title,news.images AS images,news.description AS description,attr.id AS a_id FROM sun_news news LEFT JOIN sun_news_attr news_attr ON news.id = news_attr.nid RIGHT JOIN sun_attr attr ON news_attr.aid = attr.id WHERE ( `del` = 0 ) AND ( news.cid = 27 ) AND ( attr.id = 2 ) ORDER BY news.id DESC LIMIT 0,1   [ RunTime:0.000793s ]
+SQL: SELECT `id`,`title` FROM `sun_news` WHERE ( `del` = 0 ) AND ( `cid` = 27 ) ORDER BY id DESC LIMIT 0,7   [ RunTime:0.000731s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.648513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.648716s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001133s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000818s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000931s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004154s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2014-02-24T16:38:05+08:00 ] 127.0.0.1 /login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002275s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017597s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000950s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000675s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000490s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003192s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2014-02-24T16:38:05+08:00 ] 127.0.0.1 /verify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002236s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002438s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+
+[ 2014-02-24T16:38:15+08:00 ] 127.0.0.1 /logins
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002681s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003658s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uname` = 'karrysun' ) AND ( `pwd` = '168521cf6324fb22f27fe305cebd783b' ) AND ( `mstatus` = 1 ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: UPDATE `sun_member` SET `login`=17,`score`=2092,`last_login_ip`='127.0.0.1',`last_login_time`=1393231095 WHERE ( `uid` = 1 ) [ RunTime:0.000516s ]
+
+[ 2014-02-24T16:38:17+08:00 ] 127.0.0.1 /oneself.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.002836s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: scores D:\wamp5.3\www\Index\Modules\Index\Action\MemberAction.class.php 第 16 行.
+NOTIC: [8] Undefined variable: scores D:\wamp5.3\www\Index\Modules\Index\Action\MemberAction.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.137781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000933s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004241s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2014-02-24T16:45:45+08:00 ] 127.0.0.1 /myself.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `sun_member` [ RunTime:0.003244s ]
+SQL: SELECT * FROM `sun_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049850s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001151s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000705s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003649s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001147s ]
+

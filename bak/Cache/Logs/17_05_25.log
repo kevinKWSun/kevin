@@ -1,0 +1,11 @@
+[ 2017-05-25T02:33:14+08:00 ] 119.98.123.213 /bak/appeal.asp
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001767s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined variable: group /home/wwwroot/slim_shaiyy_com/public_html/bak/SunyC#/Lib/Core/App.class.php 第 95 行.
+ERR: 无法加载模块:appeal.asp
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Cache</title>
+<script type="text/javascript" src="__PUBLIC__/Suny/Js/jquery-1.7.2.min.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<body>
+<form action="{:U(GROUP_NAME . '/Cache/index')}" method="post">
+<table class="table">
+	<thead>
+		<tr>
+			<td colspan="4" align="right">缓存管理</td>
+		</tr>
+	</thead>
+	<tbody>
+		<volist name="caches" id="cache" key="k">
+			<php> if($k%2==1) echo "<tr>";</php>
+			<td width="30" align="center"><input type="checkbox" name="cache[]" value="{$key}" /></td>
+			<td>{$cache.name}<br/> ({$cache.path})</td>
+			<php> if($k%2==0) echo "</tr>";</php>
+		</volist>
+		<php>if(count($caches)%2==1) echo '<td></td><td></td></tr>';</php>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td colspan="4"><label><input name="" class="chooseAll" type="checkbox"/> 全选</label><center><input type="submit" value="清除已选缓存" class="submit" /></center></td>
+		</tr>
+	</tfoot>
+</table>
+</form>
+<script>
+	$(function(){
+		$('.chooseAll').click(function(){
+			var inputs = $('tbody').find('input');
+			$(this).attr('checked')?inputs.attr('checked','checked'):
+			inputs.removeAttr('checked');
+		});
+		$(".submit").click(function(){
+			if($("tbody input[type='checkbox']:checked").size()==0){
+				alert("请选择要删除的缓存文件");
+				return false;
+			}
+		});
+	});
+</script>
+</body>
+</html>

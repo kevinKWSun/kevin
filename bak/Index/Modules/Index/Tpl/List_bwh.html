@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>三围标准计算公式,{$Think.config.WEB_NAME}</title>
+<meta name="keywords" content="三围标准计算公式,三围标准计算,bwhs" />
+<meta name="description" content="三围标准计算公式,三围标准计算,bwhs,三围(BWH分别是英文单词Bust(胸)，Waist/waistline(腰/腰围)，Hip(臀)的缩写，在丈量身体和服装标示中分别代表胸围，腰围和臀围。S则是英文small of the back(腰)的缩写，代表腰，腰围。)每一个女性都渴望有一副完满的身材，但什么样的身材才完美呢？你知道标准的三围是什么样的吗？如果不知道，那么你就看下面的公式，那就是你努力的目标..." />
+<link href="__PUBLIC__/Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="__PUBLIC__/Js/iepng.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script>
+$(function(){
+	$( '.submit' ).click( function () {
+		var version = $( "input[name='version']:checked" ).val();
+		var sex = $( "input[name='sex']:checked" ).val();
+		var height = $( 'input[name=height]' ).val();
+		if(version==''){
+			alert('请选择版本号!');
+			return;
+		}
+		if(sex==''){
+			alert('请选择性别!');
+			return;
+		}
+		if(height==''){
+			alert('请填写身高!');
+			return;
+		}
+		$('#bwh').load('{:U("/list-bwhs")}?height='+height+'&version='+version+'&sex='+sex,function() {
+		});
+		return false;
+	});
+});
+</script>
+</head>
+<body>
+<include file='./Index/Modules/Index/Tpl/Common/head.html' />
+<div id="main">
+	<div class="location border_bottom"><a href="{$Think.config.WEB_ADDRESS}">诗诗瘦身网</a> >> 三围标准计算公式</div> 
+	<div id="list_left">
+		<p class="guidetitle"><span>三围标准计算公式</span></p>
+		<div class="guidecont bwh">
+			<p><span class="stress">三围</span> ( BWH 分别是英文单词 Bust ( 胸 )，Waist / waistline ( 腰 / 腰围 ) ，Hip ( 臀 ) 的缩写，在丈量身体和服装标示中分别代表胸围，腰围和臀围。S则是英文small of the back ( 腰 ) 的缩写，代表腰，腰围。) 每一个女性都渴望有一副完满的身材，但什么样的身材才完美呢？你知道标准的三围是什么样的吗？如果不知道，那么你就看下面的公式，那就是你努力的目标！</p>
+		</div>
+		<div class="divs">
+			<p class="fonts">请输入您的身高：</p>
+			<p class="clear">　
+				计算版本：<input name="version" value="1" type="radio"> 旧版本　
+				<input name="version" value="0" type="radio" checked="checked"> 新版本　
+				性别：<input name="sex" value="1" type="radio"> 男　
+				<input name="sex" value="0" type="radio" checked="checked"> 女　
+				身高：<input class="form-text" name="height" size="6" type="text" onkeyup="value=value.replace(/[^\d.]/g,'') " /> CM(厘米)　
+				<input type="submit" value="计算" class="js submit" />
+			</p>
+			<p class="clear">　
+				<span id="bwh" class="stress"></span>　
+			</p>
+		</div>
+		
+		<p class="stress mt1">资料参考：</p>
+		<p class="liheight">&#8226; 除了计算三围标准，你也可以使用<a href="{:U('/list-bmi')}">BMI 身体质量指数</a> 和 <a href="{:U('/list-sw')}">标准体重计算</a></p>
+		<p class="liheight">
+		　　每一个女性都渴望有一副完满的身材，但什么样的身材才完美呢？你知道标准的三围是什么样的吗？如果不知道，那么你就看下面的公式，那就是你努力的目标！
+		</p>
+		<p class="liheight">
+		　　胸围 = 身高 * 0.51 ( 如:身高160cm的标准胸围 = 160cm * 0.51 = 81.6cm )
+		</p>
+		<p class="liheight">
+		　　腰围 = 身高 * 0.34 ( 如:身高160cm的标准腰围 = 160cm * 0.34 = 54.4cm )
+		</p>
+		<p class="liheight">
+		　　臀围 = 身高 * 0.542 ( 如:身高160cm的标准臀围 = 160cm * 0.542 = 86.72cm )
+		</p>
+		<p class="liheight">
+		　　美丽的身体人人都有，只是巧妙之处各有不同，所以所谓的标准身材并不是只强调高与瘦。简单地说，如果从头到脚是匀称的，不管多高，只要头部太大，就会造成整体上的不谐调；而如果你的身高只有150cm，但脸形大小合适、身材匀称，那就算是个比例标准的模特哦！</p>
+		<p class="stress liheight">
+		　　依据下列步骤可以检测自己的身材。
+		</p>
+		<p class="stress liheight">
+		　　一、身材比例的计算步骤
+		</p>
+		<p class="liheight">
+		　　1． 判断脸形、头长：把头发全部往后梳起，抓起马尾，让脸部的轮廓线露出来，判定自己的脸形，再拿尺子由头顶到下巴(以光头的比例为准)测量一下脸的长度。
+		</p>
+		<p class="liheight">
+		　　2． 测量身高：量身高，要把头发压平、身体挺直才够准确。
+		</p>
+		<p class="liheight">
+		　　3． 计算比例：身高 / 头长 = 头身(这就是所谓的身高比例标准)。
+		</p>
+		<p class="liheight">
+		　　例如：你身高159cm，头长20cm，那么159(身高)/ 20(头长)=7.59(头身)，四舍五入后，你可是标准的8头身哦！
+		</p>
+		<p class="stress liheight">
+		　　二、 标准三围的参考尺寸
+		</p>
+		<p class="stress liheight">
+		　　标准三围的尺寸可参考下表：
+		</p>
+		<p class="liheight">
+		　　身高 170cm 164cm 158cm 152cm
+		</p>
+		<p class="liheight">
+		　　胸围 88cm 86cm 84cm 80cm
+		</p>
+		<p class="liheight">
+		　　腰围 68cm 66cm 64cm 62cm
+		</p>
+		<p class="liheight">
+		　　臀围 94cm 90cm 86cm 82cm
+		</p>
+		<p class="liheight">
+		　　(注：1英寸=2.54cm)
+		</p>
+		<p class="stress liheight">
+		　　三、新时尚公式
+		</p>
+		<p class="liheight">
+		　　<a href="{:U('/list-sw')}">标准体重</a>
+		</p>
+		<p class="liheight">
+		　　标准胸围(cm)= 身高(cm)* 0.53
+		</p>
+		<p class="liheight">
+		　　标准腰围(cm)= 身高(cm)* 0.37
+		</p>
+		<p class="liheight">
+		　　标准臀围(cm)= 身高(cm)* 0.54
+		</p>
+		<p class="liheight">
+		　　标准大腿长(cm)= 身高(cm)* 0.3
+		</p>
+		<p class="liheight">
+		　　标准小腿长(cm)= 身高(cm)* 0.26
+		</p>
+		<p class="stress liheight">
+		　　四、男性标准三围计算方法
+		</p>
+		<p class="liheight">
+		　　胸围 = 身高 * 0.48  ( 如:身高175cm的标准胸围 = 175cm * 0.48 = 84cm )
+		</p> 
+		<p class = "liheight">
+		　　腰围 = 身高 * 0.47  ( 如:身高175cm的标准腰围 = 175cm * 0.47 = 82.25cm )
+		</p>
+		<p class = "liheight"> 
+		　　臀围 = 身高 * 0.51( 如:身高175cm的标准臀围 = 175cm * 0.51 = 89.25cm ) 
+		</p>
+		
+		<div class="g728">{$Think.config.g72890}</div>
+	</div>
+	<div id="list_right">
+		<div class="right_1l">
+			<include file='./Index/Modules/Index/Tpl/Common/right.html' />
+		</div>
+	</div>
+</div>
+<include file='./Index/Modules/Index/Tpl/Common/foot.html' />
+</body>
+</html>

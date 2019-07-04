@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>上海SUNNY科技</title>
+<link rel="stylesheet" href="__PUBLIC__/Suny/Css/public.css" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+</head>
+<body>
+<form action="{:U(GROUP_NAME . '/Index/updateWebinfo')}" method="post">
+	<table class="table">
+		<thead>
+			<tr>
+				<td colspan="2">站点设置</td>
+			</tr>
+		</thead>
+		<tr>
+			<td align="right">站点名称:</td>
+			<td><input type="text" name="WEB_NAME" value="{$Think.config.WEB_NAME}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">站点副称:</td>
+			<td><input type="text" name="WEB_NAMES" value="{$Think.config.WEB_NAMES}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">网站关键字:</td>
+			<td><input type="text" name="WEB_KEYWORD" value="{$Think.config.WEB_KEYWORD}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">网站简介:</td>
+			<td><textarea rows="3" cols="100" name="WEB_DESCRIPTION">{$Think.config.WEB_DESCRIPTION}</textarea></td>
+		</tr>
+		
+		<tr>
+			<td align="right">站点地址:</td>
+			<td><input type="text" name="WEB_ADDRESS" value="{$Think.config.WEB_ADDRESS}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">网站版本:</td>
+			<td><input type="text" name="WEB_VERSION" value="{$Think.config.WEB_VERSION}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">ICP备案:</td>
+			<td><input type="text" name="WEB_ICP" value="{$Think.config.WEB_ICP}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">客服邮箱:</td>
+			<td><input type="text" name="WEB_EMAIL" value="{$Think.config.WEB_EMAIL}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">客服电话:</td>
+			<td><input type="text" name="WEB_TEL" value="{$Think.config.WEB_TEL}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">传真号码:</td>
+			<td><input type="text" name="WEB_FAX" value="{$Think.config.WEB_FAX}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">QQ号码:</td>
+			<td><input type="text" name="WEB_QQ" value="{$Think.config.WEB_QQ}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">公司地址:</td>
+			<td><input type="text" name="WEB_COM_ADDRESS" value="{$Think.config.WEB_COM_ADDRESS}" /></td>
+		</tr>
+		<tr>
+			<td align="right">邮政编码:</td>
+			<td><input type="text" name="WEB_CODE" value="{$Think.config.WEB_CODE}" size="50" /></td>
+		</tr>
+		<tr>
+			<td align="right">统计代码:</td>
+			<td><textarea rows="3" cols="100" name="WEB_COUNT">{$Think.config.WEB_COUNT}</textarea></td>
+		</tr>
+		<tr>
+			<td align="right">分享代码:</td>
+			<td><textarea rows="3" cols="100" name="WEB_SHARE">{$Think.config.WEB_SHARE}</textarea></td>
+		</tr>
+		<tr><td colspan="2" align="center"><input type="submit" class="submit" value="保存设置" /></td></tr>
+	</table>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

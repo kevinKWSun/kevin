@@ -1,0 +1,1156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title></title>
+
+<link href="Slim/Css/sunny.css" rel="stylesheet" media="screen" type="text/css" />
+
+<script src="Js/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+<script src="Js/highcharts.js" type="text/javascript"></script>
+
+<script src="Js/exporting.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+var chart;
+
+$(document).ready(function() {
+
+    chart = new Highcharts.Chart({
+
+        chart: {
+
+            renderTo: 'chart_line', //放置图表的DIV容器对应的id属性
+
+            defaultSeriesType: 'line' //图表类型line, spline, area, areaspline, column, bar, pie , scatter
+
+        },
+
+        title: {
+
+            text: '(男孩) 儿童生长曲线图',  //图表标题
+
+            x: -20 //center
+
+        },
+
+        subtitle: {
+
+            text: '数据来源于诗诗瘦身网',  //副标题
+
+            x: -20
+
+        },
+
+		 lang:{
+
+			exportButtonTitle:'导出图片',
+
+			printButtonTitle:'打印报表'
+
+		},
+
+		 exporting:{
+
+			// 是否允许导出
+
+			enabled:true,
+
+			// 按钮配置
+
+			buttons:{
+
+				// 导出按钮配置
+
+				exportButton:{
+
+					//是否显示导出选择菜单
+
+					/*menuItems: null,
+
+					onclick: function() {
+
+						this.exportChart();
+
+					}*/
+
+					menuItems: [{
+
+						text: '导出到PNG (小)',
+
+						onclick: function() {
+
+							this.exportChart({
+
+								width: 250
+
+							});
+
+						}
+
+					}, {
+
+						text: '导出到PNG (大)',
+
+						onclick: function() {
+
+							this.exportChart(); // 默认800像素
+
+						}
+
+					},
+
+					null,
+
+					null
+
+					]
+
+				},
+
+				// 打印按钮配置
+
+				printButton:{
+
+					enabled:true
+
+				}
+
+			},
+
+			//文件名称
+
+			filename:'诗诗瘦身网',
+
+			//本地化时的导出接口路径
+
+			//url''
+
+			// 导出文件默认类型
+
+			//type:'application/png'
+
+		},
+
+        xAxis: {  //x轴
+
+            categories:  [["0"],["1"],["2"],["3"],["4"],["5"],["6"],["7"],["8"],["9"],["10"],["11"],["1\u5c81"],["15"],["18"],["21"],["2\u5c81"],["27"],["30"],["33"],["3\u5c81"],["39"],["42"],["45"],["4\u5c81"],["51"],["54"],["57"],["5\u5c81"],["63"],["66"],["69"],["6\u5c81"],["75"],["78"],["7\u5c81"]],
+
+			title:{
+
+				text:'月龄'
+
+			},
+
+			labels:{
+
+				rotation:-0//标签旋转的角度
+
+			},
+
+			gridLineWidth: 1,
+
+			//minorTickInterval: 'auto',
+
+			tickWidth: 3,//,//设置X轴坐标点是否出现占位及其宽度  
+
+			tickPixelInterval:100
+
+        },
+
+        yAxis: [
+
+			{//y轴
+
+				lineWidth : 1,
+
+				tickWidth: 1,
+
+				max: 140, 
+
+				min: 40,
+
+				title: {
+
+					text: '身高/长（cm）'
+
+				}
+
+			},
+
+			{
+
+				lineWidth : 1, 
+
+				tickWidth: 1,
+
+				title: {
+
+					text: ''
+
+				},
+
+				opposite:true,			
+
+				plotLines: [{
+
+					value: 0, 
+
+					width: 1
+
+				}]
+
+			}
+
+		],
+
+        tooltip: {
+
+            formatter: function() {  //当鼠标悬置数据点时的格式化提示
+
+                return '<b>' + this.series.name + '</b><br/>' + /*this.x + ': '*/ + this.y + 'cm';
+
+            },
+
+			crosshairs: true
+
+        },
+
+		plotOptions:{
+
+			line:{
+
+				 allowPointSelect :true,//是否允许选中点  
+
+                 animation:true,//是否在显示图表的时候使用动画  
+
+                 cursor:'pointer',//鼠标移到图表上时鼠标的样式  
+
+                 dataLabels:{  
+
+                   enabled :true,//是否在点的旁边显示数据  
+
+                   rotation:0 
+
+				}
+
+			}
+
+		},
+
+		legend: {  //【图例】位置样式
+
+            layout: 'vertical',  //【图例】显示的样式：水平（horizontal）/垂直（vertical）
+
+            backgroundColor: '#FFFFFF',
+
+            align: 'left',
+
+            verticalAlign: 'top',
+
+            x: 100,
+
+            y: 50,
+
+            floating: true,
+
+            shadow: true
+
+        },
+
+        series: [{
+
+            name: '平均最大身高/长',
+
+            data: [{"name":"0","y":"54.0"},{"name":"1","y":"59.0"},{"name":"2","y":"63.3"},{"name":"3","y":"66.6"},{"name":"4","y":"69.3"},{"name":"5","y":"71.5"},{"name":"6","y":"73.3"},{"name":"7","y":"74.8"},{"name":"8","y":"76.3"},{"name":"9","y":"77.8"},{"name":"10","y":"79.3"},{"name":"11","y":"80.8"},{"name":"1\u5c81","y":"82.1"},{"name":"15","y":"85.8"},{"name":"18","y":"89.1"},{"name":"21","y":"92.4"},{"name":"2\u5c81","y":"95.8"},{"name":"27","y":"98.6"},{"name":"30","y":"101.0"},{"name":"33","y":"103.2"},{"name":"3\u5c81","y":"105.3"},{"name":"39","y":"106.7"},{"name":"42","y":"108.6"},{"name":"45","y":"110.4"},{"name":"4\u5c81","y":"112.3"},{"name":"51","y":"114.2"},{"name":"54","y":"116.2"},{"name":"57","y":"118.2"},{"name":"5\u5c81","y":"120.1"},{"name":"63","y":"122.0"},{"name":"66","y":"123.8"},{"name":"69","y":"125.6"},{"name":"6\u5c81","y":"127.2"},{"name":"75","y":"128.8"},{"name":"78","y":"130.5"},{"name":"7\u5c81","y":"132.4"}]        },
+
+		{
+
+            name: '平均身高/长',
+
+            data: [{"name":"0","y":"50.4"},{"name":"1","y":"54.8"},{"name":"2","y":"58.7"},{"name":"3","y":"62.0"},{"name":"4","y":"64.6"},{"name":"5","y":"66.7"},{"name":"6","y":"68.4"},{"name":"7","y":"69.8"},{"name":"8","y":"71.2"},{"name":"9","y":"72.6"},{"name":"10","y":"74.0"},{"name":"11","y":"75.3"},{"name":"1\u5c81","y":"76.5"},{"name":"15","y":"79.8"},{"name":"18","y":"82.7"},{"name":"21","y":"85.6"},{"name":"2\u5c81","y":"88.5"},{"name":"27","y":"91.1"},{"name":"30","y":"93.3"},{"name":"33","y":"95.4"},{"name":"3\u5c81","y":"97.5"},{"name":"39","y":"98.8"},{"name":"42","y":"100.6"},{"name":"45","y":"102.4"},{"name":"4\u5c81","y":"104.1"},{"name":"51","y":"105.9"},{"name":"54","y":"107.7"},{"name":"57","y":"109.5"},{"name":"5\u5c81","y":"111.3"},{"name":"63","y":"113.0"},{"name":"66","y":"114.7"},{"name":"69","y":"116.3"},{"name":"6\u5c81","y":"117.7"},{"name":"75","y":"119.2"},{"name":"78","y":"120.7"},{"name":"7\u5c81","y":"122.3"}]        },
+
+		{
+
+            name: '平均最小身高/长',
+
+            data: [{"name":"0","y":"46.9"},{"name":"1","y":"50.7"},{"name":"2","y":"54.3"},{"name":"3","y":"57.5"},{"name":"4","y":"60.1"},{"name":"5","y":"62.1"},{"name":"6","y":"63.7"},{"name":"7","y":"65.0"},{"name":"8","y":"66.3"},{"name":"9","y":"67.6"},{"name":"10","y":"68.9"},{"name":"11","y":"70.1"},{"name":"1\u5c81","y":"71.2"},{"name":"15","y":"74.0"},{"name":"18","y":"76.6"},{"name":"21","y":"79.1"},{"name":"2\u5c81","y":"81.6"},{"name":"27","y":"83.9"},{"name":"30","y":"85.9"},{"name":"33","y":"88.0"},{"name":"3\u5c81","y":"90.0"},{"name":"39","y":"91.2"},{"name":"42","y":"93.0"},{"name":"45","y":"94.6"},{"name":"4\u5c81","y":"96.3"},{"name":"51","y":"97.9"},{"name":"54","y":"99.5"},{"name":"57","y":"101.1"},{"name":"5\u5c81","y":"102.8"},{"name":"63","y":"104.4"},{"name":"66","y":"105.9"},{"name":"69","y":"107.3"},{"name":"6\u5c81","y":"108.6"},{"name":"75","y":"109.8"},{"name":"78","y":"111.1"},{"name":"7\u5c81","y":"112.6"}]        }]
+
+    });
+
+	chart = new Highcharts.Chart({
+
+        chart: {
+
+            renderTo: 'chart_line_1', //放置图表的DIV容器对应的id属性
+
+            defaultSeriesType: 'line' //图表类型line, spline, area, areaspline, column, bar, pie , scatter
+
+        },
+
+        title: {
+
+            text: '(男孩) 儿童生长曲线图',  //图表标题
+
+            x: -20 //center
+
+        },
+
+        subtitle: {
+
+            text: '数据来源于诗诗瘦身网',  //副标题
+
+            x: -20
+
+        },
+
+		 lang:{
+
+			exportButtonTitle:'导出图片',
+
+			printButtonTitle:'打印报表'
+
+		},
+
+		 exporting:{
+
+			// 是否允许导出
+
+			enabled:true,
+
+			// 按钮配置
+
+			buttons:{
+
+				// 导出按钮配置
+
+				exportButton:{
+
+					//是否显示导出选择菜单
+
+					/*menuItems: null,
+
+					onclick: function() {
+
+						this.exportChart();
+
+					}*/
+
+					menuItems: [{
+
+						text: '导出到PNG (小)',
+
+						onclick: function() {
+
+							this.exportChart({
+
+								width: 250
+
+							});
+
+						}
+
+					}, {
+
+						text: '导出到PNG (大)',
+
+						onclick: function() {
+
+							this.exportChart(); // 默认800像素
+
+						}
+
+					},
+
+					null,
+
+					null
+
+					]
+
+				},
+
+				// 打印按钮配置
+
+				printButton:{
+
+					enabled:true
+
+				}
+
+			},
+
+			//文件名称
+
+			filename:'诗诗瘦身网',
+
+			//本地化时的导出接口路径
+
+			//url''
+
+			// 导出文件默认类型
+
+			//type:'application/png'
+
+		},
+
+        xAxis: {  //x轴
+
+            categories:  [["0"],["1"],["2"],["3"],["4"],["5"],["6"],["7"],["8"],["9"],["10"],["11"],["1\u5c81"],["15"],["18"],["21"],["2\u5c81"],["27"],["30"],["33"],["3\u5c81"],["39"],["42"],["45"],["4\u5c81"],["51"],["54"],["57"],["5\u5c81"],["63"],["66"],["69"],["6\u5c81"],["75"],["78"],["7\u5c81"]],
+
+			title:{
+
+				text:'月龄'
+
+			},
+
+			labels:{
+
+				rotation:-0//标签旋转的角度
+
+			},
+
+			gridLineWidth: 1,
+
+			//minorTickInterval: 'auto',
+
+			tickWidth: 3,//,//设置X轴坐标点是否出现占位及其宽度  
+
+			tickPixelInterval:100
+
+        },
+
+        yAxis: [
+
+			{//y轴
+
+				lineWidth : 1,
+
+				tickWidth: 1,
+
+				max: 40, 
+
+				min: 0,
+
+				title: {
+
+					text: '体重（kg）'
+
+				}
+
+			},
+
+			{
+
+				lineWidth : 1, 
+
+				tickWidth: 1,
+
+				title: {
+
+					text: ''
+
+				},
+
+				opposite:true,			
+
+				plotLines: [{
+
+					value: 0, 
+
+					width: 1
+
+				}]
+
+			}
+
+		],
+
+        tooltip: {
+
+            formatter: function() {  //当鼠标悬置数据点时的格式化提示
+
+                return '<b>' + this.series.name + '</b><br/>' + /*this.x + ': '*/ + this.y + 'kg';
+
+            },
+
+			crosshairs: true
+
+        },
+
+		plotOptions:{
+
+			line:{
+
+				 allowPointSelect :true,//是否允许选中点  
+
+                 animation:true,//是否在显示图表的时候使用动画  
+
+                 cursor:'pointer',//鼠标移到图表上时鼠标的样式  
+
+                 dataLabels:{  
+
+                   enabled :true,//是否在点的旁边显示数据  
+
+                   rotation:0 
+
+				}
+
+			}
+
+		},
+
+		legend: {  //【图例】位置样式
+
+            layout: 'vertical',  //【图例】显示的样式：水平（horizontal）/垂直（vertical）
+
+            backgroundColor: '#FFFFFF',
+
+            align: 'left',
+
+            verticalAlign: 'top',
+
+            x: 100,
+
+            y: 50,
+
+            floating: true,
+
+            shadow: true
+
+        },
+
+        series: [{
+
+            name: '平均最大体重',
+
+            data: [{"name":"0","y":"4.18"},{"name":"1","y":"5.67"},{"name":"2","y":"7.14"},{"name":"3","y":"8.40"},{"name":"4","y":"9.32"},{"name":"5","y":"9.99"},{"name":"6","y":"10.50"},{"name":"7","y":"10.93"},{"name":"8","y":"11.29"},{"name":"9","y":"11.64"},{"name":"10","y":"11.95"},{"name":"11","y":"12.26"},{"name":"1\u5c81","y":"12.54"},{"name":"15","y":"13.32"},{"name":"18","y":"14.09"},{"name":"21","y":"14.90"},{"name":"2\u5c81","y":"15.67"},{"name":"27","y":"16.38"},{"name":"30","y":"17.06"},{"name":"33","y":"17.72"},{"name":"3\u5c81","y":"18.37"},{"name":"39","y":"19.02"},{"name":"42","y":"19.65"},{"name":"45","y":"20.32"},{"name":"4\u5c81","y":"21.01"},{"name":"51","y":"21.76"},{"name":"54","y":"22.57"},{"name":"57","y":"23.43"},{"name":"5\u5c81","y":"24.38"},{"name":"63","y":"25.32"},{"name":"66","y":"26.24"},{"name":"69","y":"27.17"},{"name":"6\u5c81","y":"28.03"},{"name":"75","y":"29.01"},{"name":"78","y":"30.13"},{"name":"7\u5c81","y":"31.56"}]        },
+
+		{
+
+            name: '平均体重',
+
+            data: [{"name":"0","y":"3.32"},{"name":"1","y":"4.51"},{"name":"2","y":"5.68"},{"name":"3","y":"6.70"},{"name":"4","y":"7.45"},{"name":"5","y":"8.00"},{"name":"6","y":"8.41"},{"name":"7","y":"8.76"},{"name":"8","y":"9.05"},{"name":"9","y":"9.33"},{"name":"10","y":"9.58"},{"name":"11","y":"9.83"},{"name":"1\u5c81","y":"10.05"},{"name":"15","y":"10.68"},{"name":"18","y":"11.29"},{"name":"21","y":"11.93"},{"name":"2\u5c81","y":"12.54"},{"name":"27","y":"13.11"},{"name":"30","y":"13.64"},{"name":"33","y":"14.15"},{"name":"3\u5c81","y":"14.65"},{"name":"39","y":"15.15"},{"name":"42","y":"15.63"},{"name":"45","y":"16.13"},{"name":"4\u5c81","y":"16.64"},{"name":"51","y":"17.18"},{"name":"54","y":"17.75"},{"name":"57","y":"18.35"},{"name":"5\u5c81","y":"18.98"},{"name":"63","y":"19.60"},{"name":"66","y":"20.18"},{"name":"69","y":"20.75"},{"name":"6\u5c81","y":"21.26"},{"name":"75","y":"21.82"},{"name":"78","y":"22.45"},{"name":"7\u5c81","y":"23.24"}]        },
+
+		{
+
+            name: '平均最小体重',
+
+            data: [{"name":"0","y":"2.58"},{"name":"1","y":"3.52"},{"name":"2","y":"4.47"},{"name":"3","y":"5.29"},{"name":"4","y":"5.91"},{"name":"5","y":"6.36"},{"name":"6","y":"6.70"},{"name":"7","y":"6.99"},{"name":"8","y":"7.23"},{"name":"9","y":"7.46"},{"name":"10","y":"7.67"},{"name":"11","y":"7.87"},{"name":"1\u5c81","y":"8.06"},{"name":"15","y":"8.57"},{"name":"18","y":"9.07"},{"name":"21","y":"9.59"},{"name":"2\u5c81","y":"10.09"},{"name":"27","y":"10.54"},{"name":"30","y":"10.97"},{"name":"33","y":"11.39"},{"name":"3\u5c81","y":"11.79"},{"name":"39","y":"12.19"},{"name":"42","y":"12.57"},{"name":"45","y":"12.96"},{"name":"4\u5c81","y":"13.35"},{"name":"51","y":"13.76"},{"name":"54","y":"14.18"},{"name":"57","y":"14.61"},{"name":"5\u5c81","y":"15.06"},{"name":"63","y":"15.48"},{"name":"66","y":"15.87"},{"name":"69","y":"16.24"},{"name":"6\u5c81","y":"16.56"},{"name":"75","y":"16.90"},{"name":"78","y":"17.27"},{"name":"7\u5c81","y":"17.73"}]        }]
+
+    });
+
+	chart = new Highcharts.Chart({
+
+        chart: {
+
+            renderTo: 'chart_line_2', //放置图表的DIV容器对应的id属性
+
+            defaultSeriesType: 'line' //图表类型line, spline, area, areaspline, column, bar, pie , scatter
+
+        },
+
+        title: {
+
+            text: '(男孩) 儿童生长曲线图',  //图表标题
+
+            x: -20 //center
+
+        },
+
+        subtitle: {
+
+            text: '数据来源于诗诗瘦身网',  //副标题
+
+            x: -20
+
+        },
+
+		 lang:{
+
+			exportButtonTitle:'导出图片',
+
+			printButtonTitle:'打印报表'
+
+		},
+
+		 exporting:{
+
+			// 是否允许导出
+
+			enabled:true,
+
+			// 按钮配置
+
+			buttons:{
+
+				// 导出按钮配置
+
+				exportButton:{
+
+					//是否显示导出选择菜单
+
+					/*menuItems: null,
+
+					onclick: function() {
+
+						this.exportChart();
+
+					}*/
+
+					menuItems: [{
+
+						text: '导出到PNG (小)',
+
+						onclick: function() {
+
+							this.exportChart({
+
+								width: 250
+
+							});
+
+						}
+
+					}, {
+
+						text: '导出到PNG (大)',
+
+						onclick: function() {
+
+							this.exportChart(); // 默认800像素
+
+						}
+
+					},
+
+					null,
+
+					null
+
+					]
+
+				},
+
+				// 打印按钮配置
+
+				printButton:{
+
+					enabled:true
+
+				}
+
+			},
+
+			//文件名称
+
+			filename:'诗诗瘦身网',
+
+			//本地化时的导出接口路径
+
+			//url''
+
+			// 导出文件默认类型
+
+			//type:'application/png'
+
+		},
+
+        xAxis: {  //x轴
+
+            categories:  [["0"],["1"],["2"],["3"],["4"],["5"],["6"],["7"],["8"],["9"],["10"],["11"],["1\u5c81"],["15"],["18"],["21"],["2\u5c81"],["27"],["30"],["33"],["3\u5c81"],["42"],["4\u5c81"],["54"],["5\u5c81"],["66"],["6\u5c81"],["78"],["7\u5c81"]],
+
+			title:{
+
+				text:'月龄'
+
+			},
+
+			labels:{
+
+				rotation:-0//标签旋转的角度
+
+			},
+
+			gridLineWidth: 1,
+
+			//minorTickInterval: 'auto',
+
+			tickWidth: 3,//,//设置X轴坐标点是否出现占位及其宽度  
+
+			tickPixelInterval:100
+
+        },
+
+        yAxis: [
+
+			{//y轴
+
+				lineWidth : 1,
+
+				tickWidth: 1,
+
+				max: 60, 
+
+				min: 30,
+
+				title: {
+
+					text: '胸围（cm）'
+
+				}
+
+			},
+
+			{
+
+				lineWidth : 1, 
+
+				tickWidth: 1,
+
+				title: {
+
+					text: ''
+
+				},
+
+				opposite:true,			
+
+				plotLines: [{
+
+					value: 0, 
+
+					width: 1
+
+				}]
+
+			}
+
+		],
+
+        tooltip: {
+
+            formatter: function() {  //当鼠标悬置数据点时的格式化提示
+
+                return '<b>' + this.series.name + '</b><br/>' + /*this.x + ': '*/ + this.y + 'cm';
+
+            },
+
+			crosshairs: true
+
+        },
+
+		plotOptions:{
+
+			line:{
+
+				 allowPointSelect :true,//是否允许选中点  
+
+                 animation:true,//是否在显示图表的时候使用动画  
+
+                 cursor:'pointer',//鼠标移到图表上时鼠标的样式  
+
+                 dataLabels:{  
+
+                   enabled :true,//是否在点的旁边显示数据  
+
+                   rotation:0 
+
+				}
+
+			}
+
+		},
+
+		legend: {  //【图例】位置样式
+
+            layout: 'vertical',  //【图例】显示的样式：水平（horizontal）/垂直（vertical）
+
+            backgroundColor: '#FFFFFF',
+
+            align: 'left',
+
+            verticalAlign: 'top',
+
+            x: 100,
+
+            y: 50,
+
+            floating: true,
+
+            shadow: true
+
+        },
+
+        series: [{
+
+            name: '标准胸围',
+
+            data: [{"name":"0","y":"33.32"},{"name":"1","y":"38.05"},{"name":"2","y":"40.28"},{"name":"3","y":"40.70"},{"name":"4","y":"42.51"},{"name":"5","y":"43.04"},{"name":"6","y":"43.32"},{"name":"7","y":"43.94"},{"name":"8","y":"44.18"},{"name":"9","y":"45.60"},{"name":"10","y":"45.31"},{"name":"11","y":"45.39"},{"name":"1\u5c81","y":"46.35"},{"name":"15","y":"47.26"},{"name":"18","y":"48.43"},{"name":"21","y":"49.27"},{"name":"2\u5c81","y":"49.83"},{"name":"27","y":"50.26"},{"name":"30","y":"51.04"},{"name":"33","y":"51.55"},{"name":"3\u5c81","y":"51.70"},{"name":"42","y":"52.48"},{"name":"4\u5c81","y":"53.03"},{"name":"54","y":"53.74"},{"name":"5\u5c81","y":"54.57"},{"name":"66","y":"55.22"},{"name":"6\u5c81","y":"55.83"},{"name":"78","y":"56.65"},{"name":"7\u5c81","y":"57.31"}]        }]
+
+    });
+
+	chart = new Highcharts.Chart({
+
+        chart: {
+
+            renderTo: 'chart_line_3', //放置图表的DIV容器对应的id属性
+
+            defaultSeriesType: 'line' //图表类型line, spline, area, areaspline, column, bar, pie , scatter
+
+        },
+
+        title: {
+
+            text: '(男孩) 儿童生长曲线图',  //图表标题
+
+            x: -20 //center
+
+        },
+
+        subtitle: {
+
+            text: '数据来源于诗诗瘦身网',  //副标题
+
+            x: -20
+
+        },
+
+		 lang:{
+
+			exportButtonTitle:'导出图片',
+
+			printButtonTitle:'打印报表'
+
+		},
+
+		 exporting:{
+
+			// 是否允许导出
+
+			enabled:true,
+
+			// 按钮配置
+
+			buttons:{
+
+				// 导出按钮配置
+
+				exportButton:{
+
+					//是否显示导出选择菜单
+
+					/*menuItems: null,
+
+					onclick: function() {
+
+						this.exportChart();
+
+					}*/
+
+					menuItems: [{
+
+						text: '导出到PNG (小)',
+
+						onclick: function() {
+
+							this.exportChart({
+
+								width: 250
+
+							});
+
+						}
+
+					}, {
+
+						text: '导出到PNG (大)',
+
+						onclick: function() {
+
+							this.exportChart(); // 默认800像素
+
+						}
+
+					},
+
+					null,
+
+					null
+
+					]
+
+				},
+
+				// 打印按钮配置
+
+				printButton:{
+
+					enabled:true
+
+				}
+
+			},
+
+			//文件名称
+
+			filename:'诗诗瘦身网',
+
+			//本地化时的导出接口路径
+
+			//url''
+
+			// 导出文件默认类型
+
+			//type:'application/png'
+
+		},
+
+        xAxis: {  //x轴
+
+            categories:  [["0"],["1"],["2"],["3"],["4"],["5"],["6"],["7"],["8"],["9"],["10"],["11"],["1\u5c81"],["15"],["18"],["21"],["2\u5c81"],["27"],["30"],["33"],["3\u5c81"],["42"],["4\u5c81"],["54"],["5\u5c81"],["66"],["6\u5c81"]],
+
+			title:{
+
+				text:'月龄'
+
+			},
+
+			labels:{
+
+				rotation:-0//标签旋转的角度
+
+			},
+
+			gridLineWidth: 1,
+
+			//minorTickInterval: 'auto',
+
+			tickWidth: 3,//,//设置X轴坐标点是否出现占位及其宽度  
+
+			tickPixelInterval:100
+
+        },
+
+        yAxis: [
+
+			{//y轴
+
+				lineWidth : 1,
+
+				tickWidth: 1,
+
+				max: 60, 
+
+				min: 30,
+
+				title: {
+
+					text: '头围（cm）'
+
+				}
+
+			},
+
+			{
+
+				lineWidth : 1, 
+
+				tickWidth: 1,
+
+				title: {
+
+					text: ''
+
+				},
+
+				opposite:true,			
+
+				plotLines: [{
+
+					value: 0, 
+
+					width: 1
+
+				}]
+
+			}
+
+		],
+
+        tooltip: {
+
+            formatter: function() {  //当鼠标悬置数据点时的格式化提示
+
+                return '<b>' + this.series.name + '</b><br/>' + /*this.x + ': '*/ + this.y + 'cm';
+
+            },
+
+			crosshairs: true
+
+        },
+
+		plotOptions:{
+
+			line:{
+
+				 allowPointSelect :true,//是否允许选中点  
+
+                 animation:true,//是否在显示图表的时候使用动画  
+
+                 cursor:'pointer',//鼠标移到图表上时鼠标的样式  
+
+                 dataLabels:{  
+
+                   enabled :true,//是否在点的旁边显示数据  
+
+                   rotation:0 
+
+				}
+
+			}
+
+		},
+
+		legend: {  //【图例】位置样式
+
+            layout: 'vertical',  //【图例】显示的样式：水平（horizontal）/垂直（vertical）
+
+            backgroundColor: '#FFFFFF',
+
+            align: 'left',
+
+            verticalAlign: 'top',
+
+            x: 100,
+
+            y: 50,
+
+            floating: true,
+
+            shadow: true
+
+        },
+
+        series: [{
+
+            name: '平均最大头围',
+
+            data: [{"name":"0","y":"36.8"},{"name":"1","y":"39.4"},{"name":"2","y":"41.5"},{"name":"3","y":"43.2"},{"name":"4","y":"44.5"},{"name":"5","y":"45.5"},{"name":"6","y":"46.3"},{"name":"7","y":"46.9"},{"name":"8","y":"47.5"},{"name":"9","y":"48.0"},{"name":"10","y":"48.4"},{"name":"11","y":"48.8"},{"name":"1\u5c81","y":"49.1"},{"name":"15","y":"49.7"},{"name":"18","y":"50.2"},{"name":"21","y":"50.7"},{"name":"2\u5c81","y":"51.1"},{"name":"27","y":"51.4"},{"name":"30","y":"51.7"},{"name":"33","y":"52.0"},{"name":"3\u5c81","y":"52.2"},{"name":"42","y":"52.6"},{"name":"4\u5c81","y":"52.9"},{"name":"54","y":"53.2"},{"name":"5\u5c81","y":"53.6"},{"name":"66","y":"53.8"},{"name":"6\u5c81","y":"54.1"}]        },
+
+		{
+
+            name: '平均头围',
+
+            data: [{"name":"0","y":"34.5"},{"name":"1","y":"36.9"},{"name":"2","y":"38.9"},{"name":"3","y":"40.5"},{"name":"4","y":"41.7"},{"name":"5","y":"42.7"},{"name":"6","y":"43.6"},{"name":"7","y":"44.2"},{"name":"8","y":"44.8"},{"name":"9","y":"45.3"},{"name":"10","y":"45.7"},{"name":"11","y":"46.1"},{"name":"1\u5c81","y":"46.4"},{"name":"15","y":"47.0"},{"name":"18","y":"47.6"},{"name":"21","y":"48.0"},{"name":"2\u5c81","y":"48.4"},{"name":"27","y":"48.8"},{"name":"30","y":"49.1"},{"name":"33","y":"49.3"},{"name":"3\u5c81","y":"49.6"},{"name":"42","y":"49.9"},{"name":"4\u5c81","y":"50.3"},{"name":"54","y":"50.6"},{"name":"5\u5c81","y":"51.0"},{"name":"66","y":"51.3"},{"name":"6\u5c81","y":"51.5"}]        },
+
+		{
+
+            name: '平均最小头围',
+
+            data: [{"name":"0","y":"32.1"},{"name":"1","y":"34.5"},{"name":"2","y":"36.4"},{"name":"3","y":"37.9"},{"name":"4","y":"39.2"},{"name":"5","y":"40.2"},{"name":"6","y":"41.0"},{"name":"7","y":"41.7"},{"name":"8","y":"42.2"},{"name":"9","y":"42.7"},{"name":"10","y":"43.1"},{"name":"11","y":"43.5"},{"name":"1\u5c81","y":"43.8"},{"name":"15","y":"44.5"},{"name":"18","y":"45.0"},{"name":"21","y":"45.5"},{"name":"2\u5c81","y":"45.9"},{"name":"27","y":"46.2"},{"name":"30","y":"46.5"},{"name":"33","y":"46.8"},{"name":"3\u5c81","y":"47.0"},{"name":"42","y":"47.4"},{"name":"4\u5c81","y":"47.8"},{"name":"54","y":"48.1"},{"name":"5\u5c81","y":"48.4"},{"name":"66","y":"48.7"},{"name":"6\u5c81","y":"49.0"}]        }]
+
+    });
+
+});
+
+</script>
+
+</head>
+
+<body>
+
+<div style="background:#FFF; height:670px;">
+
+<div class="zoomTab" id="zoomaTab">
+
+	<ul class="zoomTabTitle">
+
+		<li class="ok" onclick="changTab(this)">身高/长</li>
+
+		<li onclick="changTab(this)">体重</li>
+
+		<li onclick="changTab(this)">头围</li>
+
+		<li onclick="changTab(this)">胸围</li>
+
+		<li><a href="/Public/boy.html" target="_blank">查看大图</a></li>
+
+	</ul>
+
+	<div class="zoomTabCon">
+
+		<div class="display">
+
+			<div id="chart_line" style="width:100%; height: 630px; margin:0 auto;"></div>
+
+		</div>
+
+		<div class="undis">
+
+			<div id="chart_line_1" style="width:100%; height: 630px; margin:0 auto;"></div>
+
+		</div>
+
+		<div class="undis">
+
+			<div id="chart_line_3" style="width:100%; height: 630px; margin:0 auto;"></div>
+
+		</div>
+
+		<div class="undis">
+
+			<div id="chart_line_2" style="width:100%; height: 630px; margin:0 auto;"></div>
+
+		</div>
+
+	</div> 
+
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+	function changTab(objs){
+
+		var obj = document.getElementById("zoomaTab");
+
+		if(obj){
+
+			var ti=obj.children[0].children;
+
+			for(i = 0;i<ti.length;i++){
+
+				if(objs == ti[i]){
+
+					ti[i].className="ok";
+
+					obj.children[1].children[i].className="display";
+
+				}else{
+
+					obj.children[1].children[i].className="undis";	
+
+					ti[i].className="";
+
+				}
+
+			}
+
+		}	
+
+	}
+
+</script>
+
+</body>
+
+</html>
+

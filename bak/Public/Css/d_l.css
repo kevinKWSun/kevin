@@ -1,0 +1,62 @@
+﻿/*----- can-record -----*/
+.can .can-record{
+	position:relative;
+}
+
+.can .food-record-wrap,
+.can .sport-record-wrap{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+	}
+.can .food-record-wrap.upper,
+.can .sport-record-wrap.upper{
+	z-index:1;
+	opacity:1;
+	filter:alpha(opacity=100);
+	}
+
+.can .food-record,
+.can .sport-record{
+	height:388px;
+	background:#FFF;
+}
+
+.can .can-record .record-title .toggle{
+	width:30px;
+	height:30px;
+	background-position:100% -215px;
+}
+
+.can .can-record .record-body{
+	display:none;
+	* height:181px;
+	padding:10px 0;
+	border-top:1px solid #E7C8F0;
+	width:341px;
+	margin-left:1px;
+}
+
+.can .can-record .record-panel.current,
+.can .can-record .record-panel.sport-current{
+	height:233px;
+	}
+.can .can-record .record-panel.sport-current{
+	height:310px;
+	}
+
+.can .can-record .record-panel.current .record-title .toggle,
+.can .can-record .record-panel.sport-current .record-title .toggle{
+	background:none;
+	}
+.can .can-record .record-panel.current .record-body,
+.can .can-record .record-panel.sport-current .record-body{
+	display:block;
+}
+h2.meal1,h2.meal2,h2.meal6,h2.meal7,h2.meal4{
+	width:321px;
+	overflow:hidden;
+}
